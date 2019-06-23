@@ -1,0 +1,160 @@
+.home-component-mainheader{
+  background-image: url(/images/jamefesto.jpg);
+  background-position: -150px -80px;
+
+  .image{
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 993px) {
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .margin1{
+    margin-bottom: 150px;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .margin1{
+    margin-bottom: 60px;
+  }
+}
+
+
+.button-shadow {
+  box-shadow: -5px 8px 20px 0px rgba(229,16,2,0.15);
+}
+.button-hero {
+  align-self: center;
+}
+.button {
+  display: inline-block;
+  background-color: #e22104;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 9px 25px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+  background-color: red;
+  color: #fff;
+}
+a:hover {
+  text-decoration: none !important;
+}
+@media (min-width: 800px) {
+  .hero-title {
+    font-size: 60px !important;
+  }
+}
+
+@media (min-width: 991px) {
+  .hero-title {
+    font-size: 50px;
+  }
+}
+@media (min-width: 840px) {
+  .hero-title {
+    margin-bottom: 50px;
+  }
+}
+.hero-title {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  line-height: 0.929;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans",sans-serif;
+  color: #2f2d4e;
+  line-height: 1.2;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: .3rem;
+}
+
+@media (min-width: 1140px) {
+  .home-component-about-row{
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .home-component-about-row{
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-component-parallax{
+    margin-bottom: 250px;
+  }
+}
+
+.about{
+  text-align: justify;
+}
+.intro-title {
+  display: inline-block;
+  font-size: 24px;
+  color: #e22104;
+  padding-right: 115px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.intro-title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  min-width: 100px;
+  background-color: #3a414e;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.home-component-parallax-title{
+  width: 100%;
+  text-align: center;
+}
+.home-component-long{
+  background-image: url(/images/long.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  z-index: 1;
+  height: 300px;
+}
+.home-component-programs{
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .home-component-programs{
+    margin-bottom: 300px;
+  }
+}
+.opacity{
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  top: 0;
+  width: 100%;
+  background: #282c34;
+  opacity: 0.9;
+
+}
