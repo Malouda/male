@@ -46,15 +46,38 @@ class Home extends React.Component {
                 </div>
                 <div className="container margin1">
                    <div className="row home-component-mainheader h-100">
-                       {/*<div className="col-lg-2 col-md-12 col-sm-12">
-                           ggg
-                       </div>*/}
-                       <div className="col-lg-5  col-md-5  my-auto home-component-register">
+                       <div className="col-lg-2 col-md-12 col-sm-12 my-auto">
+                           <ul className="social-icons d-none d-lg-block">
+                               <span style={{fontSize: '1.5em', color: 'black'}}>
+                                    <li>
+                                        <a href="https://twitter.com/Jamafesttanzan1" target="_blank">
+                                            <i className="fab fa-twitter" />
+                                        </a>
+                                    </li>
+                               </span>
+                               <span style={{fontSize: '1.5em', color: 'black !important'}}>
+                                    <li>
+                                        <a href="https://web.facebook.com/jamafest/" target="_blank">
+                                            <i className="fab fa-facebook-square" />
+                                        </a>
+                                    </li>
+                               </span>
+                               <span style={{fontSize: '1.5em', color: 'black'}}>
+                                    <li>
+                                        <a href="https://www.instagram.com/jamafesttanzania/" target="_blank">
+                                            <i className="fab fa-instagram" />
+                                        </a>
+                                    </li>
+                               </span>
+                           </ul>
+                       </div>
+                       <div className="col-lg-4  col-md-5  my-auto home-component-register">
                            <h1 className="hero-title d-sm-none d-md-block">JAMAFEST <br /> TANZANIA 2019</h1>
                            <h1 className="hero-title d-none d-sm-block d-md-none">JAMAFEST TANZANIA 2019</h1>
-                           <a className="button button-hero button-shadow" href="https://forms.gle/Mpa8Q8pknn7t2DPZ7" target="_blank">Register Now</a>
+                           <a className="button button-hero button-shadow" href="https://forms.gle/Mpa8Q8pknn7t2DPZ7" target="_blank">Register Now</a>&nbsp;&nbsp;&nbsp;<br/><br/>
+                           <a className="button button-hero button-shadow" href="https://forms.gle/Mpa8Q8pknn7t2DPZ7" target="_blank">Exhibitors Registration</a>
                        </div>
-                       <div className="col-lg-7 col-sm-12 col-md-7 image">
+                       <div className="col-lg-6 col-sm-12 col-md-7 image">
                            <img src="/images/dance2.jpg" className="img-fluid img-thumbnail"/>
                        </div>
                    </div>
@@ -62,17 +85,17 @@ class Home extends React.Component {
                 <div className="container">
                     <div className="row w-100 home-component-about-row">
                         <div className="col-lg-6 col-md-12  mr-5">
-                            <img src="/images/jamafest2.jpg" className="img-fluid img-thumbnail"/>
+                            <iframe width={560} height={315} src="https://www.youtube.com/embed/xUtL1OaBvCU" frameBorder={0} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
                         </div>
                         <div className="col-lg-5 about mx-auto">
-                            <h4 className="intro-title mb-5">About Tanzania</h4>
-                            <p className="mb-5">The 20th and 23rd meeting of the Council of East African Community (EAC) Ministers held in March and September 2012 respectively requested the EAC Secretariat to organise regular EAC Arts and Culture Festival in the EAC States on rotational basis.
-
-                                First festival took place in Kigali Rwanda in February, 2013. Second festival took place at KICC Nairobi, Kenya between 2nd and 9th/ August, 2015.
-
-                                The now branded JAMAFEST (Jumiya ya Afrika Mashariki Utamaduni) is hosted on a rational basis by each Partner State_ every two years
-
-                                Tanzania is slated to host JAMAFEST 2019.
+                            <h4 className="intro-title mb-3">Tanzania</h4>
+                            <h5>We are the Soul of Africa,the island of Peace</h5>
+                            <p className="mb-5">
+                                Tanzania is a country in East Africa within the African Great Lakes region. It borders Uganda to the north;
+                                Kenya to the northeast; Comoro Islands at the Indian Ocean to the east; Mozambique and Malawi to the south;
+                                Zambia to the southwest; and Rwanda, Burundi, and the Democratic Republic of the Congo to the west.
+                                Mount Kilimanjaro, Africa's highest mountain, is in north-eastern Tanzania.
+                                Tanzania’s wildlife resources are considered among the finest in the world. Tanzania is the only country, which has allocated more than 25% of its total area for wildlife national parks and protected areas.
                             </p>
                             <NavLink to="/tz" className="button button-hero button-shadow">Learn More</NavLink>
                         </div>

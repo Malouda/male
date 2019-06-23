@@ -21,7 +21,7 @@ class Footer extends React.Component {
                             <h3><strong>Top Links</strong></h3>
                             <nav className="nav flex-column">
                                 <a className="nav-link active" href="#">Home</a>
-                                <a className="nav-link" href="#">Ministry</a>
+                                <a className="nav-link" href="https://www.habari.go.tz/" target="_blank">Ministry</a>
                                 <a className="nav-link" href="#">Hotels</a>
                                 <a className="nav-link" href="#">Event</a>
                                 <a className="nav-link" href="#">Gallery</a>
@@ -48,17 +48,15 @@ class Footer extends React.Component {
                         <div className="col-12 col-lg-2 ml-auto text-lg-left mt-4 mt-lg-0">
                             <h3><strong>Social Media</strong></h3>
                             <p className="lead">
-                                <a href="#" className="mx-2"><i className="fab fa-twitter" aria-hidden="true" /></a>
-                                <a href="#" className="mx-2"><i className="fab fa-facebook" aria-hidden="true" /></a>
-                                <a href="#" className="mx-2"><i className="fab fa-instagram" aria-hidden="true" /></a>
-                                <a href="#" className="mx-2"><i className="fab fa-pinterest" aria-hidden="true" /></a>
-                                <a href="#" className="mx-2"><i className="fab fa-google" aria-hidden="true" /></a>
+                                <a href="https://twitter.com/Jamafesttanzan1"  target="_blank" className="mx-2"><i className="fab fa-twitter" aria-hidden="true" /></a>
+                                <a href="https://web.facebook.com/jamafest/" target="_blank" className="mx-2"><i className="fab fa-facebook" aria-hidden="true" /></a>
+                                <a href="https://www.instagram.com/jamafesttanzania/" target="_blank" className="mx-2"><i className="fab fa-instagram" aria-hidden="true" /></a>
                             </p>
                         </div>
                     </div>
                     <div className="row mt-3">
                         <div className="col text-center">
-                            © 2019 Jamafest. All Rights Reserved
+                            © 2019 JAMAFEST Tanzania. All Rights Reserved
                         </div>
                     </div>
                 </div>
