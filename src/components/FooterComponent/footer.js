@@ -1,6 +1,7 @@
 import React from "react";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
+import {NavLink} from "react-router-dom";
 
 class Footer extends React.Component {
     constructor(props) {
@@ -20,18 +21,17 @@ class Footer extends React.Component {
                         <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-sm-left">
                             <h3><strong>Top Links</strong></h3>
                             <nav className="nav flex-column">
-                                <a className="nav-link active" href="#">Home</a>
-                                <a className="nav-link" href="https://www.habari.go.tz/" target="_blank">Ministry</a>
-                                <a className="nav-link" href="#">Hotels</a>
-                                <a className="nav-link" href="#">Event</a>
-                                <a className="nav-link" href="#">Gallery</a>
+                                <NavLink className="nav-link active" to="/">Home</NavLink>
+                                <a className="nav-link" href="https://www.habari.go.tz/" target="_blank">Ministry of Information</a>
+                                <a className="nav-link" href="https://maelezo.go.tz">Taznania Information Services</a>
+                                <a className="nav-link" href="https://foreign.go.tz">Ministry of Foreign Affairs</a>
+                                <a className="nav-link" href="https://www.eac.int/">East African Community</a>
+                                <a className="nav-link" href="https://ug.tzembassy.go.tz/sw/business/why-invest-in-tanzania">Why Invest inTanzania</a>
                             </nav>
                         </div>
                         <div className="col-12 col-sm-6 col-md-4 col-lg-3 mt-5 mt-sm-0 text-sm-left">
                             <h3><strong>Publications</strong></h3>
                             <nav className="nav flex-column">
-                                <a className="nav-link active" href="#">Privacy Policy</a>
-                                <a className="nav-link" href="#">Terms</a>
                                 <a className="nav-link" href="#">FAQ</a>
                                 <a className="nav-link" href="#">Support</a>
                             </nav>
@@ -39,10 +39,8 @@ class Footer extends React.Component {
                         <div className="col-12 col-sm-6 col-md-4 col-lg-3 mt-5 mt-sm-0 text-sm-left">
                             <h3><strong>Registration Forms</strong></h3>
                             <nav className="nav flex-column">
-                                <a className="nav-link active" href="#">Guest Registration</a>
-                                <a className="nav-link" href="#">Exhibitors Registration</a>
-                                <a className="nav-link" href="#">Guest Accreditation</a>
-                                <a className="nav-link" href="#">Performance Form</a>
+                                <a className="nav-link active" href="https://forms.gle/Mpa8Q8pknn7t2DPZ7" target="_blank">Guest Registration</a>
+                                <a className="nav-link" href="https://forms.gle/Mpa8Q8pknn7t2DPZ7" target="_blank">Exhibitors Registration</a>
                             </nav>
                         </div>
                         <div className="col-12 col-lg-2 ml-auto text-lg-left mt-4 mt-lg-0">

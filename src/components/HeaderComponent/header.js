@@ -30,32 +30,68 @@ class Header extends React.Component {
                                     <li className="nav-item active">
                                         <NavLink to="/" className="nav-link" href="https://www.froala.com">Home <span className="sr-only">(current)</span></NavLink>
                                     </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#">About</a>
+                                    <li className="nav-item dropdown">
+                                        <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            About
+                                        </a>
+                                        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a className="dropdown-item" href="#">Background</a>
+                                            <a className="dropdown-item" href="#">Vision and Mission</a>
+                                            <a className="dropdown-item" href="#">Objectives</a>
+                                            <a className="dropdown-item" href="#">Theme</a>
+                                            <a className="dropdown-item" href="#">Benefits</a>
+                                            <a className="dropdown-item" href="#">Organizing Committee</a>
+                                        </div>
+                                    </li>
+                                    <li className="nav-item dropdown">
+                                        <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Program
+                                        </a>
+                                        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a className="dropdown-item" href="#">Festival program</a>
+                                            <a className="dropdown-item" href="#">Street Carnival</a>
+                                            <a className="dropdown-item" href="#">National Theatre program</a>
+                                        </div>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Program</a>
+                                        <a className="nav-link" href="#">
+                                            Venues
+                                        </a>
                                     </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#">Venues</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#">Guidelines</a>
+                                    <li className="nav-item dropdown">
+                                        <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Guidelines
+                                        </a>
+                                        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a className="dropdown-item" href="#">Guide lines info</a>
+                                            <a className="dropdown-item" href="#">Guide lines for performing groups/institution</a>
+                                            <a className="dropdown-item" href="#">Guide lines for performing groups/individuals</a>
+                                        </div>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="#">Accomodation</a>
                                     </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#">Attractions</a>
+                                    <li className="nav-item dropdown">
+                                        <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Attractions
+                                        </a>
+                                        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a className="dropdown-item" href="https://ug.tzembassy.go.tz/tanzania/category/travel-and-tourism">Cultural Tourism</a>
+                                            <a className="dropdown-item" href="https://ug.tzembassy.go.tz/tanzania/category/travel-and-tourism">Natural Tourism</a>
+                                        </div>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="#">Entertainments</a>
                                     </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#">Events</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#">Publications</a>
+                                    <li className="nav-item dropdown">
+                                        <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Resources
+                                        </a>
+                                        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a className="dropdown-item" href="#">News and Events</a>
+                                            <a className="dropdown-item" href="#">Gallery</a>
+                                            <a className="dropdown-item" href="#">Publications</a>
+                                        </div>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="#">Contacts</a>

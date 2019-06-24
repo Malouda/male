@@ -8,6 +8,7 @@ import {NavLink} from 'react-router-dom';
 import FooterComponent from '../FooterComponent/footer';
 import Overdrive from 'react-overdrive'
 import './home.scss';
+import HomePageCarousel from "../carousel/test";
 
 class Home extends React.Component {
     constructor(props) {
@@ -31,9 +32,6 @@ class Home extends React.Component {
 
 
     render() {
-
-
-
         return (
             <div>
                 <HeaderComponent/>
@@ -48,7 +46,7 @@ class Home extends React.Component {
                    <div className="row home-component-mainheader h-100">
                        <div className="col-lg-2 col-md-12 col-sm-12 my-auto">
                            <ul className="social-icons d-none d-lg-block">
-                               <span style={{fontSize: '1.5em', color: 'black'}}>
+                               <span style={{fontSize: '1.5em', color: '#000000'}}>
                                     <li>
                                         <a href="https://twitter.com/Jamafesttanzan1" target="_blank">
                                             <i className="fab fa-twitter" />
@@ -77,8 +75,8 @@ class Home extends React.Component {
                            <a className="button button-hero button-shadow" href="https://forms.gle/Mpa8Q8pknn7t2DPZ7" target="_blank">Register Now</a>&nbsp;&nbsp;&nbsp;<br/><br/>
                            <a className="button button-hero button-shadow" href="https://forms.gle/Mpa8Q8pknn7t2DPZ7" target="_blank">Exhibitors Registration</a>
                        </div>
-                       <div className="col-lg-6 col-sm-12 col-md-7 image">
-                           <img src="/images/dance2.jpg" className="img-fluid img-thumbnail"/>
+                       <div className="col-lg-6 col-sm-12 col-md-7 image HomePageCarousel">
+                          <HomePageCarousel/>
                        </div>
                    </div>
                </div>
