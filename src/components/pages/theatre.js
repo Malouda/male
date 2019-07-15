@@ -17,6 +17,14 @@ class theatre extends React.Component {
         return (
             <div>
                 <HeaderComponent/>
+                <div className="container">
+                    <p>
+                        There will be a variety of children’s games and activities that will involve playing, painting,
+                        drawing, sculpture, singing, drumming, dancing, drama, poetry, poem, debate and essay competition
+                        based on the selected themes. The essay themes shall be communicated to selected schools prior to the
+                        festival among the partner states.
+                    </p>
+                </div>
             </div>
         );
     }

@@ -27,6 +27,8 @@ import culturalawards from "./components/pages/culturalawards";
 import modeling from "./components/pages/modeling";
 import tradition from "./components/pages/tradition";
 import festival from "./components/pages/festival";
+import excursions from "./components/pages/excursions";
+import trade from "./components/pages/trade";
 window.jQuery = $;
 window.$ = $;
 global.jQuery = $;
@@ -59,6 +61,8 @@ class Index extends React.Component {
                     <Route path="/culturalawards" component={culturalawards}/>
                     <Route path="/modeling" component={modeling}/>
                     <Route path="/festival" component={festival}/>
+                    <Route path="/excursions" component={excursions}/>
+                    <Route path="/trade" component={trade}/>
                 </Router>
             </Provider>
         );

@@ -3,7 +3,7 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import HeaderComponent from "../HeaderComponent/header";
 
-class film extends React.Component {
+class trade extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -19,10 +19,8 @@ class film extends React.Component {
                 <HeaderComponent/>
                 <div className="container">
                     <p>
-                        This will be a platform for EAC film practitioners to expand their film market as well as to engage
-                        and cooperate with their counterparts. There will be specific days for documentary,
-                        film, and video shows for each member country. There shall be also a specific day for East
-                        African Community films awards to the best film based on the quality and promotion of cultural tourism.
+                        There will be an exhibition and trade fair for participating entrepreneurs to sale
+                        their products geared towards economic empowerment.
                     </p>
                 </div>
             </div>
@@ -48,4 +46,4 @@ function mapDispatchToProps(dispatch, ownProps) {
 export default connect(
     mapStateToProps,
     mapDispatchToProps
-)(film);
+)(trade);

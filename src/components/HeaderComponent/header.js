@@ -39,9 +39,11 @@ class Header extends React.Component {
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                             <NavLink className="dropdown-item" to="/tradition">Traditional Sports Arena</NavLink>
                                             <NavLink className="dropdown-item" to="/symposium">Symposium</NavLink>
-                                            <NavLink className="dropdown-item" to="/culturePerformance">Exhibitions</NavLink>
-                                            <NavLink className="dropdown-item" to="/theatre">Children Theatre</NavLink>
+                                            <NavLink className="dropdown-item" to="/excursions">Excursions,Tours and Adventures</NavLink>
+                                            <NavLink className="dropdown-item" to="/trade">Trade</NavLink>
                                             <NavLink className="dropdown-item" to="/film">Film Exhibition</NavLink>
+                                            <NavLink className="dropdown-item" to="/theatre">Children Theatre</NavLink>
+                                            <NavLink className="dropdown-item" to="/culturePerformance">Exhibitions</NavLink>
                                             <NavLink className="dropdown-item" to="/food">Food Market Exhibition</NavLink>
                                             <NavLink className="dropdown-item" to="/culturalawards">Cultural Excursion and awards</NavLink>
                                             <NavLink className="dropdown-item" to="/modeling">Fashion Show and Modeling</NavLink>

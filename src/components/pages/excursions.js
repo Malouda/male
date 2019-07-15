@@ -3,7 +3,7 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import HeaderComponent from "../HeaderComponent/header";
 
-class film extends React.Component {
+class excursions extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -19,10 +19,10 @@ class film extends React.Component {
                 <HeaderComponent/>
                 <div className="container">
                     <p>
-                        This will be a platform for EAC film practitioners to expand their film market as well as to engage
-                        and cooperate with their counterparts. There will be specific days for documentary,
-                        film, and video shows for each member country. There shall be also a specific day for East
-                        African Community films awards to the best film based on the quality and promotion of cultural tourism.
+                        Festival participants will visit cultural and historical sites.
+                        Selected personnel from partner states will visit selected national
+                        parks and be exposed to Mt. Kilimanjaro. There shall be a special award
+                        for the partner states that will manage to reach the peak of Mt. Kilimanjaro.
                     </p>
                 </div>
             </div>
@@ -48,4 +48,4 @@ function mapDispatchToProps(dispatch, ownProps) {
 export default connect(
     mapStateToProps,
     mapDispatchToProps
-)(film);
+)(excursions);
