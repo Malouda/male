@@ -54,7 +54,7 @@ class Home extends React.Component {
                                </span>
                                <span style={{fontSize: '1.5em', color: 'black !important'}}>
                                     <li>
-                                        <a href="https://web.facebook.com/jamafest/" target="_blank">
+                                        <a href="https://www.facebook.com/JamafestTZ/?ref=search&__tn__=%2Cd%2CP-R&eid=ARCG4JXtydFAspHcrzjhT4A4bE4Lyhs-x_b-hynLad_sW6JM7BXHHuOOmuSQ1eOqmOtw4dLjZV8r2_WJ" target="_blank">
                                             <i className="fab fa-facebook-square" />
                                         </a>
                                     </li>
@@ -82,8 +82,10 @@ class Home extends React.Component {
                 <div className="container">
                     <div className="row w-100 home-component-about-row">
                         <div className="col-lg-6 col-md-12  mr-5">
-                            <iframe width={560} height={315} src="https://www.youtube.com/embed/xUtL1OaBvCU" frameBorder={0} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
-                        </div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/bPiafVE-8Ek"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen></iframe>                        </div>
                         <div className="col-lg-5 about mx-auto">
                             <h4 className="intro-title mb-3">Tanzania</h4>
                             <h5>We are the Soul of Africa,the island of Peace</h5>
@@ -140,8 +142,8 @@ class Home extends React.Component {
                                 <img src="/images/demos.jpg" className="img-fluid img-thumbnail"/>
                             </Overdrive>
                             <div className="opacity" style={{height:this.state.opacityHeight3,padding:this.state.opacityHeight3===0?0:'20px',display:this.state.opacityHeight3===0?'none':'flex'}}>
-                                <div>Street Carnival</div>
-                                <NavLink to="/dance" className="button button-hero button-shadow">Learn More</NavLink>
+                                <div>Symposium</div>
+                                <NavLink to="/symposium" className="button button-hero button-shadow">Learn More</NavLink>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 my-auto" onMouseEnter={()=>this.setState({opacityHeight4:'100%'})} onMouseLeave={()=>this.setState({opacityHeight4:0})}>
@@ -167,8 +169,8 @@ class Home extends React.Component {
                                 <img src="/images/street2.jpg" className="img-fluid img-thumbnail"/>
                             </Overdrive>
                             <div className="opacity" style={{height:this.state.opacityHeight6,padding:this.state.opacityHeight6===0?0:'20px',display:this.state.opacityHeight6===0?'none':'flex'}}>
-                                <div>Street Carnival</div>
-                                <NavLink to="/carnival" className="button button-hero button-shadow">Learn More</NavLink>
+                                <div>Traditional Games</div>
+                                <NavLink to="/tradition" className="button button-hero button-shadow">Learn More</NavLink>
                             </div>
                         </div>
                         <div className="col text-center">
