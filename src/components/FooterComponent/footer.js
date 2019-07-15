@@ -23,7 +23,6 @@ class Footer extends React.Component {
                             <nav className="nav flex-column">
                                 <NavLink className="nav-link active" to="/">Home</NavLink>
                                 <a className="nav-link" href="https://www.habari.go.tz/" target="_blank">Ministry of Information Culture Arts and Sports</a>
-                                <a className="nav-link" href="https://maelezo.go.tz">Taznania Information Services</a>
                                 <a className="nav-link" href="https://foreign.go.tz">Ministry of Foreign Affairs and East African Cooperation </a>
                                 <a className="nav-link" href="https://www.eac.int/">East African Community</a>
                                 <a className="nav-link" href="http://www.tanzaniaparks.go.tz/">TANAPA</a>

@@ -72,7 +72,7 @@ class Header extends React.Component {
                                         </a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                             <a className="dropdown-item" href="https://ug.tzembassy.go.tz/tanzania/category/travel-and-tourism">Cultural Tourism</a>
-                                            <a className="dropdown-item" href="https://ug.tzembassy.go.tz/tanzania/category/travel-and-tourism">Natural Tourism</a>
+                                            <a className="dropdown-item" href="http://www.tanzaniaparks.go.tz/">Natural Tourism</a>
                                         </div>
                                     </li>
                                     <li className="nav-item">
@@ -83,7 +83,6 @@ class Header extends React.Component {
                                             Resources
                                         </a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <a className="dropdown-item" href="#">News and Events</a>
                                             <a className="dropdown-item" href="#">Gallery</a>
                                             <a className="dropdown-item" href="#">Publications</a>
                                         </div>
