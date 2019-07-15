@@ -16,6 +16,17 @@ import Fashion from "./components/pages/Fashion";
 import Dance from "./components/pages/Dance";
 import Carnival from "./components/pages/Carnival";
 import Culture from "./components/pages/Culture";
+import About from "./components/pages/About";
+import contacts from "./components/pages/contacts";
+import culturePerformance from "./components/pages/culturePerformance";
+import marketPlace from "./components/pages/marketPlace";
+import symposium from "./components/pages/symposium";
+import theatre from "./components/pages/theatre";
+import film from "./components/pages/film";
+import sports from "./components/pages/sports";
+import food from "./components/pages/food";
+import culturalawards from "./components/pages/culturalawards";
+import modeling from "./components/pages/modeling";
 window.jQuery = $;
 window.$ = $;
 global.jQuery = $;
@@ -38,6 +49,17 @@ class Index extends React.Component {
                     <Route path="/dance" component={Dance}/>
                     <Route path="/carnival" component={Carnival}/>
                     <Route path="/culture" component={Culture}/>
+                    <Route path="/about" component={About}/>
+                    <Route path="/contacts" component={contacts}/>
+                    <Route path="/culturePerformance" component={culturePerformance}/>
+                    <Route path="/marketplace" component={marketPlace}/>
+                    <Route path="/symposium" component={symposium}/>
+                    <Route path="/theatre" component={theatre}/>
+                    <Route path="/film" component={film}/>
+                    <Route path="/sports" component={sports}/>
+                    <Route path="/food" component={food}/>
+                    <Route path="/culturalawards" component={culturalawards}/>
+                    <Route path="/modeling" component={modeling}/>
                 </Router>
             </Provider>
         );

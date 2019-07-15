@@ -3,7 +3,7 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import HeaderComponent from "../HeaderComponent/header";
 
-class Sample extends React.Component {
+class modeling extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -11,9 +11,6 @@ class Sample extends React.Component {
 
 
     render() {
-
-
-
         return (
             <div>
                 <HeaderComponent/>
@@ -40,4 +37,4 @@ function mapDispatchToProps(dispatch, ownProps) {
 export default connect(
     mapStateToProps,
     mapDispatchToProps
-)(Sample);
+)(modeling);

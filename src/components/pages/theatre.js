@@ -3,7 +3,7 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import HeaderComponent from "../HeaderComponent/header";
 
-class Sample extends React.Component {
+class theatre extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -40,4 +40,4 @@ function mapDispatchToProps(dispatch, ownProps) {
 export default connect(
     mapStateToProps,
     mapDispatchToProps
-)(Sample);
+)(theatre);

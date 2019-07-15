@@ -1,0 +1,25 @@
+.about-main{
+  background-image: url(/images/drums.png);
+  background-position: 80px 200px;
+  background-repeat: no-repeat;
+  .about{
+    background: rgba(255,255,255,0.9);
+  }
+
+
+}
+
+@media (max-width: 576px) {
+  .about-main{
+    padding-right: 0 !important;
+    .in-about{
+      padding-right: 15px !important;
+    }
+  }
+
+}
+
+.about-section{
+  margin-top: 40px;
+  color: #8892a0;
+}

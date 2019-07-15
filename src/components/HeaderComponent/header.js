@@ -11,9 +11,6 @@ class Header extends React.Component {
 
 
     render() {
-
-
-
         return (
             <>
                 <header className="header-component-header header-component-margin">
@@ -28,29 +25,28 @@ class Header extends React.Component {
                             <div className="collapse navbar-collapse" id="navbarNav3">
                                 <ul className="navbar-nav ml-auto">
                                     <li className="nav-item active">
-                                        <NavLink to="/" className="nav-link" href="https://www.froala.com">Home <span className="sr-only">(current)</span></NavLink>
+                                        <NavLink to="/" className="nav-link">Home <span className="sr-only">(current)</span></NavLink>
                                     </li>
-                                    <li className="nav-item dropdown">
-                                        <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <li className="nav-item">
+                                        <NavLink className="nav-link" to="/about">
                                             About
-                                        </a>
-                                        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <a className="dropdown-item" href="#">Background</a>
-                                            <a className="dropdown-item" href="#">Vision and Mission</a>
-                                            <a className="dropdown-item" href="#">Objectives</a>
-                                            <a className="dropdown-item" href="#">Theme</a>
-                                            <a className="dropdown-item" href="#">Benefits</a>
-                                            <a className="dropdown-item" href="#">Organizing Committee</a>
-                                        </div>
+                                        </NavLink>
                                     </li>
                                     <li className="nav-item dropdown">
                                         <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Program
                                         </a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <a className="dropdown-item" href="#">Festival program</a>
-                                            <a className="dropdown-item" href="#">Street Carnival</a>
-                                            <a className="dropdown-item" href="#">National Theatre program</a>
+                                            <NavLink className="dropdown-item" to="/carnival">Carnival</NavLink>
+                                            <NavLink className="dropdown-item" to="/culturePerformance">Cultural Performances</NavLink>
+                                            <NavLink className="dropdown-item" to="/marketplace">Cultural Market Place</NavLink>
+                                            <NavLink className="dropdown-item" to="/symposium">Symposium</NavLink>
+                                            <NavLink className="dropdown-item" to="/theatre">Children Theatre</NavLink>
+                                            <NavLink className="dropdown-item" to="/film">Film Exhibition</NavLink>
+                                            <NavLink className="dropdown-item" to="/sports">Traditional Sports Arena</NavLink>
+                                            <NavLink className="dropdown-item" to="/food">Food Market Exhibition</NavLink>
+                                            <NavLink className="dropdown-item" to="/culturalawards">Cultural Excursion and awards</NavLink>
+                                            <NavLink className="dropdown-item" to="/modeling">Fashion Show and Modeling</NavLink>
                                         </div>
                                     </li>
                                     <li className="nav-item">
@@ -94,7 +90,7 @@ class Header extends React.Component {
                                         </div>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Contacts</a>
+                                        <NavLink className="nav-link" to="/contacts">Contacts</NavLink>
                                     </li>
                                 </ul>
                             </div>
