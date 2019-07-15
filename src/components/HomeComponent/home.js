@@ -112,7 +112,12 @@ class Home extends React.Component {
                             <div className="row justify-content-center">
                                 <div className="col col-md-8 text-center">
                                     <h1>About JAMAFEST</h1>
-                                    <p className="lead">The East African Community (EAC) through its 20th and 23rd Sessions of the Council of Ministers held in March 2010 and September 2011 respectively directed the EAC Secretariat to organize regular EAC culture festival in the EAC Partner States on rotational basis.</p>
+                                    <p className="lead">
+                                        The East African Community (EAC) through its 20th and 23rd Sessions of the Council
+                                        of Ministers held in March 2010 and September 2011 respectively directed the EAC
+                                        Secretariat to organize regular EAC culture festival in the EAC Partner States
+                                        on rotational basis.<NavLink to="/about">Read More</NavLink>
+                                    </p>
                                 </div>
                             </div>
                         </div>
