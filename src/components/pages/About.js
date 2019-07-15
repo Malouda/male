@@ -53,18 +53,25 @@ class About extends React.Component {
                                     </div>
                                     <div className="about-section">
                                         <h1>Objectives</h1>
-                                        <p>
-                                            Provide a platform to showcase art and culture as primary drivers of regional
-                                            integration and sustainable development;
-                                            Bring together East African cultural practitioners and administrators to share and
-                                            celebrate the rich and diverse cultural heritage as well as contemporary practice of
-                                            East Africa;
-                                            Provide space for intercultural dialogue amongst the people of East Africa;
-                                            Foster the economic development of the EAC through nurturing the growth of a strong
-                                            creative and cultural industry;
-                                            Promote arts and culture as a tool in the celebration and branding of East African
-                                            identity and image.
-                                        </p>
+                                        <ul>
+                                            <li>Provide a platform to showcase art and culture as primary drivers of
+                                                regional integration and sustainable development;
+                                            </li>
+                                            <li>
+                                                Bring together East African cultural practitioners and administrators to share and
+                                                celebrate the rich and diverse cultural heritage as well as contemporary practice of
+                                                East Africa;
+                                            </li>
+                                            <li>
+                                                Provide space for intercultural dialogue amongst the people of East Africa;
+                                                Foster the economic development of the EAC through nurturing the growth of a strong
+                                                creative and cultural industry;
+                                            </li>
+                                            <li>
+                                                Promote arts and culture as a tool in the celebration and branding of East African
+                                                identity and image.
+                                            </li>
+                                        </ul>
                                     </div>
                                     <div className="about-section">
                                         <h1>Festival Theme 2019</h1>

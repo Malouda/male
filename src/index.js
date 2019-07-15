@@ -26,6 +26,7 @@ import food from "./components/pages/food";
 import culturalawards from "./components/pages/culturalawards";
 import modeling from "./components/pages/modeling";
 import tradition from "./components/pages/tradition";
+import festival from "./components/pages/festival";
 window.jQuery = $;
 window.$ = $;
 global.jQuery = $;
@@ -57,6 +58,7 @@ class Index extends React.Component {
                     <Route path="/food" component={food}/>
                     <Route path="/culturalawards" component={culturalawards}/>
                     <Route path="/modeling" component={modeling}/>
+                    <Route path="/festival" component={festival}/>
                 </Router>
             </Provider>
         );

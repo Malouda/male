@@ -39,13 +39,13 @@ class Header extends React.Component {
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                             <NavLink className="dropdown-item" to="/tradition">Traditional Sports Arena</NavLink>
                                             <NavLink className="dropdown-item" to="/symposium">Symposium</NavLink>
-                                            <NavLink className="dropdown-item" to="/culturePerformance">Cultural Performances</NavLink>
-                                            <NavLink className="dropdown-item" to="/marketplace">Cultural Market Place</NavLink>
+                                            <NavLink className="dropdown-item" to="/culturePerformance">Exhibitions</NavLink>
                                             <NavLink className="dropdown-item" to="/theatre">Children Theatre</NavLink>
                                             <NavLink className="dropdown-item" to="/film">Film Exhibition</NavLink>
                                             <NavLink className="dropdown-item" to="/food">Food Market Exhibition</NavLink>
                                             <NavLink className="dropdown-item" to="/culturalawards">Cultural Excursion and awards</NavLink>
                                             <NavLink className="dropdown-item" to="/modeling">Fashion Show and Modeling</NavLink>
+                                            <NavLink className="dropdown-item" to="/festival">Festivals</NavLink>
                                         </div>
                                     </li>
                                     <li className="nav-item">
@@ -58,9 +58,9 @@ class Header extends React.Component {
                                             Guidelines
                                         </a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <a className="dropdown-item" href="#">Guide lines info</a>
-                                            <a className="dropdown-item" href="#">Guide lines for performing groups/institution</a>
-                                            <a className="dropdown-item" href="#">Guide lines for performing groups/individuals</a>
+                                            <a className="dropdown-item" href="#">Guidelines information</a>
+                                            <a className="dropdown-item" href="#">Guidelines for performing groups/institution</a>
+                                            <a className="dropdown-item" href="#">Guidelines for performing groups/individuals</a>
                                         </div>
                                     </li>
                                     <li className="nav-item">
