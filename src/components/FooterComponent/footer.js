@@ -22,10 +22,11 @@ class Footer extends React.Component {
                             <h3><strong>Top Links</strong></h3>
                             <nav className="nav flex-column">
                                 <NavLink className="nav-link active" to="/">Home</NavLink>
-                                <a className="nav-link" href="https://www.habari.go.tz/" target="_blank">Ministry of Information</a>
+                                <a className="nav-link" href="https://www.habari.go.tz/" target="_blank">Ministry of Information Culture Arts and Sports</a>
                                 <a className="nav-link" href="https://maelezo.go.tz">Taznania Information Services</a>
-                                <a className="nav-link" href="https://foreign.go.tz">Ministry of Foreign Affairs</a>
+                                <a className="nav-link" href="https://foreign.go.tz">Ministry of Foreign Affairs and East African Cooperation </a>
                                 <a className="nav-link" href="https://www.eac.int/">East African Community</a>
+                                <a className="nav-link" href="http://www.tanzaniaparks.go.tz/">TANAPA</a>
                             </nav>
                         </div>
                         <div className="col-12 col-sm-6 col-md-4 col-lg-3 mt-5 mt-sm-0 text-sm-left">
@@ -47,7 +48,7 @@ class Footer extends React.Component {
                             <p className="lead">
                                 <a href="https://twitter.com/Jamafesttanzan1"  target="_blank" className="mx-2"><i className="fab fa-twitter" aria-hidden="true" /></a>
                                 <a href="https://www.facebook.com/JamafestTZ/?ref=search&__tn__=%2Cd%2CP-R&eid=ARCG4JXtydFAspHcrzjhT4A4bE4Lyhs-x_b-hynLad_sW6JM7BXHHuOOmuSQ1eOqmOtw4dLjZV8r2_WJ" target="_blank" className="mx-2"><i className="fab fa-facebook" aria-hidden="true" /></a>
-                                <a href="https://www.instagram.com/jamafesttanzania/" target="_blank" className="mx-2"><i className="fab fa-instagram" aria-hidden="true" /></a>
+                                <a href="https://instagram.com/jamafesttz?igshid=wufnlnib1oa4" target="_blank" className="mx-2"><i className="fab fa-instagram" aria-hidden="true" /></a>
                             </p>
                         </div>
                     </div>

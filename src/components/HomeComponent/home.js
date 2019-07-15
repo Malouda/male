@@ -35,13 +35,13 @@ class Home extends React.Component {
         return (
             <div>
                 <HeaderComponent/>
-                <div className="container-fluid">
+                <div className="container">
                     <div className="row">
                         <div className="col bar">
                         </div>
                     </div>
                 </div>
-                <div className="container-fluid margin1">
+                <div className="container margin1">
                    <div className="row home-component-mainheader h-100">
                        <div className="col-lg-2 col-md-12 col-sm-12 my-auto">
                            <ul className="social-icons d-none d-lg-block">
@@ -61,7 +61,7 @@ class Home extends React.Component {
                                </span>
                                <span style={{fontSize: '1.5em', color: 'black'}}>
                                     <li>
-                                        <a href="https://www.instagram.com/jamafesttanzania/" target="_blank">
+                                        <a href="https://instagram.com/jamafesttz?igshid=wufnlnib1oa4" target="_blank">
                                             <i className="fab fa-instagram" />
                                         </a>
                                     </li>
