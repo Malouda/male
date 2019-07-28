@@ -44,7 +44,11 @@ class Contacts extends React.Component {
                                             <span>Contact Person</span>
                                         </p>
                                         <p>
-                                            Our technical support is available by phone or email from 11am to 11pm BST, Monday through Friday.
+                                            Joyce Fisoo Chairperson,National Organizing Committee<br/>
+                                            AG.Director of Arts Development
+                                            Ministry of Information,culture,Arts and sports
+                                            P.O Box 25
+                                            Dodoma
                                         </p>
 
                                         <p className="h3 mt-4 mt-lg-5">
