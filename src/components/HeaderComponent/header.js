@@ -60,13 +60,11 @@ class Header extends React.Component {
                                             Guidelines
                                         </a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <a className="dropdown-item" href="#">Guidelines information</a>
-                                            <a className="dropdown-item" href="#">Guidelines for performing groups/institution</a>
-                                            <a className="dropdown-item" href="#">Guidelines for performing groups/individuals</a>
+                                            <NavLink className="dropdown-item" to="/guidelines">Guidelines and information</NavLink>
                                         </div>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Accomodation</a>
+                                        <NavLink className="nav-link" to="/accomodation">Accomodation</NavLink>
                                     </li>
                                     <li className="nav-item dropdown">
                                         <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -77,16 +75,24 @@ class Header extends React.Component {
                                             <a className="dropdown-item" href="http://www.tanzaniaparks.go.tz/">Natural Tourism</a>
                                         </div>
                                     </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#">Entertainments</a>
+                                    <li className="nav-item dropdown">
+                                        <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                                        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a className="dropdown-item" href="#">Place To worship</a>
+                                            <a className="dropdown-item" href="#">Place to go</a>
+                                        </div>
                                     </li>
                                     <li className="nav-item dropdown">
                                         <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Resources
+                                            Partner States
                                         </a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <a className="dropdown-item" href="#">Gallery</a>
-                                            <a className="dropdown-item" href="#">Publications</a>
+                                            <a className="dropdown-item" href="#">Burundi</a>
+                                            <a className="dropdown-item" href="#">Kenya</a>
+                                            <a className="dropdown-item" href="#">Rwanda</a>
+                                            <a className="dropdown-item" href="#">South Sudan</a>
+                                            <a className="dropdown-item" href="#">Tanzania</a>
+                                            <a className="dropdown-item" href="#">Uganda</a>
                                         </div>
                                     </li>
                                     <li className="nav-item">

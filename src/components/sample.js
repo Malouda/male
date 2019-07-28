@@ -17,6 +17,9 @@ class Sample extends React.Component {
         return (
             <div>
                 <HeaderComponent/>
+                <div className="container">
+
+                </div>
             </div>
         );
     }

@@ -1,0 +1,9202 @@
+
+/***************  templates/hotel/css/global.defaults.css  ***************/
+/* ---------------- OVERRIDE BROWSER DEFAULT TYPOGRAPHY ---------------- */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+h1 {
+	margin: 1.6em 0em 0em;
+}
+h2, h3 {
+	margin:.5em auto;
+}
+h4 {
+	margin: 1.2em 0em 0em;
+}
+h5, h6 {
+	margin: 1.2em 0em 1.2em;
+}
+p, li {
+	line-height: 1.2;
+}
+p {
+	font-size: 1em;
+	margin: 0.9em 0em 1.2em;
+}
+li > p {
+	margin-top: 0.2em;
+}
+ol, ul {
+	margin: 0 0 8px;
+}
+img {
+	border: 0 none;
+}
+th {
+	font-weight: normal;
+	text-align: right;
+	padding-right: 0.5em;
+}
+td {
+	text-align: center;
+}
+form,
+button,
+input,
+select,
+textarea {
+	margin: 0;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+sup {
+	font-size: 0.74em;
+	/* avoid increased line-box height */
+	vertical-align: top;
+	position: relative;
+	top: -0.1em;
+}
+sup.ordinal {
+	text-transform: lowercase;
+}
+.temperature {
+	white-space: nowrap; /* prevent IE from word-breaking after degreee symbol */
+}
+
+/***************  templates/hotel/css/global.text.css  ***************/
+/* GLOBAL FONT FAMILY */
+html{
+	-webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+}
+
+body{
+	font-family: 'pt_sansregular', Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 0.95em;
+}
+.navigation li ul li,
+.header-top-text,
+.gm-style-iw p,
+.header-hotel-list .hotel,
+.booking-mask .resident label,
+.booking-mask input, .booking-mask select {
+	font-family: 'pt_sansregular', Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.offer-content .offer-price,
+.bookingBtn-wrapper .itemPreviewsPrice .price-link,
+.country h4.active{
+	font-family: 'pt_sansbold', Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6,
+.more-link,
+.downloads li a,
+.btn a,
+.review-item .date-block,
+.offer-content .book-now,
+.itemPreviewBookingLink,
+.booking-mask .booking-link ,
+.best-rate .rate,
+.itemPreview-listView .slick-dots li .pager_item,
+.downloadItems .downloadItem,
+.category-selector,.ftr-awards-btn,
+.inner-wrapper .golf-button{
+    font-family: "oswaldregular", Helvetica, sans-serif;
+    font-weight: normal;
+}
+.inner-wrapper .golf-button a{
+	color: #ffffff;
+}
+.inner-wrapper .golf-button a:empty{
+	display: none;
+}
+.booking-mask label,
+#email-address { 
+	font-family: 'pt_serifitalic', Helvetica, Roboto, Arial, sans-serif; 
+}
+.review-item h3{ 
+	font-family: 'pt_sansitalic', Helvetica, Roboto, Arial, sans-serif; 
+}
+.booking-mask .ui-datepicker th{
+	font-family: 'open_sanssemibold', Helvetica, Roboto, Arial, sans-serif; 
+}
+.booking-mask .ui-datepicker td .ui-state-default, 
+.booking-mask .ui-datepicker td a{
+	font-family: 'open_sanslight', Helvetica, Roboto, Arial, sans-serif; 
+}
+
+strong{
+	font-weight: bold;
+}
+
+
+/* GLOBAL FONT SIZES */
+h1{
+	font-size: 2.35em;
+	margin: 0.5em auto;
+}
+h2{
+	font-size: 2.35em;
+	margin: 0.5em auto;
+	}
+	h2.second-title{
+		font-size: 1.2em;
+	}
+h3 {
+	font-size: 1.6em;
+}
+.header-hotel-list .continent{
+	font-size: 1.45em;
+}
+h4 {
+	font-size: 1.4em;
+}
+.secondary-title,
+.booking-mask-switcher,
+#footer h3.ftr-block-title,
+.best-rate p.rate{
+	font-size: 1.2em;
+}
+
+h5,
+.header-hotel-list h3,
+.fixed-navigation li,
+.language-switcher ul li,
+#email-address{
+	font-size: 1em;
+}
+.header-hotel-list .hotel,
+.header-navigation li,
+.language-switcher,
+.hotel-address .hoteladdr,
+#footer .hotel-tel-email .hotel-tel,
+#footer .hotel-tel-email .email,
+.ftr-btm-menu a, 
+.best-rate .booking-link,
+.fixed-navigation li.fm-item.serena-home{
+	font-size: 0.85em;
+}
+h6, .header-top-text,
+.weather-widget-wrapper{
+	font-size: 0.825em; /** .25 is to fix the font broken issue **/
+}
+.serenaarusha .header-top-text{
+	font-size: 0.79em;
+}
+
+#footer .hotel-address .hotel-name,
+.copyright{
+	font-size: 0.9em;
+}
+
+.partner-logo-wrap {
+	font-size: 1.05em;
+}
+.navigation li ul li{
+	font-size: 1.2em;
+}
+.ftr-awards-btn{
+	font-size: 1.3em;
+}
+.awd-title{
+	font-size:2.05em;
+}
+.item-detailview .itemTitle{
+	font-size:2.25em;
+}
+.amenities-title{
+	font-size: 1.95em;
+}
+.amenities-content ul li:before {
+	font-size: 2.6em;
+}
+
+/* GLOBAL FONT COLORS */
+body{
+	color: #404040;
+}
+
+h1, h2,
+.itemPreview-listView .slick-dots li .pager_item,
+.breadcrumb a,
+.navigation li ul li a,
+.header-navigation li.hm-item.active li a,
+.no-touch-device .header-navigation li.hm-item:hover li a,
+.touch-device .header-navigation li.hm-item:hover  li a,
+.review-rotator h3,
+.bottom-block .section-title,
+.review-item .date-block,
+.item-detailview .itemTitle{
+	color: #3c3230; /* BROWN */
+}
+
+.navigation li a,
+.language-switcher ul a,
+#footer h3.ftr-block-title,
+.ftr-menu li a,
+.ftr-btm-menu a,
+#footer .hotel-tel-email a,
+.weather-widget-wrapper, .weather-widget-wrapper a{
+	color: #50423e; /* BROWN */
+}
+
+h2.second-title,
+h3, .secondary-title,
+a:hover,
+.viewList-link a:hover,
+.fixed-navigation li:hover a, .fixed-navigation li.active a,
+.language-switcher ul li.active a, .no-touchDevice .language-switcher ul a:hover,
+.ftr-menu li a:hover,
+.ftr-btm-menu a:hover,
+#footer .hotel-tel-email a:hover,
+.best-rate .rate,
+.breadcrumb .curr-pg,
+.header-navigation li.hm-item.active li.active a,
+.no-touch-device .header-navigation li.hm-item:hover li:hover a,
+.header-hotel-list h4 a:hover,
+.address-logo-wrapper .contact-info a:hover,
+.country h4.active a,
+h3.insta-sub-heading a{
+	color: #f6871f;
+}
+
+a,
+.underline-link:hover,
+.intro-content a:hover,
+h3.insta-sub-heading a:hover{
+	color: #97523f;
+}
+
+.header-top-text,
+.header-hotel-list h3{
+	color: #50423e;
+
+}
+.header-hotel-list h4 a{
+	color: #5c4846;
+}
+.btn a,
+.booking-mask-switcher,
+.best-rate .booking-link,
+.amenities-section,
+.amenities-title,.awd-title,.awd-pg-link,
+.ftr-awards-btn{
+	color: #fff;
+}
+
+.newsletter-smo .subscribe-block #email-address{
+	color:#898787;
+}
+.moditem-nav,
+.viewList-link a{
+	color:#50423f;
+}
+
+.header-hotel-list .continent{
+	color: #231f20;
+}
+
+
+/* GLOBAL FONT WEIGHT */
+h4, h5, h6{
+	font-weight: normal;
+}
+
+.navigation .menuLevel2{
+	font-weight: bold;
+}
+
+/* GLOBAL TEXT TRANSFORMS */
+h1, h2,
+.btn a,
+.navigation li a,
+.moditem-nav,
+.more-link, .header-top-text,
+.header-hotel-list h3, .header-hotel-list .hotel,
+#footer h3.ftr-block-title,
+#footer .hotel-address .hotel-name,
+.ftr-menu li a,
+.copyright,
+.ftr-btm-menu a,
+.partner-logo-wrap,
+.viewList-link a,
+.item-detailview .itemTitle,
+.bottom-block .section-title,
+.review-item .date-block,
+.best-rate .rate, .best-rate .booking-link,
+.breadcrumb, .weather-widget-wrapper,
+.downloadItems .downloadItem,
+.amenities-title,.ftr-awards-btn,.awd-title,.awd-pg-link {
+	text-transform: uppercase;
+}
+.navigation li ul li a,
+.secondary-title, h3{
+	text-transform: none;
+}
+
+/* GLOBAL TEXT DECORATIONS */
+a,
+.primary-btn, .secondary-btn{
+	text-decoration: none;
+}
+
+
+/* GLOBAL LINE HEIGHT */
+p, li{
+	line-height: 1.5;
+}
+h1, h2{
+	line-height: 1.4;
+}
+.booking-mask-switcher{
+	line-height: 1.3;
+}
+h3, .secondary-title{
+	line-height: 1.1;
+}
+.amenities-content ul li{
+	line-height:1.5;
+}
+
+
+/* GLOBAL TEXT ALIGNMENT */
+#main-content,
+.booking-mask-switcher,
+.bottom-cont-wrapper,
+.review-rotator .section-title,
+.partner-logo-wrap,
+.amenities-section,
+#blockCollection .accordionContent,.ftr-awards-btn,
+.awd-title,
+.awards-block{
+	text-align: center;
+}
+
+.breadcrumb,
+.amenities-content{
+	text-align: left;
+}
+
+
+/* LETTER SPACING */
+h1{
+	letter-spacing: 0.07em;
+}
+h2, h3,
+.more-link{
+	letter-spacing: 2px;
+}
+h2.second-title,
+#footer h3.ftr-block-title{
+	letter-spacing:0.07em;
+}
+.secondary-title,
+.amenities-title {
+	letter-spacing:0.05em;
+}
+#footer .hotel-address .hotel-name,
+.amenities-content ul li {
+	letter-spacing: 0.02em;
+}
+.breadcrumb {
+	letter-spacing: 0.03em;
+}
+.hotel-address .hoteladdr,
+#footer .hotel-tel-email .hotel-tel,
+#footer .hotel-tel-email .email,
+.partner-logo-wrap{
+	letter-spacing: 0.04em;
+}
+.copyright,
+.ftr-btm-menu a,
+#footer .ftr-smo-bar h3.ftr-block-title,.ftr-awards-btn{
+	letter-spacing:0.08em;
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+	body{
+		font-size: .9em;
+	}
+	h1{
+		font-size: 2em;
+	}
+	h2{
+		font-size: 2.1em;
+	}
+	h3{
+		font-size: 1.4em;
+	}
+	.best-rate p.rate{
+		font-size: 1.15em;
+	}
+	.secondary-title,
+	.booking-mask-switcher,
+	#footer h3.ftr-block-title,
+	.best-rate p.rate{
+		font-size: 1.1em;
+	}
+	h2.second-title {
+		font-size: 1.1em;
+	}
+	.amenities-title{
+		font-size:1.75em;
+	}
+
+	.fixed-navigation li.fm-item.serena-home{
+		font-size: .9em;
+	}
+	
+	h1{
+		letter-spacing: 0.09em;
+	}
+	h2{
+		letter-spacing: 2px;
+	}
+	h2.second-title {
+		letter-spacing: 0.05em;
+	}
+	.amenities-title{
+		letter-spacing:0.06em;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	body{
+		font-size: .9em;
+	}
+	
+	h1{
+		font-size: 1.85em;
+	}
+	h2{
+		font-size: 1.8em;
+	}
+	h3{
+		font-size: 1.15em;
+	}
+	.secondary-title,
+	.booking-mask-switcher,
+	#footer h3.ftr-block-title,
+	.best-rate p.rate{
+		font-size: 1.1em;
+	}
+	.more-link{
+		font-size: .9em;
+	}
+	h2.second-title{
+		font-size: 1.05em;
+	}
+	.amenities-title{
+		font-size: 1.6em;
+	}
+	
+	h1{
+		letter-spacing:0.05em;
+	}
+	.amenities-title{
+		letter-spacing: 0.06em;
+	}
+	
+	h2,
+	.more-link{
+		letter-spacing: 1px;
+	}
+	
+	h3{
+		line-height: 1.3;
+	}
+	.secondary-title {
+		line-height: 1.45;
+	}
+
+}
+
+@media (max-width: 767px) {
+	body{
+		font-size: .9em;
+	}
+	h1, h2{
+		font-size: 1.8em;
+		letter-spacing: 0.08em;
+	}
+	h3{
+		font-size: 1.1em;
+	}
+	h2.second-title {
+		font-size: 1em;
+	}
+	.more-link{
+		font-size: .9em;
+	}
+	.booking-mask-switcher{
+		font-size: .85em;
+	}
+	.amenities-title{
+		font-size: 1.45em;
+	}
+	
+	.booking-mask-switcher{
+		letter-spacing: 1px;
+	}
+	.amenities-title {
+		letter-spacing: 0.04em;
+	}
+	
+	
+}
+/***************  templates/hotel/css/global.layout.css  ***************/
+/* ----- START LAYOUT COMMON TO ALL PAGES ----- */
+/* DOUBLE CLICK FIX */
+#condorAddBody #addBodyContent iframe{
+	position: absolute;
+}
+
+/* START ANTI-MARGIN-COLLAPSING */
+div#something {
+	margin-top: -1px;
+	padding-top: 1px;
+}
+/* END ANTI-MARGIN-COLLAPSING */
+
+
+/* START FLOAT ENCLOSING ("EASY CLEARING") */
+#main-content:after,
+.bm-form-wrapper:after,
+.info-detail-form-wrp:after, 
+.sitemap-wrapper ul:after,
+.sitemap-wrapper .inner-wrapper:after,
+.contact-info-block:after, .address-wrapper:after, .map-controllers:after, .map-categories:after,
+.sm-wrapper:after{
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/* END FLOAT ENCLOSING ("EASY CLEARING") */
+
+#async-google-map{
+	height: 400px;
+}
+/* START OFFSCREEN */
+div#languages h2{
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	width: 0;
+	height: 0;
+}
+/* END OFFSCREEN */
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	overflow: hidden;
+	background: #fff;
+}
+body.open-navigation{
+	background: #efeeee;
+}
+.open-destination-popup{
+	overflow: visible !important;
+}
+
+/*Remove defaulr select dropdown icon*/
+select::-ms-expand {
+    display: none;
+}
+
+input,
+textarea,
+select{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+	appearance:none;
+}
+input,
+textarea,
+button,
+select{
+	border-radius:0;
+}
+select:-ms-expand{
+    display: none;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+select:-moz-focusring { 
+	color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+	ul li{
+		list-style-type: none;
+	}
+
+a:focus{
+    outline: 0;
+}
+
+/*Preloader*/
+#main-visual, .attachment, .itemPreview .image-col, .itemPreviewImageSection, .offer-itm-img, .gallery-container .video, .popup-attachment .attachments{
+	background: url(/templates/hotel/images/preloader.gif) center center no-repeat;
+}
+
+#async-google-map{
+	background: url(/templates/hotel/images/preloader_map.gif) center center no-repeat;
+}
+
+/*404 Page*/
+#page_404 #main-content{
+	margin-bottom: 70px;
+}
+.show-in-mobile{
+	display: none;
+}
+
+.hide-in-mobile{
+	display: block;
+}
+.back-link{
+	position: relative;
+	float: right;
+	margin-right: 78px;
+	padding-left: 20px;
+}	
+.back-link a:after {
+	background-image: url(/templates/hotel/images/bg-sprite.svg);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 6px;
+	top: 7px;
+	background-position: -51px -14px;
+}
+
+.slick-list.draggable, .slick-track {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.image-col .slick-next {
+    background-position: -277px -5px;
+    left: auto;
+    right: 26px;
+}
+.image-col .slick-prev, .image-col .slick-next {
+    background-position: -246px -5px;
+    background-size: 700px auto;
+    height: 42px;
+    left: 26px;
+    width: 22px;
+}
+
+.slick-prev,
+.slick-next{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 20px;
+	height: 32px;
+	background-position: -193px -4px;
+	display: block;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	z-index: 10;
+	background-color: transparent;
+	text-indent:-9999px;
+}
+.slick-next{
+	left: auto;
+	right: 0;
+	background-position: -217px -4px;
+}
+.header-slideshow .slick-prev,
+.header-slideshow .slick-next{
+	background-size: 550px auto;
+}
+
+.slick-disabled{
+	cursor: default;
+}
+
+.mod-hightlights .slick-dots li,
+.review-rotator  .slick-dots li{
+	display: block;
+	width: 9px;
+	height: 9px;
+	background: #50423e;
+	border: 1px solid #50423e;
+	margin: 28px 0;
+	border-radius: 65px;
+	cursor: pointer;
+}
+.mod-hightlights .slick-dots li.slick-active,
+.review-rotator .slick-dots li.slick-active{
+	background: #fff;
+	cursor: default;
+}
+	.slick-dots li button{
+		padding: 0;
+		border: none;
+		text-indent: -9999px;
+	}
+/* [data-device^='desktop'] .slick-prev:hover,
+.slick-disabled.slick-prev{
+	background-position: -202px -154px;
+}
+[data-device^='desktop'] .slick-next:hover,
+.slick-disabled.slick-next{
+	background-position: -260px -154px;
+} */
+
+	
+.after:after,
+.before:before,
+.switcher-ele:before, .switcher-ele:after,
+.booking-mask-switcher:after, .date-picker .ui-datepicker-prev:before, .date-picker .ui-datepicker-next:after,
+.underline-link:after,
+.hover-bg .image-slide:before, .hover-bg .image-slide:after{
+	content: '';
+	display: inline-block;
+	overflow: hidden;
+	pointer-events: none;
+}
+
+.bg,
+.after:after,
+.before:before,
+.slick-slider button,
+.date-picker .ui-datepicker-prev:before, .date-picker .ui-datepicker-next:after,
+.hover-bg .image-slide:after,
+.hotel-tel-email .tel:before,
+.hotel-tel-email .email:before,.award-arrow,.ftr-awards-btn:after{
+	background-image: url(/templates/hotel/images/bg-sprite.svg);
+	background-repeat: no-repeat;
+}
+
+.no-touch-device .booking-mask-switcher:hover,
+.booking-mask .booking-link:hover,
+.inner-wrapper .golf-button:hover{
+	background: #e17a38;
+}
+
+.no-touch-device .booking-mask-switcher:hover:after{
+	border-top: 25px solid #e17a38;
+}	
+
+/** POSITIONING **/
+.float-l{
+	float: left; _display: inline;
+}
+.float-r{
+	float: right; _display: inline;
+}
+
+.only-portrait-mobile,
+.mobile-only{
+	display: none;
+}
+
+/** BUTTON STYLES **/
+.primary-btn{
+	padding: 12px 38px;
+	background: #049fdf;
+	color: #fff;
+}
+.secondary-btn{
+	padding: 10px 38px;
+	background: transparent;
+	border: 1px solid #272624;
+	color: #000;
+}
+.primary-btn:hover{
+	background: #008dcb;
+}
+.secondary-btn:hover{
+	background: #272624;
+	border: 1px solid #272624;
+	color: #fff;
+}
+
+.brown-bg{
+	background:#50423f;
+}
+.brown-bg:hover{
+	background:#5C4B46;
+}
+.btn{
+	margin:0 auto;
+}
+.btn a{
+	width:100%;
+	height:100%;
+	display:inline-block;
+}
+
+.read-more-toggle{
+	text-align: center;
+	padding-top: 16px;
+}
+	.read-more-ico{
+		position: relative;
+		display: block;
+		width: 32px;
+		height: 32px;
+		margin: 0 auto;
+		cursor: pointer;
+	}
+	.hide-toggle-btns,
+	.read-more-toggle .readless,
+	.open-content  .read-more-toggle .readmore,
+	.open-content  .read-more-toggle .read-more-ico:after{
+		display: none;
+	}
+	.open-content .read-more-toggle .readless{
+		display: block;
+	}
+
+	.read-more-toggle .read-more-ico:before, 
+	.read-more-toggle .read-more-ico:after {
+		position: absolute;
+		top: 15px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 2px;
+		background:#404040;
+		content: '';
+	}
+	.read-more-toggle .read-more-ico:after {
+		width: 2px;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+
+.underline-link{
+	position:relative;
+}
+.underline-link:after{
+	/* border-bottom: 1px solid; */
+	float: left;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 1px;
+	background: #97523f;
+}
+.underline-link:hover:after{
+	bottom: 45%;
+}
+
+.hover-bg .image-slide{
+	overflow:hidden;
+	position:relative;
+}
+.hover-bg .image-slide:before{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: rgba(255,255,255,0.7);
+	opacity: 0;
+	overflow: hidden;
+	transition:all 0.65s ease 0s;
+}
+.hover-bg .image-slide:after{
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	left: 0;
+	right: 0;
+	width: 38px;
+	margin: 0 auto;
+	background-position: -10px -86px;;
+}
+.hover-bg .image-slide:before{
+	transition:all 0.65s ease 0s;
+}
+.no-touch-device .hover-bg .image-slide:hover:before,
+.no-touch-device .hover-bg .image-slide:hover:after{
+	height: 100%;
+	opacity: 1;
+	visibility: visible;
+}
+.no-touch-device .hover-bg .image-slide:hover:after{
+	height: 39px;
+}
+.no-touch-device .hover-bg .image-slide:hover:before{
+	width:100%;
+	height:100%;
+}
+
+.full-width-wrapper{
+	position: relative;
+	width: 100%;
+	display: inline-block;
+}
+.inner-wrapper{
+	position: relative;
+	width: 1162px;
+	margin: 0 auto;
+}
+
+#holder{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	perspective: 2000px;
+    perspective-origin: 50% 50%;
+}
+
+	.holder-inner-wrapper{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		left: 0;
+		backface-visibility: hidden;
+		
+		-webkit-transform: rotateY(0deg) translateX(0px);
+		-moz-transform: rotateY(0deg) translateX(0px);
+		-ms-transform: rotateY(0deg) translateX(0px);
+		transform: rotateY(0deg) translateX(0px);
+		
+		-webkit-transition: all 500ms cubic-bezier(0.8, 0, 0.2, 0.9) 0s;
+		-moz-transition: all 500ms cubic-bezier(0.8, 0, 0.2, 0.9) 0s;
+		-ms-transition: all 500ms cubic-bezier(0.8, 0, 0.2, 0.9) 0s;
+		transition: all 500ms cubic-bezier(0.8, 0, 0.2, 0.9) 0s;
+		
+		z-index: 1;
+	}
+	.open-navigation .holder-inner-wrapper{
+		transform: rotateY(38deg) translateX(-180px);
+	}
+	.fixed-header.open-navigation .holder-inner-wrapper{
+		transform: rotateY(38deg) translateX(-180px) translateY(10px);
+	}
+	.no-csstransforms3d.open-navigation .holder-inner-wrapper{
+		left: auto;
+		right: 333px;
+	}
+
+
+/* HEADER
+-------------------------------- */
+#header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: calc(100% - 17px);
+	height: auto;
+	z-index: 1000;
+	-webkit-transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-o-transition: all 250ms ease;
+	transition: all 250ms ease;
+}
+.fixed-header #header{
+	position: fixed;
+	top: -39px;
+}
+.open-navigation #header{
+	width: 100% !important;
+}
+	.header-content{
+		position: relative;
+		width: 100%;
+	}
+	.header-top-content{
+		height: 39px;
+		background: #f2ebd9;
+	}
+		.header-top-text{
+			display: block;
+			float: left;
+			margin: 0;
+			padding: 13px 15px 9px 24px;
+		}
+		.prestige-link{
+			height: 14px;
+			padding: 0 15px 0;
+			margin: 13px 0 8px;
+			border-left: 2px solid #50423e;
+			line-height: 18px;
+		}
+		.hotel-list-switcher{
+			background: #50423e;
+			cursor: pointer;
+			color: #fff;
+		}
+
+			.hotel-list-switcher-lbl,
+			.hotel-list-switcher-text{
+				float: left;
+				display: block;
+				margin-right: 15px;
+			}
+			.hotel-list-switcher-text{
+				margin-right: 0;
+			}
+			.hotel-list-switcher-text:after{
+				position: relative;
+				width: 13px;
+				height: 11px;
+				top: 4px;
+				right: 0;
+				margin-left: 10px;
+				background-position: -158px -45px;
+			}
+			.open-hotel-list .hotel-list-switcher-text:after{
+				top: 0;
+				-webkit-transform: rotate(180deg);
+				-moz-transform: rotate(180deg);
+				-o-transform: rotate(180deg);
+				-ms-transform: rotate(180deg);
+				transform: rotate(180deg);
+			}
+			
+		.group-link{
+			padding: 2px 15px 10px 14px;
+		}
+		.group-link:before,
+		.serena-home:before{
+			position: relative;
+			width: 17px;
+			height: 22px;
+			top: 5px;
+			right: 0;
+			margin-right: 10px;
+			background-position: 0 -8px;
+		}
+		.group-link:hover:before,
+		.serena-home:hover:before{
+			background-position: -26px -8px;
+		}
+		
+		.language-switcher {
+			position: absolute;
+			right: 22px;
+			top: 12px;
+			width: 35px;
+			display: block;
+		}
+		.hide-lang-switcher .language-switcher {
+			display: none;
+		}
+			.ative-lang {
+				position: relative;
+				display: block;
+				width: 100%;
+				cursor: pointer;
+				color: #50423f;
+				text-transform: uppercase;
+				opacity: 1;
+			}
+			.ative-lang:after {
+				position: absolute;
+				width: 13px;
+				height: 11px;
+				top: 6px;
+				right: 0;
+				background-position: -192px -8px;
+			}
+			.language-switcher.active .ative-lang:after{
+				top: 1px;
+				-webkit-transform: rotate(180deg);
+				-moz-transform: rotate(180deg);
+				-o-transform: rotate(180deg);
+				-ms-transform: rotate(180deg);
+				transform: rotate(180deg);
+			}
+			.no-touch-device .ative-lang:hover,
+			.no-touch-device .more-menu-switcher:hover{
+				opacity: 0.5;
+			}
+			
+			.language-switcher ul{	
+				position: relative;
+				top: 5px;
+				left: -11px;
+				margin: 0;
+				padding: 0;
+				background-color: #f2ebd9;
+				z-index: 25;
+				display: none;
+			}
+				.language-switcher ul li{	
+					padding-left: 10px;
+				}
+				.language-switcher ul a {
+					text-decoration: none;
+					text-transform: uppercase;
+				}
+
+		.weather-widget-wrapper{
+			width: auto;
+			height: calc(100% - 24px);
+			padding: 13px 17px 11px;
+			margin-right: 80px;
+			border-right: 1px solid #d3cdbe;
+			line-height: 13px;
+		}
+		.hide-lang-switcher .weather-widget-wrapper{
+			margin-right: 0;
+			border-right: none;
+		}
+			.time{
+				height: 14px;
+				padding-left: 12px;
+				border-left: 2px solid #50423e;
+				letter-spacing: 1px;
+				line-height: 18px;
+			}
+			#weather{
+				height: 14px;
+				padding-right: 12px;
+				line-height: 18px;
+			}
+			
+	.header-hotel-list{
+		position: absolute;
+		top: 39px;
+		left: 0;
+		width: 100%;
+		height: 0;
+		background: #fff;
+		z-index: 100;
+		opacity: 0;
+		overflow: hidden;
+	}
+	.open-hotel-list .header-hotel-list{
+		height: 550px;
+		opacity: 1;
+		visibility: visible;
+	}
+		.header-hotel-list .inner-wrapper{
+			height: 100%;
+		}
+			.continent{
+				float: left;
+				width: 138px;
+				margin: 235px 0;
+				position: relative;
+			}
+			.continent:after{
+				content: '';
+				display: inline-block;
+				overflow: hidden;
+				pointer-events: none;
+				position: absolute;
+				left: 0;
+				bottom: -6px;
+				width: 22px;
+				height: 2px;
+				background: #f6871f;
+			}
+				.country-wrapper{
+					float: left;
+					margin-top: 57px;
+				}
+				.country-wrapper-0:after,
+				.country-wrapper-1:after{
+					position: absolute;
+					top: 95px;
+					left: 95px;
+					width: 345px;
+					height: 371px;
+					background-position: -14px -359px;
+					z-index: -1;
+				}
+				.country-wrapper-1:after{
+					left: auto;
+					right: 35px;
+					width: 401px;
+					height: 382px;
+					background-position: -400px -358px;
+				}
+					.country-block{
+						float: left;
+						position: relative;
+						width: 265px;
+					}
+						.country{
+							float: left;
+							width: 265px;
+							margin-bottom: 25px;
+						}
+							.country h3{
+								margin: 0 0 10px;
+							}
+							.country h4{
+								position: relative;
+								margin: 0 0 5px;	
+							}
+							.country h4.active:before,
+							.country h4:hover:before{
+								position: absolute;
+								top: 0;
+								left: -22px;
+								width: 17px;
+								height: 9px;
+								margin: 3px 4px 0 0;
+								background-position: -373px -74px;
+							}
+	
+	.header-middle-content{
+		height: 87px;
+		background: #fbf2e1;
+	}
+		.header-content .logo{
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			margin: 0 25px;
+		}
+			.header-content .logo img{
+				display: block;
+				height: auto;
+			}
+		
+		.header-navigation{
+			float: right;
+			width: auto;
+			margin: 27px 0 0 0;
+		}
+			.navigation li{
+				display: none;
+				letter-spacing: 1px;
+			}
+			.header-navigation li.hm-item{
+				position: relative;
+				display: table-cell;
+				height: 28px;
+				/* border-right: 1px solid #f6871f; */
+				vertical-align: middle;
+				line-height: 16px;
+			}
+			.header-navigation li.hm-item.experiences{
+				border-right: none;
+				margin-right: 16px;
+			}
+			.header-navigation li.hm-item:after {
+				position: absolute;
+				left: 0;
+				right: 0;
+				width: calc(100% - 60px);
+				background: #f68721;
+				bottom:18px;
+				content: "";
+				height: 6px;
+				left: 0;
+				margin: 0 auto;
+				opacity: 0;
+			}
+			.header-navigation li.hm-item:before {
+				width:1px;
+				height:28px;
+				background:#f6871f;
+				position:absolute;
+				top:2px;
+				content: "";
+				left:0;
+			}
+			.header-navigation li.hm-item.accommodation:before {
+				display:none;
+			}
+			.no-touch-device .header-navigation li.hm-item:hover:after,
+			.header-navigation li.hm-item.active:after{
+				bottom: 0;
+				opacity: 1;
+			}
+				.header-navigation li.hm-item a{
+					display: block;
+					padding: 10px 35px 34px;
+				}
+				.serenalakevictoria .header-navigation li.hm-item a{
+					padding-left: 30px;
+					padding-right: 30px;
+				}
+				.header-navigation li.hm-item.active a,
+				.no-touch-device .header-navigation li.hm-item:hover a{
+					color: #f68721;
+				}
+				.touch-device .navigation li:hover .menuLevel2{
+					display:none;
+				}
+				.touch-device .header-navigation li.hm-item:hover:after{
+					display:none;
+				}
+				
+		.more-menu-switcher{
+			float: right;
+			/*width: 40px;
+			height: 25px;*/
+			/*padding: 8px 10px;*/
+			margin: 23px 175px 0 0;
+			position: relative;
+			cursor: pointer;
+		}
+			.switcher-ele,
+			.switcher-ele:before,
+			.switcher-ele:after{
+				position: absolute;
+				top: 19px;
+				left: 0;
+				right: 0;
+				width: 40px;
+				height: 3px;
+				margin: 0 auto;
+				background: #50423e
+			}	
+			.switcher-ele:before{
+				top: -10px;
+			}
+			.switcher-ele:after{
+				top: auto;
+				bottom: -10px;
+			} 
+
+			.more-menu-switcher .switcher-ele{
+				display: none;
+			}
+
+			.more-menu-switcher .switcher-text{
+				padding: 6px 34px 6px 20px;
+				border: #4c4240 solid 1px;
+				font-size: 0.79em;
+				position: relative;
+				border-radius: 40px;
+				text-transform: uppercase;
+				font-family: "oswaldregular",Helvetica,sans-serif;
+				color: #4c4240;
+				display: inline-block;
+				margin-top: 3px;
+			}
+
+			.more-menu-switcher .switcher-text.show-mobile{
+				display: none;
+			}
+
+			.more-menu-switcher .switcher-text:after{
+				position: absolute;
+				content: '';
+				width: 13px;
+				height: 11px;
+				right: 16px;
+				top: 9px;
+				background: url(/templates/hotel/images/down_arrow.svg)no-repeat center;
+				background-size: contain;
+			}
+		
+		.booking-mask-switcher{
+			position: absolute;
+			top: 0;
+			right: 0;
+			margin: 0;
+			width: 150px;
+			height: 87px;
+			background: #f6871e;
+			cursor: pointer;
+			z-index: 1;
+		}
+		.booking-mask-switcher:before {
+			position: absolute;
+			width: 16px;
+			height: 5px;
+			bottom: -15px;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			background-position: -189px -44px;
+			z-index: 1;
+			pointer-events: auto;
+		}
+		.booking-mask-switcher:after{
+			position: absolute;
+			bottom: -25px;
+			left: 0;
+			width: 0; 
+			height: 0; 
+			pointer-events: auto;
+			border-left: 75px solid transparent;
+			border-right: 75px solid transparent;
+
+			border-top: 25px solid #f6871e;
+		}
+
+			.bm-switcher-text{
+				display: block;
+				margin-top: 25px;
+			}
+
+		
+	.header-bottom-content{
+		height: 0;
+		background: #3c3230;
+		opacity: 0;
+		visibility: hidden;
+		overflow: hidden;
+	}
+	.open-bookingmask .header-bottom-content{
+		height: 112px;
+		opacity: 1;
+		visibility: visible;
+		overflow: visible;
+	}
+		.header-bottom-content .inner-wrapper{
+			width: 1270px;
+		}
+		
+	.fixed-navigation{
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 100%;
+		height: 0;
+		z-index: 0;
+		background: url(/templates/hotel/images/body-bg.png) no-repeat right bottom;
+	}
+	.open-navigation .fixed-navigation{
+		height: 100%;
+		visibility: visible;
+		opacity: 1;
+		-webkit-transition: opacity 400ms 400ms ease-in-out;
+		-moz-transition: opacity 400ms 400ms ease-in-out;
+		-ms-transition: opacity 400ms 400ms ease-in-out;
+		-o-transition: opacity 400ms 400ms ease-in-out;
+		transition: opacity 400ms 400ms ease-in-out;
+	}
+		.fixed-nav-wrapper{
+			float: right;
+			width: 20%;
+			height: auto;
+			margin-top: 170px;
+		}
+			.fixed-navigation li{
+				margin-bottom: 10px;
+				letter-spacing: 1px;
+			}
+			.fixed-navigation li.fm-item{
+				display: block;
+			}
+			.fixed-navigation li.fm-item.serena-home{
+				margin-bottom: 135px;
+			}
+		.close-fixed-menu{
+			position: absolute;
+			top: 30px;
+			right: 30px;
+			width: 25px;
+			height: 25px;
+			padding: 10px;
+			cursor: pointer;
+		}
+			.close-fixed-menu-icon{
+				display: block;
+				width: 26px;
+				height: 25px;
+				background-position: -452px -10px;
+			}
+		.submenu-wrapper{
+			display:none;
+		}
+		.navigation li ul li{
+			display:block;
+			text-align:center;
+			margin-bottom:13px;
+		}
+		.header-navigation li.hm-item li a{
+			padding: 0 30px;
+		}
+		.serenakampala .header-navigation li.hm-item li a{
+			padding: 0 30px;
+		}
+		.navigation li ul li.last{
+			margin:27px 0 0;
+		}
+		.navigation li ul li.last img{
+			display:block;
+			width:100%;
+		}
+		.navigation .menuLevel2 {
+			left:50%;
+			position: absolute;
+			top: 60px;
+			width: 306px;
+			margin-left: -153px;
+			background: #fff;
+			padding: 17px 0 0;
+			display: none;
+			border-bottom: 7px solid #f6871f;
+			z-index: 10;
+		}
+	/* 	.navigation li.accommodation  .menuLevel2, */
+		.navigation li:hover .menuLevel2{
+			display:block;
+		}
+
+/* BEST RATE [LD]
+-------------------------------- */
+#best-rate{
+	float: left;
+	position: relative;
+	height: 112px;
+	padding-left: 35px;
+	z-index: 5;
+}
+.best-rate:before{
+	position: absolute;
+	top: 56px;
+	left: 0;
+	width: 26px;
+	height: 28px;
+	margin-right: 10px;
+	background-position: -272px -101px;
+}
+	.best-rate h3{
+		display: none;
+	}
+	.best-rate .rate{
+		margin: 50px 0 0;
+		letter-spacing: 1px;
+		line-height: 22px;
+	}
+		.best-rate .rate .label{
+			margin-right: 3px;
+		}
+		/* .best-rate .rate .currency,
+		.best-rate .rate .amount{
+			font-size: .8em;
+		} */
+		.best-rate .rate .cents{
+			display: none;
+		}
+		.best-rate .booking-link{
+			
+		}
+		
+/* AVAILABILTY-CHECKER
+-------------------------------- */	
+#availability-checker { 
+	float: left;
+	position: relative;
+	width: 100%;
+	opacity: 0;
+	visibility: hidden;
+}
+.open-bookingmask #availability-checker { 
+	opacity: 1;
+	visibility: visible;
+}
+		.booking-mask{ 
+			float: left; 
+			margin: 27px 0 0 21px;
+			/* position: relative; **** DONT MAKE THIS RELATIVE .date-picker is relative to #availability-checker */
+		}
+			.bm-form-wrapper{
+				position: relative;
+			}
+			.booking-mask .hotel,
+			.booking-mask .date ,
+			.booking-mask .choose { 
+				float: left;
+				position: relative;
+				width: auto;
+				margin-right: 16px; 
+				cursor: pointer;
+			}
+			.booking-mask .date:after { 
+				position: absolute; 
+				top: 30px; 
+				right: 10px; 
+				width: 20px;
+				height: 20px;
+				background-position: -308px -105px;
+			}
+			.booking-mask .hotel:after, 
+			.booking-mask .choose:after { 
+				position: absolute; 
+				top: 39px; 
+				right: 12px; 
+				width: 14px;
+				height: 7px;
+				background-position: -190px -8px;
+			}
+				.booking-mask label { 
+					float: left;
+					margin-bottom: 8px;
+					font-size: .9em;
+					color: #fff; 
+					text-align: left; 
+					letter-spacing: 1px;
+				}
+
+				.booking-mask input, .booking-mask select { 
+					float: left;
+					width: 153px;
+					height: 35px; 
+					border: none; 
+					margin: 0; 
+					padding: 0 12px 0; 
+					background: #fff; 
+					border-radius: 5px; 
+					white-space: nowrap; 
+					text-overflow: ellipsis; 
+					clear: both;
+					cursor: pointer;
+					font-size: .95em;
+				}
+				.booking-mask .date input { 
+					padding: 2px 12px 0 17px;
+					height: 33px;
+				}
+
+				.booking-mask select { 
+					width: 78px;
+					padding: 5px 40px 3px 12px;
+				}
+
+
+				.booking-mask .booking-link, .inner-wrapper .golf-button { 
+					float: left; 
+					display: block; 
+					width: auto;
+					background: #f6871f;
+					margin: 25px 0 0 4px;
+					padding: 6px 37px; 
+					border: none; 
+					cursor: pointer;
+					
+					font-size: 1em; 
+					color: #fff; 
+					text-transform: uppercase;
+					letter-spacing: 2px;
+				}
+				
+				.modify{
+					float: left;
+					margin: 30px 0 0 22px;
+					border-bottom: 1px solid #fff;
+					padding-bottom: 3px;
+					color: #fff;
+					font-size: .9em;
+				}
+				.modify:hover{
+					color:#f6871f;
+					border-color: #f6871f;
+					cursor: pointer;
+				}
+				
+				.booking-mask .resident {
+					position: absolute;
+					right: 134px;
+					top: 0;
+					display: block;
+				}
+					.booking-mask .resident label {
+						margin-left: 8px;
+						cursor: pointer;
+					}
+					.resident > input {
+						border-radius: 3px;
+						height: 14px;
+						margin: 2px 0 0;
+						padding: 0;
+						width: 14px;
+						position: relative;
+						cursor: pointer;
+					}
+					.resident > input.checked:after {
+						color: #000;
+						content: "✓";
+						font-size: 1.25em;
+						height: 100%;
+						left: 1px;
+						line-height: 11px;
+						position: absolute;
+						text-align: center;
+						top: 0px;
+						width: 100%;
+					}
+				
+			/** PICKER STYLES **/
+			.booking-mask .date-picker{ 
+				position: absolute;
+				top: 132px;
+				left: 0;
+				right: 0;
+				width: 100%; 
+				height: 310px; 
+				margin: 0 auto; 
+				opacity: 0; 
+				visibility: hidden;
+			}
+			.show-picker .booking-mask .date-picker{ 
+				opacity: 1; 
+				visibility: visible; 
+				width: 728px; 
+				margin-bottom: 12px;
+			}
+				.booking-mask .ui-datepicker { 
+					width: 39em !important;
+					margin: 0; 
+					padding: 0 30px; 
+					background: #fff; 
+					border: none;
+					pointer-events: auto;
+					position: relative;
+					-webkit-box-shadow: 1px 6px 8px -4px #000;  
+					-moz-box-shadow:    1px 6px 8px -4px #000;
+					box-shadow: 1px 6px 8px -4px #000;
+				}
+				.booking-mask .ui-datepicker:after{
+					width: 0; 
+					height: 0; 
+					border: 25px solid transparent;
+					border-bottom: 25px solid #fff;
+					display: block;
+					content: "";
+					left: 45px;
+					position: absolute;
+					top: -50px;
+				}
+				.booking-mask .ui-datepicker.click-date-in:after{
+					left: 265px;
+				}
+
+					.ui-datepicker-multi-2 .ui-datepicker-group{
+						width: 300px !important;
+					}
+					.ui-datepicker-multi-2 .ui-datepicker-group-first{
+						padding: 0 27px 44px 0;
+						border-right: 2px solid #989493;
+					}
+					.ui-datepicker-multi-2 .ui-datepicker-group-last{
+						padding-left: 22px;
+					}
+					#date-picker .ui-datepicker-prev,
+					#date-picker .ui-datepicker-next{
+						top: 36px; 
+						left: 0; 
+					}
+					#date-picker .ui-datepicker-next{
+						left: auto;
+						right: 0; 
+					}
+					.date-picker .ui-datepicker-prev:before,
+					.date-picker .ui-datepicker-next:after{ 			
+						position: absolute; 
+						top: 0; 
+						left: 0; 
+						display: block; 
+						width: 20px;
+						height: 8px;
+						padding: 10px;
+						background-position: -400px -16px;
+					}
+					.date-picker .ui-state-disabled:before{
+						cursor: default;
+					}
+					.date-picker .ui-datepicker-prev:before {  
+						top: 2px; 
+						-ms-transform: rotate(180deg); 
+						transform: rotate(180deg); 
+						position: absolute; 
+					}
+					
+					.booking-mask .ui-datepicker .ui-widget-header { 
+						background: none; 
+						border: none; 
+						padding: 32px 0 7px;
+						
+						font-family: "Times New Roman", Georgia, Serif;
+						color: #231f20;
+					}
+						.booking-mask .ui-datepicker .ui-widget-header .ui-datepicker-title{
+							font-size: 1.3em;
+							font-weight: normal;
+						}	
+
+						.booking-mask .ui-datepicker table {
+							background: none; 
+							border: none; 
+							margin: 0 auto 18px;
+						}
+							.booking-mask thead { 
+								background: none; 
+							}
+ 
+								.booking-mask .ui-datepicker th { 
+									padding: 4px 0; 
+									font-size: 14px; 
+									color: #f6871f; 
+									text-transform: uppercase; 
+									font-weight: bold; 
+								}
+								
+								.booking-mask .ui-datepicker td { 
+									padding: 1.5px 0; 
+									position: relative;
+								}
+								.booking-mask .ui-datepicker td .ui-state-default, 
+								.booking-mask .ui-datepicker td a { 
+									padding: 7px 6px; 
+									border: none; 
+									background: none;  
+									font-size: 11px; 
+									color: #231f20; 
+									text-align: center;
+									line-height: 14px;					
+								}
+								.booking-mask .ui-datepicker td.dp-highlight.first:after,
+								.booking-mask .ui-datepicker td.dp-highlight.ui-datepicker-current-day:before {
+									background: #ded3d0 none repeat scroll 0 0;
+									content: "";
+									height: calc(100% - 4px);
+									position: absolute;
+									top: 2px;
+									width: 50%;
+									z-index: 0;
+								}
+								.booking-mask .ui-datepicker td.dp-highlight.ui-datepicker-current-day.ui-datepicker-other-month:before {
+									display: none;
+								}
+								
+								.booking-mask .ui-datepicker td.dp-highlight.first:after{
+									right: 0;
+								}
+								.booking-mask .ui-datepicker td.dp-highlight.ui-datepicker-current-day:before{
+									left: 0;
+								}
+								.booking-mask .ui-datepicker td.ui-datepicker-days-cell-over.dp-highlight,
+								.booking-mask .ui-datepicker td.ui-datepicker-days-cell-over.dp-highlight:before,
+								.booking-mask .ui-datepicker td.ui-datepicker-days-cell-over.dp-highlight:after{
+									background: none;
+								}
+								.booking-mask .ui-datepicker td.dp-highlight a { 
+									background: #ded3d0; 
+									border: 1px solid #ded3d0; 
+									color: #231f20;
+								}
+								.booking-mask .ui-datepicker td.dp-highlight.first a,
+								.booking-mask .ui-datepicker td.ui-datepicker-current-day a,
+								.booking-mask .ui-datepicker td.dp-highlight.last a{
+									background: #543f3e;
+									border-color: #543f3e; 
+									color: #fff;
+									border-radius: 61px;
+									line-height: 21px;
+									margin: auto;
+									padding: 4px 7px;
+									width: 35%;
+									z-index: 1;
+									position: relative;
+								}
+								.booking-mask .ui-datepicker td.ui-datepicker-today a { 
+									background: #fff;
+									border: 1px solid #f6871f;
+									border-radius: 61px;
+									line-height: 18px;
+									margin: auto;
+									padding: 5px 7px 5px 6px;
+									width: 35%;
+									color: #231f20;
+								}
+								/* .booking-mask .ui-datepicker td.dp-highlight:first-child a,
+								.booking-mask .ui-datepicker td.dp-highlight:last-child a {
+									background: #50423e; 
+									border: 1px solid #50423e; 
+									color: #fff;
+								} */
+								#date-picker .ui-datepicker-prev span, #date-picker .ui-datepicker-next span {
+									background: none; 
+									overflow: auto; 
+									display: none; 
+								}
+
+								#date-picker .ui-datepicker-prev.ui-state-hover, 
+								#date-picker .ui-datepicker-next.ui-state-hover { 
+									background: none; 
+									border-color: transparent; 
+								}
+			
+								#ui-datepicker-div { display: none !important; }		
+
+			/*modify booking popup*/
+			.popup-wrapper-modify{
+				width: auto;
+				height: 220px;
+				position: absolute;
+				right: 0;
+				top: 132px;
+				background:#ffffff;
+				padding: 30px 25px;	
+				width: 320px;
+				opacity: 0;
+				visibility: hidden;
+				z-index: -999;
+				-webkit-transition:opacity 0.5s ease-in-out;
+				-moz-transition:opacity 0.5s ease-in-out;
+				-o-transition:opacity 0.5s ease-in-out;
+				-ms-transition:opacity 0.5s ease-in-out;
+				transition:opacity 0.5s ease-in-out;
+
+				-webkit-box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.39);
+				-moz-box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.39);
+				box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.39);
+
+				/*-webkit-transition:opacity 0.7s;
+				-moz-transition:opacity 0.7s;
+				-o-transition:opacity 0.7s;
+				-ms-transition:opacity 0.7s;
+				transition:opacity 0.7s;*/
+
+			}
+
+			.show-modify .popup-wrapper-modify{	
+				opacity: 1;
+				visibility: visible;
+				z-index: 10;
+			}
+
+				.popup-wrapper-modify:after{
+					width: 0; 
+					height: 0; 
+					border: 25px solid transparent;
+					border-bottom: 25px solid #fff;
+					display: block;
+					content: "";
+					right: 73px;
+					position: absolute;
+					top: -50px;
+				}
+
+			.popup-wrapper-modify label { 
+				float: left;
+				margin-bottom: 2px;
+				font-size: .9em;
+				color: #404040; 
+				text-align: left; 
+				letter-spacing: 1px;
+			}
+
+			.popup-wrapper-modify input { 
+				float: left;
+				width: 153px;
+				height: 37px; 
+				border: #f6871f solid 1px; 
+				margin: 0; 
+				padding: 0 12px 0; 
+				background: #fff; 
+				border-radius: 5px; 
+				white-space: nowrap; 
+				text-overflow: ellipsis; 
+				clear: both;
+			}
+
+			.popup-wrapper-modify .modify-buttons{
+				width: 100%;
+				float: left;
+			}
+				.popup-wrapper-modify .modify-buttons button { 
+					display: block; 
+					width: auto;
+					background: #f6871f;
+					margin: 10px 0 0 0;
+					padding: 6px 37px; 
+					border:#f6871f solid 1px;
+					cursor: pointer;
+					font-size: 1em; 
+					color: #fff; 
+					text-transform: uppercase;
+					letter-spacing: 2px;
+				}
+
+				.popup-wrapper-modify .modify-buttons button#cancelModify{
+					border:#f6871f solid 1px;
+					background:#ffffff;
+					color: #404040;
+					float: left;
+				}
+
+				.popup-wrapper-modify .modify-buttons button#continueModify{
+					float: right;
+				}
+
+
+			
+
+/* ELE WRAPPER
+-------------------------------- */
+#ele-wrapper{
+	position: absolute;
+	width: 100%;
+    height: 100vh;
+	top: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+.open-navigation #ele-wrapper{
+	overflow: hidden;
+}
+.open-destination-popup #ele-wrapper{
+	height: auto;
+}
+
+/* MAIN-CONTENT
+-------------------------------- */
+#main-content{
+	float: left;
+	height: auto;
+}
+	#main-content .inner-wrapper{
+		max-width: 945px;
+	}
+	.no-mainvisual #main-content {
+		margin-top: 127px;
+	}
+	h1 {
+		margin-bottom:0;
+	}
+	h2.second-title {
+		margin-top: 0;
+		margin-bottom:12px;
+	}
+	.inner-wrapper .golf-button{
+		float: none;
+		display: table;
+		margin: 0 auto;
+	}
+	.content ul:not(.slick-dots),
+	.content ol{
+		display:table;
+		margin:0 auto 8px;
+	}
+	.content li{
+		text-align:left;
+		position:relative;
+	}
+	.content ol{
+		padding-left:18px;
+	}
+	.content ul li{
+		padding-left:15px;
+	}
+	.content ul li:not(.slick-active):after{
+		content: '.';
+		pointer-events: none;
+		display: inline-block;
+		font-size: 2.6em;
+		left: 0;
+		position: absolute;
+		line-height:1;
+		top:-19px;
+	}
+	ul.no-bullets li,
+	.content ul.no-bullets li,
+	.content ul.no-bullets li{
+		padding:0;
+		list-style-type:none;
+	}
+	ul.no-bullets li:after,
+	.content ul.no-bullets li:after,
+	.content ul.no-bullets li:after{
+		content: '';
+	}
+
+	
+/* BREADCRUMB
+----------------------------------*/
+.breadcrumb {
+	margin: 25px auto 33px;
+	width: 1263px;
+}
+	.breadcrumb br{
+		display: none;
+	}
+	.breadcrumb .breadcrumb-seperator{
+		background-position: -400px -21px;
+		display: inline-block;
+		height: auto;
+		text-indent: -9999px;
+		width: 20px;
+	}
+	
+	
+/* TABLE STYLE
+----------------------------------*/	
+.content table{
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #f6871f;
+	overflow-x: auto;
+}
+	.content thead tr td{
+		/* padding: 10px; */
+		background: #f6871f;
+		color: #fff;
+		border-color: #f2ebd9;
+		font-weight: bold;
+	}
+	.content tr td{
+		text-align: left;
+		/* padding: 5px 10px; */
+		background: #fbf2e1;
+		color: #000;
+		border-color: #f6871f;
+	}
+		.content tr td p{
+			margin: 0;
+		}
+
+
+		
+/* MAIN-VISUAL
+-------------------------------- */
+#main-visual{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/* height: 100vh; */
+	margin-top: 100px;
+	height: calc(100vh - 100px);
+	/* margin-top: 48px; */
+	max-height:908px;
+}
+.open-navigation #main-visual{
+	left: 16px;
+}
+	#main-visual .slideshow{
+		width: 100%;
+		height: 100vh;
+		background-size: cover;
+	}	
+	.loading #main-visual .slideshow{
+		background-image: none;
+	}
+		#main-visual .toolbox-link{
+			top: 135px;
+		}
+		#main-visual .slideshow div.slide { 
+			position: absolute;
+			top: 0;
+			left:0;
+			width: 100%;
+			height: 100vh;
+			/* height: calc(100vh - 48px); */
+			background-position: center center; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover; 
+			-o-background-size: cover; 
+			background-size: cover;
+		}
+			#main-visual .slideshow div.slide:after {
+				content: "";
+				height: 165px;
+				left: 0;
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+				opacity: 0;
+				z-index: 1;
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+79&0+0,0.65+100 */
+				background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.51) 79%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.51) 79%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.51) 79%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+			}
+
+			 #main-visual .slideshow div.slide.slide-a:after {
+			 	opacity: 1;
+			 	-webkit-transition: opacity 2s;
+			 	-moz-transition: opacity 2s;
+			 	-o-transition: opacity 2s;
+			 	-ms-transition: opacity 2s;
+			 	transition: opacity 2s;
+			 }
+
+			.slide .slide-title {
+				left: 148px;
+				bottom: 22px;
+				max-height: 116px;
+				overflow: hidden;
+				position: absolute;
+				
+				text-align: left;
+				z-index: 2;
+			}
+			.no-arrows .slide .slide-title {
+				left: 46px;
+			}
+				.slide .slide-title h3{
+					margin: 0;
+					
+					font-size: 1.45em;
+					line-height: 38px;
+					color: #fff;
+					letter-spacing: 1px;
+					text-transform: uppercase;
+				}
+				
+		.slide-show-nav{
+			position: absolute;
+			left: 46px;
+			bottom: 18px;
+			width: 86px;
+			height: 47px
+		}
+		
+
+
+/* FOOTER
+-------------------------------- */	
+
+.footer-wrp {	
+	float: left;
+	position: relative;
+	width: 100%;
+	min-height: 481px;
+	background-color: #eee;
+	clear: both;
+}
+
+	.footer {
+		min-height: 456px;
+		margin: 0 auto;
+		position: relative;
+		width: 1200px;
+		padding-top: 25px;
+	}
+	.ftr-btm {
+		float: left;
+		background-color: #fff;
+		height: 55px;
+		margin: 0 auto;
+		position: relative;
+		width: 1200px;
+	}
+
+	/* awards */
+	.ftr-awards {
+		background-color: #50423f;
+		cursor: pointer;
+		height: 100%;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 63px;
+		z-index: 2;
+		opacity: 1;
+	}	
+	.active-ftrawrds .ftr-awards-wrp .ftr-awards {
+		opacity: 1;
+		z-index: 2;
+	}
+	.awards-lst-wrp {
+		background: #50423f;
+		height: 100%;
+		position: absolute;
+		right: 0px;
+		top: 0;
+		width: 0;
+		overflow: hidden;
+	}
+	.awards-lst-wrp{
+		-webkit-transition:width 0.65s;
+		-moz-transition:width 0.65s;
+		-o-transition:width 0.65s;
+		-ms-transition:width 0.65s;
+		transition:width 0.65s;
+	}
+	.ftr-awards-wrp .awards-close-btn {
+		background-position: -147px -81px;
+		cursor: pointer;
+		display: block;
+		height: 33px;
+		position: absolute;
+		right: 18px;
+		top: 27px;
+		width: 33px;
+		z-index: 3;
+		opacity: 0;
+
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+		
+	.active-ftrawrds .ftr-awards-wrp .awards-close-btn {
+		opacity: 1;
+	}
+	.no-touch-device.active-ftrawrds .ftr-awards-wrp .awards-close-btn:hover {
+		opacity: 0.5;
+	}
+	.active-ftrawrds .ftr-awards-wrp .awards-lst-wrp {
+		width: 378px;
+	}
+	.active-ftrawrds .ftr-awards-wrp .awards-lst-wrp.up-2 {
+		width: 450px;
+	}
+	.active-ftrawrds .ftr-awards-wrp .awards-lst-wrp.up-3 {
+		width: 615px;
+	}
+	.active-ftrawrds .ftr-awards-wrp .awards-lst-wrp.up-4 {
+		width: 790px;
+	}
+	.active-ftrawrds .ftr-awards-wrp .awards-lst-wrp.up-5 {
+		width: 960px;
+	}
+
+	.ftr-awards-btn {
+		cursor: pointer;
+		height: auto;
+		padding-right: 34px;
+		position: absolute;
+		right: -25px;
+		top: 46.5%;
+		transform: rotate(270deg);
+		width: auto;
+		opacity: 1;
+	}
+	.ftr-awards-btn:after {
+		background-position: -365px -23px;
+		content: "";
+		display: block;
+		height: 31px;
+		position: absolute;
+		right: 9px;
+		top: 0;
+		width: 25px;
+		-webkit-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		transform: rotate(90deg);
+		-webkit-transition: top 0.65s;
+		-ms-transition: top 0.65s;
+		transition: top 0.65s;
+		}
+		.active-ftrawrds .ftr-awards-wrp .ftr-awards-btn:after{
+			top: 50px;
+		}
+	.awards-lst {
+		height: 100%;
+		margin: 0 63px 0 auto;
+    	width: calc(100% - 63px);
+	}
+	.awd-title {
+		padding-top: 32px;
+	}
+	.awards-block {
+		padding-top: 64px;
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+	.awd {
+		display: inline-block;
+		height: 150px;
+		margin: 0 14px 28px;
+		width: 140px;
+	}
+	.awd-pg-link {
+		border-bottom: 1px solid #fff;
+		bottom: 23px;
+		padding-bottom: 3px;
+		position: absolute;
+		right: -155px;
+	}
+	.no-touch-device .awd-pg-link:hover{
+		border-bottom: 1px solid #f6871f;
+	}
+	.awd span {
+		background-position: center center;
+		background-repeat: no-repeat;
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+	.no-touch-device .ftr-awards .ftr-awards-btn:hover{
+		opacity: 0.5;
+	}
+	.ftr-awards,.awards-close-btn,.no-touch-device .ftr-awards-btn,.no-touch-device .awards-close-btn{
+		-webkit-transition: opacity 0.65s;
+		-moz-transition: opacity 0.65s;
+		-o-transition: opacity 0.65s;
+		-ms-transition: opacity 0.65s;
+		transition: opacity 0.65s;
+	}
+	/* ========= */
+
+	.footer-wrp.active .triangle-up{
+		border-bottom: 43px solid #50423f;
+	}
+	.footer-wrp.active .triangle-up-small{
+ 		border-bottom: 13px solid #786e6b;
+	}
+
+	.triangle-up-small {
+	    border-bottom: 13px solid #fff;
+	    border-left: 21px solid transparent;
+	    border-right: 21px solid transparent;
+	    height: 0;
+	    left: -21px;
+	    position: absolute;
+	    top: 30px;
+	    width: 0;
+	    display: block;
+	}
+	.triangle-up {
+		border-bottom: 43px solid #eeeeee;
+		border-left: 70px solid transparent;
+		border-right: 70px solid transparent;
+		display: block;
+		height: 0;
+		left: 0;
+		margin: 0 auto;
+		position: absolute;
+		right: 0;
+		top: -43px;
+		width: 0;
+		cursor: pointer;
+	}
+	
+	.ftr-logo {
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.ftr-cnt-detail,
+	.ftr-menu,
+	.subscribe-partner-logo{
+		margin: 11px 0 0;
+	}
+	
+	.ftr-cnt-detail {
+	    min-height: 300px;
+	    width: 26%;
+	}
+	.ftr-menu {
+		min-height: 260px;
+		width: 24%;
+	}
+	.subscribe-partner-logo {
+		min-height: 285px;
+		width: 50%;
+		position: relative;
+	}
+	.ftr-block-title {
+		margin: 5px 0 0;
+	}
+	.cnt-region-block {
+		float: left;
+		margin: 16px 0 0;
+		min-height: 262px;
+		width: 100%;
+		box-sizing: border-box;
+		padding-right: 15px;
+	}
+	.cnt-region-block.asia {
+		margin-left: 5px;
+	}
+	#footer .hotel-address {
+		margin: 0 0 8px 0;
+	}
+	.hotelname,.hotel-tel-email span{
+		display: block;
+	}
+	.hoteladdr {
+		display: block;
+		line-height:1.5;
+		margin-top: 5px;
+	}
+	#footer .hotel-tel-email {
+		line-height: 2.15;
+		margin-top: 10px;
+	}
+	.hotel-tel-email .email{
+		margin-top:8px;
+	}
+	.ftr-smo-bar {
+		height: 25px;
+		position: relative;
+		width: 100%;
+	}
+	.cnt-region-block.asia .ftr-smo-bar {
+		margin-left: -5px;
+	}
+		.ftr-smo-bar .smo-icon {
+			display: inline-block;
+			width: 36px;
+			height: 23px;
+			margin: 0 8px 0 3px;
+			background-position: -4px -143px;
+			background-size: 685px auto;
+			cursor: pointer;
+		}
+		.ftr-smo-bar .smo-icon.youtube {
+			background-position: 3px -117px;
+		}
+		.no-touch-device .ftr-smo-bar .smo-icon.youtube:hover {
+			background-position: 3px -150px;
+		}
+		.ftr-smo-bar .smo-icon.facebook {
+			background-position: -37px -117px;
+		}
+		.no-touch-device .ftr-smo-bar .smo-icon.facebook:hover {
+			background-position: -37px -150px;
+		}
+		.ftr-smo-bar .smo-icon.bg.twitter {
+			background-position: -72px -117px;
+		}
+		.no-touch-device .ftr-smo-bar .smo-icon.bg.twitter:hover  {
+			background-position: -72px -150px;
+		}
+		.ftr-smo-bar .smo-icon.bg.instagram {
+			background-position: -113px -117px;
+		}
+		.no-touch-device .ftr-smo-bar .smo-icon.bg.instagram:hover  {
+			background-position: -113px -150px;
+		}
+		.ftr-smo-bar .smo-icon.bg.googleplus {
+			background-position: -154px -117px;
+		}
+		.no-touch-device .ftr-smo-bar .smo-icon.bg.googleplus:hover  {
+			background-position: -154px -150px;
+		}
+		.ftr-smo-bar .smo-icon.bg.tripadvisor {
+			margin-right: 0;
+			background-position: -196px -118px;
+		}
+		.no-touch-device .ftr-smo-bar .smo-icon.bg.tripadvisor:hover  {
+			background-position: -196px -151px;
+		}
+			.ftr-smo-bar .smo-icon a{
+				width: 100%;
+				height: 100%;
+				display: block;
+			}
+	
+	
+.ftr-menu ul {
+	margin-top: 16px;
+}
+	.ftr-menu li {
+		line-height: 1.85;
+		padding-left: 0;
+	}
+	.ftr-menu li:before{
+		display: none;
+	}
+	
+.copyright {
+	display: block;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	top: 21px;
+	width: 175px;
+}
+
+.ftr-btm-menu {
+	position: absolute;
+	right: 4px;
+	top: 18px;
+}
+.ftr-btm-menu a {
+	margin: 0 0 0 35px;
+}
+
+.partner-logo-wrap {
+  width: 218px;
+}
+.partner-logos .partner-logo{
+	display: inline-block;
+	height: 132px;
+	margin: 14px 20px 0;
+	width: 170px;
+	opacity:1;
+	visibility:visible;
+	position: relative;
+}
+.partner-logos .partner-logo .editableLinkIcon{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.partner-logos .partner-logo.plogo0 {
+	width: 145px;
+	background-size: 830px auto;
+	background-position: 5px -215px;
+}
+.partner-logos .partner-logo.pgoldEcoRated,
+.partner-logos .partner-logo.psilverEcoRated{
+	background: url(/templates/hotel/images/partner-logo/goldecorated.png) no-repeat center;
+	background-size: contain;
+	margin-top: 0;
+}
+
+.partner-logos .partner-logo.psilverEcoRated{
+	background: url(/templates/hotel/images/partner-logo/silverecorated.png) no-repeat center;
+	background-size: contain;
+}
+/* .serenaislamabad .partner-logos .partner-logo.plogo0 {
+	display:none;
+} */
+.partner-hotel-text {
+	display: block;
+	margin-bottom: 23px;
+}
+.partner-logos .partner-logo.plogo1 {
+	background-position: -143px -231px;
+	height: 90px;
+	width: 175px;
+}
+.partner-logos .partner-logo a {
+	height: 100%;
+	width: 100%;
+	display:block;
+}
+.partner-logos .partner-logo:hover,
+.no-touch-device .partner-hotel:hover{
+	opacity: 0.5;
+}
+.partner-logos,
+.newsletter-smo {
+	width: 50%;
+}
+.subscribe-block {
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	height: 43px;
+	margin: 20px 0 48px;
+	position: relative;
+	width: calc(100% - 2px);
+}	
+	.subscribe-block .email-entry{
+		height: 41px;
+	}
+		#email-address {
+			display: block;
+			width: 100%;
+			height: 100%;
+			background-color: #e5e5e5;
+			border-style: none;
+			box-sizing: border-box;
+			padding-left: 15px;
+			padding-right: 55px;
+			letter-spacing: 1px;
+		}
+		.subscribe-dropdown {
+			position: absolute;
+			display: block;
+			right: 0;
+			top: 0;
+			width: 48px;
+			height: 100%;
+			padding: 0 15px 0 0;
+			cursor: pointer;
+			background-position: -352px -8px;
+			border: none;
+			background-color: transparent;
+		}
+		
+.ftr-smo-bar .ftr-block-title {
+	margin-bottom: 24px;
+}
+
+
+
+.no-touch-device .subscribe-btn:hover::after{
+	opacity: 1;
+}
+
+
+.scrollbar-measure {
+	width: 100px;
+	height: 100px;
+	overflow: scroll;
+	position: absolute;
+	top: -9999px;
+}
+
+.mobile-fixed-header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 62px;
+	z-index: 5;
+	display: none;
+}
+
+/** AMENITIES **/
+.amenities-section {
+	background: #50423e;
+	clear:both;
+	position:relative;
+	float:left;
+	width:100%;
+	}
+	.amenities-wrapper {
+		margin: 0 auto;
+		max-width: 925px;
+	}
+	.amenitiesItem {
+		display: inline-block;
+		height: 32px;
+		margin: 0 27px;
+		width: 38px;
+		}
+		.amenitiesItem.drier {
+			background-position: -331px -137px;
+		}
+		.amenitiesItem.ac {
+			background-position: -368px -137px;
+		}
+		.amenitiesItem.wifi {
+			background-position: -296px -137px;
+		}
+		.amenitiesItem.hanger {
+			background-position: -408px -135px;
+		}
+		.amenitiesItem.tv {
+			background-position: -444px -138px;
+		}
+		.amenitiesItem.coffee {
+			background-position: -480px -136px;
+		}
+		.amenitiesItem.projector {
+			background-position:-515px -138px;
+		}
+		.amenitiesItem.attachement {
+			background-position:-549px -137px;
+			width:36px;
+		}
+		.amenitiesItem.furniture {
+			background-position:-582px -136px;
+		}
+		
+	.amenities-title {
+		margin: 50px 0 0;
+	}
+	.amenities-content{
+		/*-webkit-column-count: 2; /* Chrome, Safari, Opera */
+		/*-moz-column-count: 2; /* Firefox */
+		/*column-count: 2;
+		
+		-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+		/*-moz-column-gap: 40px; /* Firefox */
+		/*column-gap: 40px;*/
+		
+		margin-bottom:55px;
+	}
+	.amenities-icons {
+		margin: 32px 0 40px;
+	}
+	.amenities-section .amenities-content ul {
+		display: inline-block;
+		width:45%;
+		margin:0 2%;
+		vertical-align:top;
+	}
+	/* for serena khorog */
+	.serenakhorog .amenities-section .amenities-content-inner{
+		width: 85%;
+		margin: 0 auto; 
+	}
+	.serenakhorog .amenities-section .amenities-content ul:nth-child(1) {
+	    width: 60%;
+	}
+	.serenakhorog .amenities-section .amenities-content ul {
+		width: 30%;
+	}
+	.amenities-content ul li {
+		padding-left: 13px;
+		position: relative;
+		margin-bottom:7px;
+		display:inline-block;
+		width:100%;
+		}
+		.amenities-content ul li:before {
+			content: ".";
+			display: inline-block;
+			left: 0;
+			position: absolute;
+			top: -27px;
+		}
+
+
+/* COMMON CSS3 ANIMATIONS
+-------------------------------- */	
+.primary-btn,
+.secondary-btn,
+.anim-bg{
+	-webkit-transition: background-color 400ms ease;
+	-moz-transition: background-color 400ms ease;
+	-o-transition: background-color 400ms ease;
+	transition: background-color 400ms ease;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+a,
+.anim-color{
+	-webkit-transition: color 400ms ease;
+	-moz-transition: color 400ms ease;
+	-o-transition: color 400ms ease;
+	transition: color 400ms ease;
+}
+.anim-opacity,
+.hover-bg .image-slide:after{
+	opacity: 0;
+	visibility: hidden;
+	height: 0;
+	-webkit-transition: opacity 400ms ease-in-out;
+	-moz-transition: opacity 400ms ease-in-out;
+	-ms-transition: opacity 400ms ease-in-out;
+	-o-transition: opacity 400ms ease-in-out;
+	transition: opacity 400ms ease-in-out;
+}
+.anim-height{
+	max-height: 0;
+	overflow: hidden;
+	-webkit-transition: max-height 500ms ease;
+	-moz-transition: max-height 500ms ease;
+	-o-transition: max-height 500ms ease;
+	transition: max-height 500ms ease;
+}
+.anim-all,
+.header-navigation li.hm-item:after,
+.ative-lang:after,
+.hotel-list-switcher-text:after,
+.smo-icon,
+.underline-link:after,
+.booking-mask .ui-datepicker:after{
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+.no-touch-device .booking-mask-switcher:after,.triangle-up,.triangle-up-small{
+	-webkit-transition: border-color 400ms ease;
+	-moz-transition: border-color 400ms ease;
+	-o-transition: border-color 400ms ease;
+	transition: border-color 400ms ease;
+}
+
+/*PDF Download Widget*/
+.pdf-file-wrapper{
+	position: relative;
+}
+
+.loggedIn .pdf-file-wrapper{
+	margin-top: 45px;
+}
+
+.loggedIn .pdf-file-wrapper .toolbox-link{
+	top: -50px;
+}
+.downloadItems{
+		text-align:center;
+		margin-top: 20px;
+		}
+		.downloadItems .downloadItem{
+			/* display:inline; */
+			width:auto;
+			margin:0px 35px 20px 0;
+			/* vertical-align:top;
+			text-align:left; */
+		}
+		.downloadItem .pdfDownload{
+			position:relative;
+			letter-spacing:0.08em;
+			padding-left:45px;
+			font-size: 0.95em;
+			}
+			.toggle-content-wrapper .downloadItem .pdfDownload{
+				font-size: 0.75em;
+				letter-spacing:0.06em;
+				padding-left:37px;
+			}
+		.downloadItem .pdfDownload.before:before {
+			background-position: -70px 1px;
+			height: 32px;
+			width: 25px;
+			position: absolute;
+			top: -5px;
+			left: 0;
+			background-size: 815px auto;
+		}
+		.toggle-content-wrapper .downloadItem .pdfDownload.before:before {
+			/* background-position: -58px 0px; */
+			background-position: -82px -32px;
+			background-size: 663px auto;
+			height: 25px;
+			width: 20px;
+		}
+
+		/* new footer layout changes*/
+	.ftr-cnt-detail {
+		width: 21%;
+	}
+	.ftr-menu {
+		width: 29%;
+	}
+	.subscribe-partner-logo {
+		width: 50%;
+	}
+	.ftr-menu .shortcuts {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		-o-column-count: 2;
+		-ms-column-count: 2;
+		column-count: 2;
+		-webkit-column-gap: 30px;
+		-moz-column-gap: 30px;
+		-o-column-gap: 30px;
+		-ms-column-gap: 30px;
+		column-gap: 30px;
+	}
+	
+	.subscribe-partner-logo.no-partner-logo{
+		width: 25.5%;
+	}
+	.subscribe-partner-logo.no-partner-logo .newsletter-smo {
+		width: 100%;
+	}
+	.subscribe-partner-logo.no-partner-logo .partner-logos {
+		display:none;
+	}
+	.no-p-logo .ftr-menu {
+		width: 40%;
+		margin-left: 100px;
+	}
+	.no-p-logo .ftr-menu .shortcuts {
+		-webkit-column-gap: 120px;
+		-moz-column-gap: 120px;
+		-o-column-gap: 120px;
+		-ms-column-gap: 120px;
+		column-gap: 120px;
+	}
+	/* end of new footer layout changes*/
+
+/***************  templates/hotel/css/global.logostyle.css  ***************/
+	.main-logo{
+		opacity: 1;
+		visibility: visible;
+	}
+	.fixed-header .main-logo{
+		opacity: 0;
+		visibility: hidden;
+	}
+	.stripped-logo{
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translate(0, -50%);
+		margin: 0 ;
+		opacity: 0;
+		visibility: hidden;
+	}
+	.fixed-header .stripped-logo{
+		opacity: 1;
+		visibility: visible;
+		margin: 0 !important;
+	}
+	
+	#branding .imageSwitchHolderAltTextOnly{
+		height: inherit !important;
+	}
+	#branding .imageSwitchHolderAltTextOnly.main-logo{
+		opacity: 1;
+		visibility: visible;
+	}
+	#branding .imageSwitchHolderAltTextOnly.stripped-logo{
+		display: none;
+	}
+	
+	/* serenakampala */
+	.serenakampala .logo img{
+		width: 130px;
+		margin-top: 5px;
+	}
+	
+	/* kabul */
+	.serenakabul .logo img {
+		display: block;
+		height: auto;
+		margin-top: 6px;
+	}
+	
+	/* islamabad */
+	.serenaislamabad .logo img {
+		width: 157px;
+		margin: -10px 0 0;
+	}
+	
+	/* nairobi */
+	.serenanairobi .logo img{
+		width: 115px;
+		margin-top: 5px;
+	}
+		
+	/* daressalaam */
+	.serenadaressalaam .logo{
+		margin: 0 5px;
+	}
+		.serenadaressalaam .logo img {
+			width: 160px;
+			margin-top: 8px;
+		}
+		
+	/* serena dushanbe */
+	.serenadushanbe .logo img{
+		width: 140px;
+		margin-top: 2px;
+	}
+		
+	/* serena polana */
+	.serenapolana .logo img{
+		width: 120px;
+		margin-top: 4px;
+	}
+	
+	/* serena kigali */
+	.serenakigali .logo img{
+		width: 112px;
+		margin-top: 3px;
+	}
+
+	/* serena quetta */
+	.serenaquetta .logo img{
+		width: 130px;
+		margin-top: 5px;
+	}
+	
+	/* serena lake victoria */
+	.serenalakevictoria .logo{
+		margin: 0 10px;
+	}
+		.serenalakevictoria .logo img{
+			width: 160px;
+			margin-top: 5px;
+		}
+		
+	/* serena zanzibar  */
+	.serenazanzibar  .logo img{
+		width: 132px;
+		margin-top: 5px;
+	}
+	/* serena beach hotel  */
+	.serenabeachhotel  .logo img{
+		margin-top: 5px;
+		width: 105px;
+	}
+	/* serena khaplu palace  */
+	.serenakhaplupalace  .logo img{
+		margin-top: 15px;
+		width: 160px;
+	}
+	/* serena faisalabad  */
+	.serenafaisalabad .logo img {
+		margin-top: 5px;
+		width: 150px;
+	}
+	
+	/* serena lakekivu  */
+	.serenalakekivu .logo img {
+		margin-top: 9px;
+	}
+
+	/* serena arusha */
+	.serenaarusha .logo img {
+		margin-top: 4px;
+		width: 120px;
+	}
+	
+	/* serena swat */
+	.serenaswat .logo img {
+		margin-top: 4px;
+		width: 100px;
+	}
+	
+	/* serena hunza */
+	.serenahunza .header-content .logo{
+		margin: 0 15px;
+	}
+	.serenahunza.fixed-header .logo{
+		margin: 0 25px;
+	}
+		.serenahunza .logo img {
+			width: 155px;
+		}
+		
+	/* serena selous */
+	.serenaselous .logo img {
+		margin-top: 5px;
+		width: 115px;
+	}
+
+	/* serena gilgit */
+	.serenagilgit .logo img {
+		margin-top: 4px;
+		width: 110px;
+	}
+	
+	/* serena shigarf */
+	.serenashigarf .header-content .logo{
+		margin-left:15px;
+	}
+		.serenashigarf .logo img {
+			margin-top: 10px;
+			width: 150px;
+		}
+		
+	/* serena mara */
+	.serenamara .logo img {
+		margin-top: 5px;
+		width: 105px;
+	}
+	
+	/* serena khorog */
+	.serenakhorog .logo img {
+		margin-top: 5px;
+		width: 120px;
+	}
+	
+	/* serena amboseloi */
+	.serenaamboseli .logo img {
+		width: 135px;
+		margin-top: 5px;
+	}
+	
+	/* serena olpejeta */
+	.serenaolpejeta .logo img {
+		width: 125px;
+		margin-top: 10px;
+	}
+	
+	/* serena lakemanyara */
+	.serenalakemanyara .logo img {
+		width: 170px;
+		margin-top: 4px;
+	}
+	
+	/* serena elmenteita */
+	.serenaelmenteita .header-content .logo{
+		margin: 0 15px;
+	}
+		.serenaelmenteita .logo img {
+			width: 195px;
+			margin-top: 4px;
+		}
+
+	/* serena kilaguni */
+	.serenakilaguni .logo img {
+		width: 135px;
+		margin-top: 4px;
+	}
+	
+	/* serena mountain lodge */
+	.serenamountainlodge .header-content .logo{
+		margin-left:5px;
+		}
+		.serenamountainlodge .logo img {
+			margin-top: 15px;
+			width: 180px;
+		}
+
+	/* serena ngorongoro */
+	.serenangorongoro .logo img {
+		width: 160px;
+		margin-top: 5px;
+	}
+	/* serena serengeti */
+	.serenaserengeti .logo img {
+		margin-top: 3px;
+		width: 139px;
+	}
+	/* serena sweetwaters */
+	.serenasweetwaters .header-content .logo{
+		margin-left:10px;
+		}
+		.serenasweetwaters .logo img {
+			margin-top: 3px;
+			width: 174px;
+		}
+	/* serena mivumo */
+	.serenamivumo .logo img {
+		margin-top: 5px;
+		width: 170px;
+	}
+	/* serena mbuzi */
+	.serenambuzi .logo img {
+		margin-top: 5px;
+		width: 160px;
+	}
+	/* serena kirawira */
+	.serenakirawira .logo img {
+		margin-top: 5px;
+		width: 135px;
+	}
+	
+	/************** FOOTER LOGOS **************/	
+	.ftr-logo{	
+		width: 175px;
+		height: 118px;
+	}
+	
+	/* serena kampala */
+	.serenakampala .ftr-logo{	
+		background: url(/templates/hotel/images/logos/serenakampala.svg) no-repeat center center / 175px auto;
+	}
+	
+	/* serena islamabad */
+	.serenaislamabad .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenaislamabad.svg) no-repeat center -20px / 215px auto;
+		width: 215px;
+	}
+	
+	/* serena nairobi */
+	.serenanairobi .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenanairobi.svg) no-repeat center 0 / 163px auto;
+		width: 163px;
+	}
+	
+	/* serena daressalaam */
+	.serenadaressalaam .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenadaressalaam.svg) no-repeat center center / 235px auto;
+		width: 235px;
+	}
+	
+	/* serena serenadushanbe */
+	.serenadushanbe .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenadushanbe.svg) no-repeat center top / 185px auto;
+		width: 185px;
+	}
+	
+	/* serena serenapolana */
+	.serenapolana .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenapolana.svg) no-repeat center top / 160px auto;
+		width: 160px;
+	}
+
+	/* serena serenaquetta */
+	.serenaquetta .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenaquetta.svg) no-repeat center center / 160px auto;
+		width: 160px;
+	}
+	
+	/* serena serenakigali */
+	.serenakigali .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenakigali.svg) no-repeat center top / 160px auto;
+		width: 160px;
+	}
+	
+	/* serena lake victoria */
+	.serenalakevictoria .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenalakevictoria.svg) no-repeat center top / 200px auto;
+		width: 200px;
+	}
+	 
+	/* serena serenakabul */
+	.serenakabul .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenakabul.svg) no-repeat center top / 200px auto;
+		width: 200px;
+	}
+	
+	/* serena zanzibar */
+	.serenazanzibar .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenazanzibar.svg) no-repeat center top / 175px auto;
+		width: 175px;
+	}
+
+	/* serena beach hotel */
+	.serenabeachhotel .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenabeachhotel.svg) no-repeat center center / 130px auto;
+		width: 130px;
+	}
+	/* serena khaplu palace */
+	.serenakhaplupalace .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenakhaplupalace.svg) no-repeat center center / 230px auto;
+		width: 230px;
+	}
+	
+	/* serena faisalabad */
+	.serenafaisalabad .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenafaisalabad.svg) no-repeat center center / 195px auto;
+		width: 195px;
+	}
+	
+	/* serena lakekivu */
+	.serenalakekivu .ftr-logo{	
+		background: url(/templates/hotel/images/logos/serenalakekivu.svg) no-repeat center center / 185px auto;
+		width: 185px;
+	}
+
+	/* serena arusha */
+	.serenaarusha .ftr-logo{	
+		background: url(/templates/hotel/images/logos/serenaarusha.svg) no-repeat center center / 160px auto;
+		width: 160px;
+	}
+	
+	/* serena swat */
+	.serenaswat .ftr-logo{	
+		background: url(/templates/hotel/images/logos/serenaswat.svg) no-repeat center center / 134px auto;
+		width: 135px;
+	}
+	
+	
+	/* serena hunza */
+	.serenahunza .ftr-logo{	
+		background: url(/templates/hotel/images/logos/serenahunza.svg) no-repeat center center / 205px auto;
+		width: 205px;
+	}
+	
+	/* serena selous */
+	.serenaselous .ftr-logo{	
+		background: url(/templates/hotel/images/logos/serenaselous.svg) no-repeat center center / 160px auto;
+		width: 165px;
+	}
+
+	/* serena gilgit */
+	.serenagilgit .ftr-logo{	
+		background: url(/templates/hotel/images/logos/serenagilgit.svg) no-repeat center center / 145px auto;
+		width: 145px;
+	}
+	
+	/* serena shigarf */
+	.serenashigarf .ftr-logo{	
+		background: url(/templates/hotel/images/logos/serenashigarf.svg) no-repeat center center / 205px auto;
+		width: 205px;
+	}
+	
+	/* serena mara */
+	.serenamara .ftr-logo{	
+		background: url(/templates/hotel/images/logos/serenamara.svg) no-repeat center center / 140px auto;
+		width: 140px;
+	}
+
+	/* serena khorog */
+	.serenakhorog .ftr-logo{	
+		background: url(/templates/hotel/images/logos/serenakhorog.svg) no-repeat center center / 160px auto;
+		width: 160px;
+	}
+	
+	/* serena amboseloi */
+	.serenaamboseli .ftr-logo {
+		background: url(/templates/hotel/images/logos/serenaamboseli.svg) no-repeat center center / 180px auto;
+		width: 180px;
+	}	
+	
+	/* serena olpejeta */
+	.serenaolpejeta .ftr-logo {
+		background: url(/templates/hotel/images/logos/serenaolpejeta.svg) no-repeat center center / 170px auto;
+		width: 180px;
+	}
+	
+	/* serena lakemanyara */
+	.serenalakemanyara .ftr-logo {
+		background: url(/templates/hotel/images/logos/serenalakemanyara.svg) no-repeat center center / 230px auto;
+		width: 235px;
+	}
+	
+	/* serena elmenteita */
+	.serenaelmenteita .ftr-logo {
+		background: url(/templates/hotel/images/logos/serenaelmenteita.svg) no-repeat center center / 270px auto;
+		width: 275px;
+	}
+
+	/* serena kilaguni */
+	.serenakilaguni .ftr-logo {
+		background: url(/templates/hotel/images/logos/serenakilaguni.svg) no-repeat center center / 175px auto;
+		width: 175px;
+	}
+	
+	/* serena mountain lodge */
+	.serenamountainlodge .ftr-logo {
+		background: url(/templates/hotel/images/logos/serenamountainlodge.svg) no-repeat center center / 248px auto;
+		width: 248px;
+	}
+
+	/* serena ngorongoro */
+	.serenangorongoro .ftr-logo {
+		background: url(/templates/hotel/images/logos/serenangorongoro.svg) no-repeat center center / 220px auto;
+		width: 220px;
+	}
+	
+	/* serena serengeti */
+	.serenaserengeti .ftr-logo {
+		background: url(/templates/hotel/images/logos/serenaserengeti.svg) no-repeat center center / 186px auto;
+		width: 186px;
+	}
+	/* serena sweetwaters */
+	.serenasweetwaters .ftr-logo {
+		background: url(/templates/hotel/images/logos/serenasweetwaters.svg) no-repeat center center / 229px auto;
+		width: 229px;
+	}
+	/* serena mbuzi */
+	.serenambuzi .ftr-logo {
+		background: url(/templates/hotel/images/logos/serenambuzi.svg) no-repeat center center / 214px auto;
+		width: 214px;
+	}
+	/* serena mivumo */
+	.serenamivumo .ftr-logo {
+		background: url(/templates/hotel/images/logos/serenamivumo.svg) no-repeat center center / 214px auto;
+		width: 214px;
+	}
+	/* serena kirawira */
+	.serenakirawira .ftr-logo {
+		background: url(/templates/hotel/images/logos/serenakirawira.svg) no-repeat center center / 180px auto;
+		width: 180px;
+	}
+	
+	/* serena serenagoma */
+	.serenagoma .ftr-logo {
+		background: url(/templates/hotel/images/logos/serenagoma.svg) no-repeat center center / 145px auto;
+		width: 145px;
+	}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+	/* serena kampala */
+	.serenakampala .logo img,
+	.serenaquetta .logo img,
+	.serenakabul .logo img{
+		width: 118px;
+	}
+	
+	/* serena islamabad */
+	.serenaislamabad .logo img {
+		width: 135px;
+		margin-top: -5px;
+	}
+	
+	/* serena nairobi */
+	.serenanairobi .logo img{
+		width: 110px;
+	}
+		
+	/* serena islamabad */
+	.serenaislamabad .logo img {
+		margin-top: -5px;
+		width: 137px;
+	}
+		
+	/* serena daressalaam */
+	.serenadaressalaam .logo img {
+		width: 145px;
+	}
+	
+	/* serena serenadushanbe */
+	.serenadushanbe .logo img {
+		width: 125px;
+		margin-top: 5px;
+	}
+	
+	/* serena serenapolana */
+	.serenapolana .logo img {
+		width: 110px;
+	}
+	
+	/* serena serenakigali */
+	.serenakigali .logo img{
+		width: 102px;
+	}
+	.fixed-header.serenakigali .stripped-logo{
+		width: 110px;
+	}
+	
+	/* serena lake victoria */
+	.serenalakevictoria .logo img{
+		width: 140px;
+		margin-top: 8px;
+	}
+	/* serena zanzibar  */
+	.serenazanzibar  .logo img{
+		width: 120px;
+		margin-top: 5px;
+	}
+	/* serena beach hotel  */
+	.serenabeachhotel .logo img {
+		margin-top: 5px;
+		width: 100px;
+	}
+	/* serena khaplu palace */
+	.serenakhaplupalace .logo img {
+		margin-top: 10px;
+	}
+	/* serena faisalabad  */
+	.serenafaisalabad .logo img {
+		margin-top: 5px;
+		width: 140px;
+	}
+	
+	/* serena lakekivu  */
+	.serenalakekivu .logo img {
+		margin-top: 5px;
+	}
+
+	/* serena lakekivu  */
+	.serenaarusha .logo img {
+		width: 110px;
+	}
+	
+	/* serena swat */
+	.serenaswat .logo img {
+	  width: 93px;
+	}
+	
+	/* serena hunza */
+	.serenahunza .logo img {
+		width: 132px;
+		margin-top: 3px;
+	} 
+	
+	/* serena selous */
+	.serenaselous .logo img {
+		width: 100px;
+	}
+
+	/* serena gilgit */
+	.serenagilgit .logo img {
+		width: 100px;
+	}
+	
+	/* serena shigarf */
+	.serenashigarf .logo img {
+		margin-top: 10px;
+		width: 140px;
+	}
+	/* serena mara */
+	.serenamara .logo img {
+		width: 95px;
+	}
+	/* serena khorog */
+	.serenakhorog .logo img {
+		width: 110px;
+	}
+	/* serena amboseloi */
+	.serenaamboseli .logo img {
+		width: 115px;
+	}
+	/* serena olpejeta */
+	.serenaolpejeta .logo img {
+		width: 115px;
+	}
+	/* serena lakemanyara */
+	.serenalakemanyara .logo{
+		margin: 0 5px;
+	}
+		.serenalakemanyara .logo img {
+			width: 150px;
+			margin-top: 6px;
+		}
+		
+	/* serena elmenteita */
+	.serenaelmenteita .logo{
+		margin: 0 5px;
+	}
+		.serenaelmenteita .logo img {
+			width: 180px;
+			margin-top: 6px;
+		}
+		
+	/* serena kilaguni */
+	.serenakilaguni .logo img {
+		width: 120px;
+	}
+	/* serena ngorongoro */
+	.serenangorongoro .logo img {
+		width: 155px;
+		margin-top: 4px;
+	}
+	/* serena serengeti */
+	.serenaserengeti .logo img {
+		width: 130px;
+	}
+	/* serena sweetwaters */
+	.serenasweetwaters .logo img {
+		margin-top: 3px;
+		width: 154px;
+	}
+	/* serena mivumo */
+	.serenamivumo .logo img {
+		width: 155px;
+	}
+	/* serena mbuzi */
+	.serenambuzi .logo img {
+		margin-top: 4px;
+		width: 148px;
+	}
+	/* serena kirawira */
+	.serenakirawira .logo img {
+		margin-top: 5px;
+		width: 124px;
+	}
+
+	/************** FOOTER LOGOS **************/	
+	.ftr-logo{	
+		width: 155px;
+		height: 100px;
+	}
+	
+	/* serena kampala / Quetta */
+	.serenakampala .ftr-logo,
+	.serenaquetta .ftr-logo,
+	.serenakabul .ftr-logo{	
+		background-size: 158px auto;
+		width: 158px;
+	}	
+	
+	/* serena islamabad */
+	.serenaislamabad .ftr-logo{
+		background-size: 185px auto;
+		background-position: center -15px;
+		width: 185px;
+	}
+	
+	/* serena nairobi */
+	.serenanairobi .ftr-logo{
+		background-size: 148px auto;
+		width: 148px;
+	}
+	
+	/* serena daressalaam */
+	.serenadaressalaam .ftr-logo{
+		background-size: 218px auto;
+		background-position: center top;
+		width: 218px;
+	}
+	
+	/* serena serenadushanbe */
+	.serenadushanbe .ftr-logo{
+		background-size: 165px auto;
+		width: 165px;
+	}
+	
+	/* serena serenakigali */
+	.serenakigali .ftr-logo{
+		background-size: 135px auto;
+		width: 135px;
+	}
+	
+	/* serena lake victoria */
+	.serenalakevictoria .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenalakevictoria.svg) no-repeat center top / 222px auto;
+		width: 222px;
+	}
+	
+	/* serena zanzibar */
+	.serenazanzibar .ftr-logo{
+		background-size: 160px auto;
+		width: 160px;
+	}
+
+	/* serena khaplu palace */
+	.serenakhaplupalace .ftr-logo{
+		background-size: 210px auto;
+		width: 210px;
+	}
+	
+	/* serena faisalabad */
+	.serenafaisalabad .ftr-logo{
+		background-size: 180px auto;
+		width: 180px;
+	}
+	
+	/* serena lakekivu */
+	.serenalakekivu .ftr-logo{
+		background-size: 165px auto;
+		width: 165px;
+	}
+
+	/* serena arusha */
+	.serenaarusha .ftr-logo{	
+		background-size: 150px auto;
+		width: 150px;
+	}
+	
+	/* serena swat */
+	.serenaswat .ftr-logo{	
+		background-size: 124px auto;
+		width: 125px;
+	}
+	
+	/* serena hunza */
+	.serenahunza .ftr-logo{	
+		background-size: 175px auto;
+		width: 175px;
+	}
+	
+	/* serena selous */
+	.serenaselous .ftr-logo{	
+		background-size: 140px auto;
+		width: 145px;
+	}
+
+	/* serena gilgit */
+	.serenagilgit .ftr-logo{	
+		background-size: 130px auto;
+		width: 130px;
+	}
+	
+	/* serena shigarf */
+	.serenashigarf .ftr-logo{	
+		background-size: 180px auto;
+		width: 180px;
+	}
+	
+	/* serena mara */
+	.serenamara .ftr-logo{	
+		background-size: 125px auto;
+		width: 125px;
+	}
+
+	/* serena khorog */
+	.serenakhorog .ftr-logo{	
+		background-size: 150px auto;
+		width: 150px;
+	}
+	
+	/* serena amboseloi */
+	.serenaamboseli .ftr-logo{	
+		background-size: 155px auto;
+	}
+	
+	/* serena olpejeta */
+	.serenaolpejeta .ftr-logo{	
+		background-size: 155px auto;
+	}
+	
+	/* serena lakemanyara */
+	.serenalakemanyara .ftr-logo{	
+		background-size: 205px auto;
+	}
+	
+	/* serena elmenteita */
+	.serenaelmenteita .ftr-logo{	
+		background-size: 240px auto;
+	}
+
+	/* serena kilaguni */
+	.serenakilaguni .ftr-logo {
+		background-size: 160px auto;
+		width: 160px;
+	}
+
+	/* serena ngorongoro */
+	.serenangorongoro .ftr-logo {
+		background-size: 200px auto;
+	
+	}
+	/* serena serengeti */
+	.serenaserengeti .ftr-logo {
+		background-size: 166px auto;
+		width: 166px;
+	}
+	/* serena sweetwaters */
+	.serenasweetwaters .ftr-logo {
+		background-size: 194px auto;
+		width: 194px;
+	}
+
+	/* serena mivumo */
+	.serenamivumo .ftr-logo{
+		background-size: 205px auto;
+		width: 205px;
+	}
+	
+	/* serena mbuzi */
+	.serenambuzi .ftr-logo {
+		background-size:190px auto;
+		width: 190px;
+	}
+	
+	/* serena kirawira */
+	.serenakirawira .ftr-logo {
+		background-size: 165px auto;
+		width: 165px;
+	}
+
+} /* END MEDIA QUERY */
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	
+	/* serena kampala / serenaquetta */
+	.serenakampala .logo img,
+	.serenaquetta .logo img,
+	.serenakabul .logo img{
+		width: 115px;
+	}
+	
+	/* serena nairobi */
+	.serenanairobi .logo img{
+		width: 110px;
+	}
+		
+	/* serena islamabad */
+	.serenaislamabad .logo img {
+		margin-top: -5px;
+		width: 128px;
+	}
+	.fixed-header.serenaislamabad .stripped-logo{
+		margin: 0;
+	}
+		
+	/* serena daressalaam */
+	.serenadaressalaam .logo img {
+		width: 135px;
+	}
+	
+	/* serena serenadushanbe */
+	.serenadushanbe .logo img {
+		width: 115px;
+		margin-top: 5px;
+	}
+		
+	/* serena serenapolana */
+	.serenapolana .logo img {
+		width: 108px;
+	}
+	
+	/* serena serenakigali */
+	.serenakigali .logo img{
+		margin-top: 3px;
+		width: 105px;
+	}
+	
+	/* serena lake victoria */
+	.serenalakevictoria .logo img{
+		width: 110px;
+		margin-top: 10px;
+	}
+	
+	/* serena zanzibar  */
+	.serenazanzibar  .logo img{
+		width: 115px;
+		margin-top: 12px;
+	}
+	
+	/* serena beach hotel  */
+	.serenabeachhotel .logo img {
+		margin-top: 3px;
+		width: 100px;
+	}
+	
+	/* serena khaplu palace  */
+	.serenakhaplupalace .logo img {
+		margin-top: 11px;
+		width: 155px;
+	}
+	/* serena faisalabad  */
+	.serenafaisalabad .logo img {
+		margin-top: 5px;
+		width: 135px;
+	}
+	
+	/* serena lakekivu  */
+	.serenalakekivu .logo img {
+		margin-top: 5px;
+	}
+	
+	/* serena arusha  */
+	.serenaarusha .logo img {
+		width: 105px;
+	}
+	
+	/* serena swat */
+	.serenaswat .logo img {
+	  width: 93px;
+	}
+	
+	/* serena hunza */
+	.serenahunza .logo img {
+		width: 132px;
+		margin-top: 3px;
+	}
+	
+	/* serena selous */
+	.serenaselous .logo img {
+		width: 102px;
+		margin-top: 6px;
+	}
+
+	/* serena gilgit */
+	.serenagilgit .logo img {
+		width: 100px;
+		margin-top: 3px;
+	}
+	
+	/* serena shigarf */
+	.serenashigarf .logo img {
+		margin-top: 10px;
+		width: 140px;
+	}
+	
+	/* serena mara */
+	.serenamara .logo img {
+		width: 95px;
+	}
+
+	/* serena khorog */
+	.serenakhorog .logo img {
+		width: 110px;
+	}
+	
+	/* serena amboseloi */
+	.serenaamboseli .logo img {
+		width: 115px;
+	}	
+	
+	/* serena olpejeta */
+	.serenaolpejeta .logo img {
+		width: 115px;
+	}
+	
+	/* serena lakemanyara */
+	.serenalakemanyara .logo{
+		margin: 0 5px;
+	}
+		.serenalakemanyara .logo img {
+			width: 155px;
+			margin-top: 4px;
+		}
+		
+	/* serena elmenteita */
+	.serenaelmenteita .logo{
+		margin: 0 5px;
+	}
+		.serenaelmenteita .logo img {
+			width: 175px;
+			margin-top: 4px;
+		}
+		
+	/* serena kilaguni */
+	.serenakilaguni .logo img {
+		width: 120px;
+	}
+	
+	.serenamountainlodge .logo img {
+		width: 165px;
+	}
+	
+	.serenangorongoro .logo img {
+		width: 150px;
+		margin-top: 4px;
+	}
+	/* serena serengeti */
+	.serenaserengeti .logo img {
+		width: 130px;
+	}
+	/* serena sweetwaters */
+	.serenasweetwaters .logo img {
+		margin-top: 3px;
+		width: 154px;
+	}
+	/* serena mivumo */
+	.serenamivumo .logo img {
+		width: 150px;
+	}
+	/* serena mbuzi */
+	.serenambuzi .logo img {
+		margin-top: 4px;
+		width: 148px;
+	}
+	/* serena kirawira */
+	.serenakirawira .logo img {
+		margin-top: 5px;
+		width: 124px;
+	}
+	/************** FOOTER LOGOS **************/
+	.ftr-logo{	
+		width: 145px;
+		height: 85px;
+		margin-bottom: 5px;
+	}
+	
+	/* serena kampala / quetta */
+	.serenakampala .ftr-logo,
+	.serenaquetta .ftr-logo,
+	.serenakabul .ftr-logo{	
+		background-size: 145px auto;
+		width: 145px;
+	}	
+	
+	/* serena islamabad */
+	.serenaislamabad .ftr-logo{
+		background-size: 170px auto;
+		background-position: center -15px;
+		width: 170px;
+	}
+	
+	/* serena nairobi */
+	.serenanairobi .ftr-logo{
+		background-size: 133px auto;
+		width: 133px;
+	}
+	
+	/* serena daressalaam */
+	.serenadaressalaam .ftr-logo{
+		background-size: 196px auto;
+		background-position: center top;
+		width: 196px;
+	}
+	
+	/* serena serenadushanbe */
+	.serenadushanbe .ftr-logo{
+		background-size: 148px auto;
+		width: 148px;
+	}
+	
+	/* serena serenakigali */
+	.serenakigali .ftr-logo{
+		background-size: 125px auto;
+		width: 125px;
+	}
+	
+	/* serena lake victoria */
+	.serenalakevictoria .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenalakevictoria.svg) no-repeat center top / 200px auto;
+		width: 200px;
+	}
+	
+	/* serena zanzibar */
+	.serenazanzibar .ftr-logo{
+		background-size: 145px auto;
+		width: 145px;
+	}
+
+	/* serena beach hotel */
+	.serenabeachhotel .ftr-logo {
+		background-size: 120px auto;
+		width: 120px;
+	}
+
+	/* serena khaplu palace */
+	.serenakhaplupalace .ftr-logo {
+		background-size: 195px auto;
+		width: 195px;
+	}
+	/* serena faisalabad */
+	.serenafaisalabad .ftr-logo{
+		background-size: 160px auto;
+		width: 160px;
+	}
+	
+	/* serena lakekivu */
+	.serenalakekivu .ftr-logo{
+		background-size: 148px auto;
+		width: 148px;
+	}
+	/* serena arusha */
+	.serenaarusha .ftr-logo{	
+		background-size: 135px auto;
+		width: 135px;
+	}
+	/* serena swat */
+	.serenaswat .ftr-logo{	
+		background-size: 112px auto;
+		width: 112px;
+	}
+	
+	/* serena hunza */
+	.serenahunza .ftr-logo{	
+		background-size: 170px auto;
+		width: 175px;
+	}
+	
+	/* serena selous */
+	.serenaselous .ftr-logo{	
+		background-size: 130px auto;
+		width: 135px;
+	}
+	
+	/* serena gilgit */
+	.serenagilgit .ftr-logo{	
+		background-size: 120px auto;
+		width: 120px;
+	}
+	
+	/* serena shigarf */
+	.serenashigarf .ftr-logo{	
+		background-size: 170px auto;
+		width: 170px;
+	}
+	
+	/* serena mara */
+	.serenamara .ftr-logo{	
+		background-size: 116px auto;
+		width: 116px;
+	}
+
+	/* serena khorog */
+	.serenakhorog .ftr-logo{	
+		background-size: 135px auto;
+		width: 135px;
+	}
+	
+	/* serena amboseloi */
+	.serenaamboseli .ftr-logo{	
+		background-size: 150px auto;
+	}
+	
+	/* serena olpejeta */
+	.serenaolpejeta .ftr-logo{	
+		background-size: 150px auto;
+	}
+	
+	/* serena lakemanyara */
+	.serenalakemanyara .ftr-logo{	
+		background-size: 200px auto;
+	}
+	
+	/* serena elmenteita */
+	.serenaelmenteita .ftr-logo{	
+		background-size: 220px auto;
+	}
+
+	/* serena kilaguni */
+	.serenakilaguni .ftr-logo {
+		background-size: 145px auto;
+		width: 145px;
+	}
+
+	/* serena ngorongoro */
+	.serenangorongoro .ftr-logo {
+		background-size: 180px auto;
+	}
+	/* serena serengeti */
+	.serenaserengeti .ftr-logo {
+		background-size: 152px auto;
+		width: 152px;
+	}
+	/* serena sweetwaters */
+	.serenasweetwaters .ftr-logo {
+		background-size: 189px auto;
+		width: 189px;
+	}
+	/* serena mivumo */
+	.serenamivumo .ftr-logo{
+		background-size: 190px auto;
+		width: 190px;
+	}
+	/* serena mbuzi */
+	.serenambuzi .ftr-logo {
+		background-size:175px auto;
+		width: 175px;
+	}
+	
+	/* serena kirawira */
+	.serenakirawira .ftr-logo {
+		background-size: 150px auto;
+		width: 150px;
+	}
+	
+} /* END MEDIA QUERY */
+
+
+@media (max-width: 767px) {
+	/* serena kampala */
+	.serenakampala .logo img,
+	.serenakabul .logo img{
+		width: 94px;
+		margin-top: 2px;
+	}
+	.serenakabul .logo img{
+		margin-top: 3px;
+	}
+		
+	/* serena nairobi */
+	.serenanairobi .logo img{
+		width: 85px;
+		margin-top: 3px;
+	}
+		
+	/* serena islamabad */
+	.serenaislamabad .logo img {
+		width: 110px;
+		margin-top: -6px;
+	}
+		
+	/* serena daressalaam */
+	.serenadaressalaam .logo img {
+		width: 126px;
+		margin-top: 3px;
+	}
+	
+	/* serena serenadushanbe */
+	.serenadushanbe .logo img {
+		width: 95px;
+		margin-top: 3px;
+	}
+	/* serena serenapolana */
+	.serenapolana .logo img {
+		width: 82px;
+	}	
+	
+	/* serena serenakigali */
+	.serenakigali .logo img{
+		width: 75px;
+	}
+	/* serena serenaquetta */
+	.serenaquetta .logo img{
+		margin-top: 3px;
+		width: 94px;
+	}
+	
+	/* serena serenakigali */
+	.serenalakevictoria .logo img{
+		width: 115px;
+	}
+	
+	/* serena zanzibar  */
+	.serenazanzibar  .logo img{
+		width: 95px;
+		margin-top: 2px;
+	}
+	/* serena beach hotel  */
+	.serenabeachhotel .logo img {
+		margin-top: 4px;
+		width: 75px;
+	}
+	/* serena khaplu palace  */
+	.serenakhaplupalace .logo img {
+		margin-top: 9px;
+		width: 120px;
+	}
+	/* serena faisalabad */
+	.serenafaisalabad .logo img {
+		margin-top: 2px;
+		width: 108px;
+	}
+	
+	/* serena lakekivu  */
+	.serenalakekivu .logo img {
+		width: 100px;
+		margin-top: 3px;
+	}
+	
+	/* serena arusha  */
+	.serenaarusha .logo img {
+		margin-top: 3px;
+		width: 85px;
+	}
+	
+	/* serena swat */
+	.serenaswat .logo img {
+		margin-top: 3px;
+		width: 70px;
+	}
+	
+	/* serena hunza */
+	.serenahunza .header-content .logo{
+		margin: 0;
+	}
+		.serenahunza .logo img {
+			width: 112px;
+		}
+		
+	/* serena selous */
+	.serenaselous .logo img {
+		width: 80px;
+	}
+	
+	.serenagilgit .logo img {
+		margin-top: 2px;
+		width: 80px;
+	}
+	
+	/* serena shigarf */
+	.serenashigarf .logo img {
+		margin-top: 10px;
+		width: 105px;
+	}
+	
+	/* serena mara */
+	.serenamara .logo img {
+		margin-top: 3px;
+		width: 75px;
+	}
+
+	/* serena khorog */
+	.serenakhorog .logo img {
+		margin-top: 2px;
+		width: 90px;
+	}
+	
+	/* serena amboseloi */
+	.serenaamboseli .logo img {
+		width: 92px;
+	}
+
+	/* serena kilaguni */
+	.serenakilaguni .logo img {
+		width: 95px;
+		margin-top: 2px;
+	}
+	
+	/* serena olpejeta */
+	.serenaolpejeta .logo img {
+		width: 95px;
+		margin-top: 2px;
+	}
+	
+	/* serena lakemanyara */
+	.serenalakemanyara .logo{
+		margin: 0 10px;
+	}
+		.serenalakemanyara .logo img {
+			width: 125px;
+			margin-top: 3px;
+		}
+		
+	/* serena elmenteita */
+	.serenaelmenteita .logo{
+		margin: 0 10px;
+	}
+		.serenaelmenteita .logo img {
+			width: 140px;
+			margin-top: 3px;
+		}
+	
+	/* serena mountain lodge */
+	.serenamountainlodge .logo img {
+		margin-top: 10px;
+		width: 120px;
+	}
+
+	/* serena ngorongoro */
+	.serenangorongoro .logo img {
+		width: 120px;
+		margin-top: 3px;
+	}
+	/* serena serengeti */
+	.serenaserengeti .logo img {
+		width: 100px;
+	}
+	/* serena sweetwaters */
+	.serenasweetwaters .logo img {
+		width: 122px;
+	}
+	/* serena mbuzi */
+	.serenambuzi .logo img {
+		margin-top: 3px;
+		width: 114px;
+	}
+	/*serena mivumo*/
+	.serenamivumo .logo img{
+		width: 115px;
+	}
+	/* serena kirawira */
+	.serenakirawira .logo img {
+		margin-top: 3px;
+		width: 95px;
+	}
+
+	/************** FOOTER LOGOS **************/
+	.ftr-logo{	
+		width: 145px;
+	}
+	
+	/* serena kampala / quetta */
+	.serenakampala .ftr-logo,
+	.serenaquetta .ftr-logo,
+	.serenakabul .ftr-logo{	
+		background-size: 158px auto;
+		width: 158px;
+	}	
+	.serenakabul .ftr-logo{
+		background-position: center 15px;
+	}
+	
+	/* serena islamabad */
+	.serenaislamabad .ftr-logo{
+		background-size: 185px auto;
+		background-position: center -15px;
+		width: 185px;
+	}
+	
+	/* serena nairobi */
+	.serenanairobi .ftr-logo{
+		background-size: 148px auto;
+		width: 148px;
+	}
+	
+	/* serena daressalaam */
+	.serenadaressalaam .ftr-logo{
+		background-size: 218px auto;
+		background-position: center top;
+		width: 218px;
+	}
+	
+	/* serena serenadushanbe */
+	.serenadushanbe .ftr-logo{
+		background-size: 165px auto;
+		width: 165px;
+	}
+	
+	/* serena serenakigali */
+	.serenakigali .ftr-logo{
+		background-size: 135px auto;
+		width: 135px;
+	}
+	
+	/* serena lake victoria */
+	.serenalakevictoria .ftr-logo{
+		background: url(/templates/hotel/images/logos/serenalakevictoria.svg) no-repeat center 15px / 212px auto;
+		width: 212px
+	}
+	
+	/* serena zanzibar */
+	.serenazanzibar .ftr-logo{
+		background-size: 160px auto;
+		width: 160px;
+	}
+	/* serena khaplu palace */
+	.serenakhaplupalace .ftr-logo {
+		background-size: 210px auto;
+		width: 210px;
+	}
+	
+	/* serena lakekivu */
+	.serenalakekivu .ftr-logo{
+		background-size: 165px auto;
+		width: 165px;
+	}
+	
+	/* serena arusha */
+	.serenaarusha .ftr-logo{	
+		background-size: 135px auto;
+		width: 135px;
+	}
+	
+	/* serena swat */
+	.serenaswat .ftr-logo{	
+		background-size: 124px auto;
+		width: 125px;
+	}
+	
+	/* serena hunza */
+	.serenahunza .ftr-logo{	
+		background-size: 185px auto;
+		width: 185px;
+	}
+	
+	/* serena selous */
+	.serenaselous .ftr-logo{	
+		background-size: 138px auto;
+		width: 138px;
+	}
+
+	/* serena gilgit */
+	.serenagilgit .ftr-logo{	
+		background-size: 140px auto;
+		width: 145px;
+	}
+	
+	/* serena shigarf */
+	.serenashigarf .ftr-logo{	
+		background-size: 190px auto;
+		width: 190px;
+	}
+	/* serena mara */
+	.serenamara .ftr-logo{	
+		background-size: 122px auto;
+		width: 122px;
+	}
+	/* serena khorog */
+	.serenakhorog .ftr-logo{	
+		background-size: 140px auto;
+		width: 140px;
+	}
+	
+	/* serena amboseloi */
+	.serenaamboseli .ftr-logo{	
+		background-size: 162px auto;
+	}
+	
+	/* serena olpejeta */
+	.serenaolpejeta .ftr-logo{	
+		background-size: 162px auto;
+	}
+	
+	/* serena lakemanyara */
+	.serenalakemanyara .ftr-logo{	
+		background-size: 210px auto;
+	}
+	
+	/* serena elmenteita */
+	.serenaelmenteita .ftr-logo{	
+		background-size: 240px auto;
+	}
+
+	/* serena kilaguni */
+	.serenakilaguni .ftr-logo {
+		background-size: 155px auto;
+		width: 155px;
+	}
+
+	/* serena ngorongoro */
+	.serenangorongoro .ftr-logo {
+		background-size: 190px auto;
+	}
+	/* serena serengeti */
+	.serenaserengeti .ftr-logo {
+		background-size: 168px auto;
+		width: 168px;
+	}
+	/* serena sweetwaters */
+	.serenasweetwaters .ftr-logo {
+		background-size: 205px auto;
+		width: 205px;
+	}
+	/* serena mivumo */
+	.serenamivumo .ftr-logo{
+		background-size: 200px auto;
+		width: 200px;
+	}
+	/* serena mbuzi */
+	.serenambuzi .ftr-logo {
+		background-size:175px auto;
+		width: 175px;
+	}
+	/* serena kirawira */
+	.serenakirawira .ftr-logo {
+		background-size: 150px auto;
+		width: 150px;
+	}
+	
+} /* END MEDIA QUERY */
+/***************  templates/hotel/css/global.mediaquery.css  ***************/
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+
+.inner-wrapper{
+	width: 990px;
+}
+.read-more-toggle{
+	padding-top: 30px;
+}
+.underline-link{
+	padding-bottom: 1px;
+}
+
+.open-navigation .holder-inner-wrapper{
+	transform: rotateY(38deg) translateX(-260px);
+}
+
+
+.country-block{
+	width: 230px;
+}
+
+.country-wrapper-0:after, .country-wrapper-1:after {
+    width: 295px;
+	height: 320px;
+	left: 171px;
+    background-position: -12px -307px;
+    background-size: 700px auto;
+}
+
+.country-wrapper-1:after{
+	width: 360px;
+	height: 340px;
+	left: auto;
+	right: 35px;
+	background-position: 25px -293px;
+}
+
+.header-top-content{
+	height: 38px;
+}
+.header-middle-content{
+	height: 80px;
+}
+	.booking-mask-switcher{
+		width: 132px;
+		height: 80px;
+		line-height:1.2;
+	}
+	.booking-mask-switcher:after{
+		border-left: 67px solid transparent;
+		border-right: 67px solid transparent;
+	}
+		.bm-switcher-text{
+			margin-top: 25px;
+		}
+		
+	.logo{
+		margin: 0 15px;
+	}
+		.fixed-header .logo {
+			height: 100%;
+			margin-top: 0;
+		}
+
+	
+	.more-menu-switcher{
+		margin: 20px 146px 0 0;
+	}
+		.switcher-ele, .switcher-ele:before, .switcher-ele:after{
+			width: 35px;
+			height: 2px;
+		}
+		.switcher-ele:before{
+			top: -8px
+		}
+		.switcher-ele:after{	
+			top: auto;
+			bottom: -8px;
+		}
+		
+		.more-menu-switcher .switcher-text{
+			margin-top: 5px;
+		}
+	.header-navigation{
+		margin: 23px 0 0;
+	}
+		.header-navigation li.fm-item-ld{
+			display: none;
+		}
+		.header-navigation li.hm-item.weddings{
+			border-right: none;
+		}
+		.header-navigation li.hm-item:after{
+			width: calc(100% - 36px);
+		}
+		.header-navigation li.hm-item:hover:after, 
+		.header-navigation li.hm-item.active:after,
+		.touch-device .header-navigation li.hm-item:hover:after{
+			bottom: 0;
+			opacity: 1;
+		}
+			.header-navigation li.hm-item a{
+				padding: 10px 25px 30px;
+			}
+			.serenalakevictoria .header-navigation li.hm-item a {
+				padding-left: 18px;
+				padding-right: 18px;
+			}
+		.navigation .menuLevel2{
+			top:57px;
+			width:284px;
+			padding-top:22px;
+			margin-left:-142px;
+		}
+		.touch-device .header-navigation li.hm-item:hover a,
+		.touch-device .header-navigation li.hm-item a:hover{
+			color: #50423e;
+		}
+	
+	.fixed-nav-wrapper{
+		width: 250px;
+		margin-top: 160px;
+	}
+	.fixed-navigation li{
+		margin-bottom: 12px;
+	}
+	.fixed-navigation li.fm-item-ld{
+		display: block;
+	}
+	.fixed-navigation li.fm-item.serena-home{
+		margin-bottom: 135px;
+	}
+	
+	.close-fixed-menu{
+		top: 20px;
+		right: 20px;
+	}
+	
+	.header-bottom-content .inner-wrapper{
+		width: 1004px;
+	}
+	.open-bookingmask .header-bottom-content{
+		height: 140px;
+	}
+	.booking-mask{
+		margin: 29px 0 0 25px;
+	}
+		.booking-mask .hotel, .booking-mask .date, .booking-mask .choose{
+			margin-right: 12px;
+		}
+		.booking-mask .date:after{
+			top: 30px;
+			right: 8px;
+		}
+		.booking-mask .hotel:after, .booking-mask .choose:after{
+			top: 38px;
+			right: 6px;
+		}
+			.booking-mask input, .booking-mask select{
+				width: 136px;
+				height: 34px;
+			}
+			.booking-mask input{
+				padding-top:4px;
+				height: 34px;
+			}
+			.booking-mask select{
+				width: 68px;
+				padding: 5px 28px 2px 12px;
+			}
+			.booking-mask .booking-link{
+				margin: 24px 0 0;
+			}
+			.modify{
+				position: absolute;
+				right: 50px;
+				bottom: -34px;
+			}
+		.booking-mask .resident {
+			right: 27px;
+			top: -1px;
+		}
+			.booking-mask .resident label {
+				margin-left: 8px;
+			}
+			.resident > input {
+				width: 14px;
+				height: 14px;
+				border-radius: 3px;
+				margin: 2px 0 0;
+				padding: 0;
+			}
+			
+		.booking-mask .date-picker{
+			top: 132px;
+			padding: 0 15px;
+		}
+		.show-picker .booking-mask .date-picker{
+			width: 724px;
+		}
+		.booking-mask .ui-datepicker:after{
+			left: 120px;
+		}
+		.booking-mask .ui-datepicker.click-date-in:after{
+			left: 280px;
+		}
+			.ui-datepicker.ui-datepicker-multi{
+				padding: 0 30px;
+			}
+			.ui-datepicker.ui-datepicker-multi{
+				width: calc(724px - 60px) !important;
+			}
+			.ui-datepicker-multi-2 .ui-datepicker-group-first{
+				padding: 0 25px 44px 0;
+			}
+			.ui-datepicker-multi-2 .ui-datepicker-group-last{
+				padding-left: 25px;
+			}
+
+	/*modify popup*/
+	.popup-wrapper-modify{
+		top: 154px;
+	}
+		.popup-wrapper-modify:after{
+			right: 88px;
+		}
+	
+	
+/* MAIN-CONTENT [L]
+-------------------------------- */
+	#main-content {
+		margin-top: 0;
+	}
+	.no-mainvisual #main-content {
+		margin-top: 119px;
+	}
+		#main-content .inner-wrapper {
+			max-width: 750px;
+		}
+		h1{
+			margin-bottom: 7px;
+		}
+		h2.second-title {
+			margin-bottom: 15px;
+		}
+		
+	.breadcrumb {
+		width: 987px;
+		margin: 21px auto 25px;
+		font-size: 0.9em;
+	}
+		.breadcrumb .breadcrumb-seperator{
+			margin: 0 1px 0 6px;
+			line-height: 23px;
+		}
+	
+	/* AMENITIES */
+	.amenities-title{
+		margin:47px 0 0;
+	}
+	.amenities-wrapper {
+		max-width: 818px;
+	}
+	.amenities-content {
+		margin-bottom: 47px;
+	}
+	
+
+/* MAIN VISUAL [L]
+-------------------------------- */
+	.slide .slide-title {
+		bottom: 30px;
+		left: 115px;
+		max-height: 116px;
+	}
+		.slide .slide-title h3{
+			font-size: 1em;
+			line-height: 38px;
+		}
+		
+	.slide-show-nav{
+		left: 22px;
+		bottom: 26px;
+		width: 72px;
+		height: 47px
+	}
+	.no-arrows .slide .slide-title {
+		left: 22px;
+	}
+		.slide-show-nav .slick-prev, .slide-show-nav .slick-next{
+			width: 20px;
+			background-size: 496px auto;
+			background-position: -173px -2px;
+		}
+		.slide-show-nav .slick-next{
+			background-position: -192px -2px;
+		}
+	
+/* FOOTER [L]
+-------------------------------- */			
+.footer-wrp {
+	min-height:400px;
+}
+.footer{
+	width: 910px;
+	min-height: 400px;
+}
+	.ftr-awards {
+		width: 56px;
+	}
+	.awd-title {
+		font-size: 1.9em;
+		letter-spacing: 2px;
+		padding-top: 38px;
+	}
+	.awd {
+		height: 148px;
+		margin: 0 15px 20px;
+		width: 149px;
+	}
+
+	.ftr-cnt-detail, .ftr-menu, .subscribe-partner-logo{
+		margin: 20px 0 0;
+	}
+		.ftr-cnt-detail{
+			width: 27.5%;
+		}
+		.ftr-menu{
+			width: 20%;
+		}
+		.partner-logos{
+			width: 140px;
+		}
+			.partner-logo-wrap{
+				width: 100%;
+			}
+				.partner-logos .partner-logo,
+				.partner-logos .partner-logo.plogo1{
+					width: 100%;
+					margin: 18px auto 0;
+				}
+				.partner-logos .partner-logo.plogo0{
+					width: 132px;
+					height: 112px;
+					background-size: 685px auto;
+					background-position: 8px -180px;
+				}
+				.partner-logos .partner-logo.plogo1{
+					background-size: 685px auto;
+					background-position: -124px -190px;
+				}
+		.newsletter-smo{
+			width: 258px;
+		}
+			.subscribe-block{
+				margin: 21px 0 72px;
+			}
+			.ftr-smo-btn-wrapper{
+				position: relative;
+				left: -9px;
+			}
+			.ftr-smo-bar .smo-icon{
+				margin: 0 0 0 3px;
+			}
+			.ftr-smo-bar .smo-icon {
+				width: 36px;
+				height: 23px;
+				margin: 0 0 0 3px;
+				background-size: 580px auto;
+			}
+			.ftr-smo-bar .smo-icon.youtube {
+				background-position: 4px -97px;
+			}
+			.no-touch-device .ftr-smo-bar .smo-icon.youtube:hover {
+				background-position: 4px -125px;
+			}
+			.ftr-smo-bar .smo-icon.facebook {
+				background-position: -26px -97px;
+			}
+			.no-touch-device .ftr-smo-bar .smo-icon.facebook:hover {
+				background-position: -26px -125px;
+			}
+			.ftr-smo-bar .smo-icon.bg.twitter {
+				background-position: -58px -97px;
+			}
+			.no-touch-device .ftr-smo-bar .smo-icon.bg.twitter:hover  {
+				background-position: -58px -125px;
+			}
+			.ftr-smo-bar .smo-icon.bg.instagram {
+				background-position: -92px -97px;
+			}
+			.no-touch-device .ftr-smo-bar .smo-icon.bg.instagram:hover  {
+				background-position: -92px -125px;
+			}
+			.ftr-smo-bar .smo-icon.bg.googleplus {
+				background-position: -127px -97px;
+			}
+			.no-touch-device .ftr-smo-bar .smo-icon.bg.googleplus:hover  {
+				background-position: -127px -125px;
+			}
+			.ftr-smo-bar .smo-icon.bg.tripadvisor {
+				margin-right: 0;
+				background-position: -163px -97px;
+			}
+			.no-touch-device .ftr-smo-bar .smo-icon.bg.tripadvisor:hover  {
+				background-position: -163px -125px;
+			}
+		
+	.ftr-btm{
+		width: 100%;
+	}
+		.ftr-btm-menu{
+			right: 15px;
+		}
+	/* new footer layout changes*/	
+	.ftr-cnt-detail {
+		width: 21.5%;
+	}
+	.ftr-menu {
+		width: 27%;
+	}
+	.subscribe-partner-logo {
+		width: 48%;
+	}
+	.subscribe-partner-logo.no-partner-logo {
+		width: 28.5%;
+	}
+	.no-p-logo .ftr-menu {
+		width: 40%;
+		margin-left: 60px;
+	}
+	.no-p-logo .ftr-menu .shortcuts {
+		-webkit-column-gap: 50px;
+		-moz-column-gap: 50px;
+		-o-column-gap: 50px;
+		-ms-column-gap: 50px;
+		column-gap: 50px;
+	}
+		
+} /* END MEDIA QUERY */
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+.only-portrait-mobile{
+	display: block;
+}
+.open-navigation .holder-inner-wrapper{
+	transform: rotateY(38deg) translateX(-190px);
+}
+.navigation li:hover .menuLevel2{
+	display: none;
+}
+.header-navigation li.hm-item:after{
+	bottom: -5px;
+}
+
+.inner-wrapper{
+	width: 724px;
+}
+.read-more-toggle{
+	padding-top: 5px;
+}
+.underline-link{
+	padding-bottom: 1px;
+}
+.underline-link:hover:after{
+	bottom: 0;
+}
+
+.read-more-ico{
+	width: 24px;
+	height: 24px;
+}
+	.read-more-toggle .read-more-ico:before{
+		top: 11px;
+	}
+
+.header-middle-content{
+	height: 80px;
+}
+	.booking-mask-switcher{
+		width: 132px;
+		height: 80px;
+		line-height: 1.2;
+	}
+	.booking-mask-switcher:after{
+		border-left: 67px solid transparent;
+		border-right: 67px solid transparent;
+	}
+		.bm-switcher-text{
+			margin-top: 25px;
+		}
+		
+	.popup-wrapper-modify{
+		top: 216px;
+	}
+		.popup-wrapper-modify:after{
+			right: 118px;
+		}
+		
+	.logo{
+		margin: 0 10px;
+	}
+	
+	.fixed-header .logo{
+		height: 100%;
+		overflow: hidden;
+		margin-top: 0;
+	}
+	/* .fixed-header .logo {
+		height: auto;
+		margin-top: 0;
+	} */
+
+	.more-menu-switcher{
+		margin: 20px 146px 0 0;
+	}
+
+		.switcher-ele, .switcher-ele:before, .switcher-ele:after{
+			width: 35px;
+			height: 2px;
+		}
+		.switcher-ele:before{
+			top: -8px
+		}
+		.switcher-ele:after{	
+			top: auto;
+			bottom: -8px;
+		}
+		
+	.header-navigation{
+		margin: 23px 0 0;
+	}
+		.header-navigation li.fm-item-tb{
+			display: none;
+		}
+		.header-navigation li.hm-item.meetings{
+			border-right: none;
+		}
+		.header-navigation li.hm-item:after{
+			width: calc(100% - 20px);
+		}
+		/*.header-navigation li.hm-item:hover:after, 
+		.header-navigation li.hm-item.active:after{
+			bottom: -25px;
+		}*/
+			.header-navigation li.hm-item a{
+				padding: 10px 10px 31px;
+			}
+			.serenalakevictoria .header-navigation li.hm-item a {
+				padding-left: 6px;
+				padding-right: 6px;
+			}
+	
+	
+	.fixed-navigation li.fm-item-tb{
+		display: block;
+	}
+
+	.weather-widget-wrapper{
+		margin-right: 60px;
+		padding: 13px 12px 11px;
+	}
+	.language-switcher{
+		right: 15px;
+	}
+	.group-link{
+		padding: 2px 8px 10px 14px;
+	}
+	.prestige-link{
+		padding: 0 10px 0;
+	}
+
+	.serenaarusha .language-switcher{
+		right: 5px;
+		width: 31px;
+	}
+	.serenaarusha .weather-widget-wrapper{
+		padding: 13px 8px 11px;
+	}
+	.serenaarusha .header-top-text{
+		padding: 13px 10px 9px 12px;		
+	}
+	.serenaarusha .hotel-list-switcher-lbl,
+	.serenaarusha .hotel-list-switcher-text{
+		margin-right: 15px;
+	}
+	.serenaarusha .group-link{
+		padding: 2px 8px 10px 8px;
+	}
+	.serenaarusha .prestige-link{
+		padding: 0 6px 0;
+	}
+	
+	.open-hotel-list .header-hotel-list{
+		height: auto;
+	}
+	
+	.continent{
+		position: absolute;
+		top: 35px;
+		left: 22px;
+		margin: 0;
+	}
+	.continent.asia{
+		left: auto;
+		right: 50px;
+		
+	}
+	.country-wrapper{
+		margin: 100px 0 0 23px;
+	}
+	.country-wrapper-0:after, .country-wrapper-1:after{
+		display: none;
+	}
+	.country-wrapper-1{
+		margin-left: 32px;
+	}
+		.country-block{
+			width: 240px;
+		}
+		.country-wrapper-1 .country-block{
+			width: 185px;
+		}
+			.country h4{
+				margin: 0 0 15px;
+			}
+	
+	.header-bottom-content .inner-wrapper{
+		width: 724px;
+	}
+	.open-bookingmask .header-bottom-content{
+		height: 280px;
+	}
+		#best-rate{
+			padding-left: 41px;
+		}
+		.best-rate:before{
+			top: 63px;
+			left: 6px;
+		}
+			.best-rate .rate{
+				margin: 58px 0 0;
+			}
+			
+		.bm-form-wrapper{
+			position: absolute;
+			top: 36px;
+			left: 0;
+			width: 100%;
+		}
+			.booking-mask .datein{
+				margin-left: 230px;
+			}
+			.booking-mask .dateout{
+				margin-right: 0;
+			}
+			.booking-mask .date{
+				margin-bottom: 40px;
+				margin-right: 30px;
+			}
+			.booking-mask .date:after{
+				top: 30px;
+				right: 10px;
+			}
+			.booking-mask .hotel:after, .booking-mask .choose:after{
+				top: 38px;
+			}
+			.booking-mask .choose{
+				margin-right: 30px;
+			}
+			.booking-mask .choose.rooms{
+				clear: both;
+			}
+				.booking-mask input, .booking-mask select{
+					width: 171px;
+					height: 34px;
+					font-size: 1em;
+				}
+				.booking-mask select{
+					width: 78px;
+				}
+			.booking-mask .booking-link{
+				padding: 7px 34px;
+				margin: 22px 0 0;
+			}
+			.modify{
+				top: auto;
+				bottom: -65px;
+				right: 65px;
+			}
+			
+		.booking-mask .resident {
+		  right: 250px;
+		  top: 95px;
+		}
+			.booking-mask .resident label {
+				margin-left: 8px;
+			}
+			.resident > input {
+				width: 14px;
+				height: 14px;
+				border-radius: 3px;
+				margin: 2px 0 0;
+				padding: 0;
+			}
+	.booking-mask .ui-datepicker:after{
+		left: 333px;
+	}
+	.booking-mask .ui-datepicker.click-date-in:after{
+		left: 532px;
+	}		
+	.ui-datepicker.ui-datepicker-multi{
+		padding: 0 30px;
+	}
+	.ui-datepicker.ui-datepicker-multi{
+		width: calc(724px - 60px) !important;
+	}
+	.ui-datepicker-multi-2 .ui-datepicker-group-first{
+		padding: 0 25px 44px 0;
+	}
+	.ui-datepicker-multi-2 .ui-datepicker-group-last{
+		padding-left: 25px;
+	}
+	
+	.contacthead-link{
+		display:none;
+	}
+		
+/* MAIN-CONTENT [P]
+-------------------------------- */
+	#main-content {
+		margin-top: 0;
+	}
+	.no-mainvisual #main-content {
+		margin-top: 119px;
+	}
+		#main-content .inner-wrapper {
+			max-width: 605px;
+		}
+		h2.second-title {
+			margin-top: 6px;
+			margin-bottom:11px;
+		}
+	.breadcrumb {
+		font-size: 0.75em;
+		letter-spacing: 0.08em;
+		margin-bottom: 16px;
+		margin-top: 19px;
+		width: 724px;
+	}
+		.breadcrumb .breadcrumb-seperator {
+			margin: 0 0 0 2px;
+			background-position: -400px -24px;
+		}
+	
+	/* AMENITIES */
+	.amenities-wrapper {
+		max-width: 696px;
+	}
+	.amenities-title {
+		margin: 32px 0 0;
+	}
+	.amenities-icons {
+		margin: 26px 0 40px;
+	}
+	.amenities-content {
+		margin-bottom: 75px;
+	}
+
+	.serenakhorog .amenities-section .amenities-content ul {
+		width: 40%;
+	}
+	.serenakhorog .amenities-section .amenities-content ul:nth-child(1) {
+		width: 50%;
+	}
+	/*.amenities-content ul li{
+		top:-26px;
+		width:95%;
+	}
+	.amenities-content ul li:before{
+		top:-26px;
+		width:95%;
+	}*/
+
+/* MAIN VISUAL [P]
+-------------------------------- */
+	.slide .slide-title {
+		bottom: 30px;
+		left: 115px;
+		max-height: 116px;
+	}
+	.no-arrows .slide .slide-title{
+		left: 18px;
+	}
+		.slide .slide-title h3{
+			font-size: 1em;
+			line-height: 38px;
+		}
+		
+	.slide-show-nav{
+		left: 22px;
+		bottom: 26px;
+		width: 72px;
+		height: 47px
+	}
+		.slide-show-nav .slick-prev, .slide-show-nav .slick-next{
+			width: 20px;
+			background-size: 496px auto;
+			background-position: -173px -2px;
+		}
+		.slide-show-nav .slick-next{
+			background-position: -192px -2px;
+		}
+		
+		
+/* FOOTER [P]
+-------------------------------- */			
+.footer{
+	width: 645px;
+	min-height: 500px;
+}
+.serenaolpejeta .footer{
+	min-height: 553px;
+}
+.ftr-awards {
+	width: 49px;
+}
+	/* .ftr-awards-btn:after {
+		background-position: -651px -4px;
+		background-size: 667px auto;
+		height: 40px;
+		right: 2px;
+		top: 4.5%;
+		width: 25px;
+	} */
+	.awards-lst-wrp {
+		z-index: 2;
+	}
+	.awd-title {
+		font-size: 1.3em;
+		letter-spacing: 2px;
+		padding-top: 31px;
+	}
+	.awd {
+		height: 135px;
+		margin: 0 17px 20px;
+		width: 138px;
+	}
+
+	.ftr-cnt-detail, .ftr-menu, .subscribe-partner-logo{
+		margin: 18px 0 0;
+	}
+	.cnt-region-block{
+		margin: 9px 0 0;
+	}
+	
+	.ftr-cnt-detail{
+		width: 33%;
+	}
+	.ftr-menu{
+		width: 175px;
+		margin-left: 82px;
+	}
+		.ftr-menu ul{
+			margin-top: 9px;
+		}
+			.ftr-menu li{
+				margin-bottom: 7px;
+				font-size: .85em;
+			}
+		
+	.subscribe-partner-logo{
+		position: static;
+		width: 175px;
+	}
+		.partner-logos{
+			width: 100%;
+		}
+			.partner-logo-wrap{
+				width: 175px;
+			}
+				.partner-logos .partner-logo{
+					margin: 14px 0 0;
+				}
+				.partner-logos .partner-logo.plogo0{
+					width: 125px;
+					height: 100px;
+					margin: 8px auto 0;
+					background-size: 690px auto;
+					background-position: 6px -180px;
+				}	
+				.partner-hotel-text{
+					margin: 6px 0 20px;
+					font-size: .9em;
+				}
+				
+		.newsletter-smo{
+			position: absolute;
+			left: 10px;
+			bottom: 0;
+			width: 100%;
+		}
+			.ftr-block-title{
+				width: 250px;
+			}
+			.subscribe-block{
+				
+				width: 262px;
+				height: 43px;
+				margin: 17px 0 28px;
+			}
+			.ftr-smo-bar{
+				position: absolute;
+				width: 270px;
+				top: 0;
+				right: 0;
+			}
+				.ftr-smo-bar .ftr-block-title{
+					margin-bottom: 21px;
+				}
+				.ftr-smo-btn-wrapper{
+					margin-left: -8px;
+				}
+					.ftr-smo-bar .smo-icon {
+						width: 36px;
+						height: 23px;
+						margin: 0 0 0 3px;
+						background-size: 580px auto;
+					}
+					.ftr-smo-bar .smo-icon.youtube {
+						background-position: 4px -97px;
+					}
+					.no-touch-device .ftr-smo-bar .smo-icon.youtube:hover {
+						background-position: 4px -125px;
+					}
+					.ftr-smo-bar .smo-icon.facebook {
+						background-position: -26px -97px;
+					}
+					.no-touch-device .ftr-smo-bar .smo-icon.facebook:hover {
+						background-position: -26px -125px;
+					}
+					.ftr-smo-bar .smo-icon.bg.twitter {
+						background-position: -58px -97px;
+					}
+					.no-touch-device .ftr-smo-bar .smo-icon.bg.twitter:hover  {
+						background-position: -58px -125px;
+					}
+					.ftr-smo-bar .smo-icon.bg.instagram {
+						background-position: -92px -97px;
+					}
+					.no-touch-device .ftr-smo-bar .smo-icon.bg.instagram:hover  {
+						background-position: -92px -125px;
+					}
+					.ftr-smo-bar .smo-icon.bg.googleplus {
+						background-position: -127px -97px;
+					}
+					.no-touch-device .ftr-smo-bar .smo-icon.bg.googleplus:hover  {
+						background-position: -127px -125px;
+					}
+					.ftr-smo-bar .smo-icon.bg.tripadvisor {
+						margin-right: 0;
+						background-position: -163px -97px;
+					}
+					.no-touch-device .ftr-smo-bar .smo-icon.bg.tripadvisor:hover  {
+						background-position: -163px -125px;
+					}
+	
+.ftr-btm{
+	width: 100%;
+}
+	.ftr-btm-menu{
+		right: 15px;
+	}
+	.copyright{
+		left: 15px;
+		right: auto;
+	}
+	
+.fixed-nav-wrapper{
+	width: 188px;
+}
+	.fixed-navigation li{
+		font-size: .9em;
+	}
+	
+	.downloadItem .pdfDownload {
+		font-size: 0.9em;
+		letter-spacing: 0.04em;
+		padding-left:37px;
+	}
+	.toggle-content-wrapper .downloadItem .pdfDownload{
+		font-size: 0.75em;
+		letter-spacing:0.06em;
+	}
+	.downloadItem .pdfDownload.before:before {
+		top: -9px;
+	}
+	.toggle-content-wrapper .downloadItem .pdfDownload.before:before {
+		top: -5px;
+	}
+	
+	/* new footer layout changes*/	
+	.ftr-menu {
+		width: 39%;
+		margin-left: 0;
+	}
+	.no-p-logo .ftr-menu {
+		width: 46%;
+		margin-left: 60px;
+	}
+	.no-p-logo .subscribe-partner-logo {
+		min-height: 0;
+	}
+	
+	
+	.serenangorongoro .weather-widget-wrapper,
+	.serenasweetwaters .weather-widget-wrapper{
+		padding:13px 10px 11px 0;
+	}
+
+	
+} /* END MEDIA QUERY */
+
+
+@media (max-width: 767px) {
+#ele-wrapper{
+	height: calc(100vh - 61px);
+}
+.show-in-mobile{
+	display: block;
+}
+
+.hide-in-mobile{
+	display: none;
+}
+#header{
+	position:fixed;
+	top:0;
+	left:0;
+}
+.header-hotel-list{
+	display: none;
+}	
+.header-bottom-content .inner-wrapper:after,
+.footer:after,
+.newsletter-smo:after{
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/* .inner-wrapper{
+	max-width: 290px;
+}	 */
+.only-portrait-mobile,
+.mobile-only{
+	display: block;
+}
+.content ol{
+	padding-left:25px;
+}
+.open-navigation .holder-inner-wrapper,
+.fixed-header.open-navigation .holder-inner-wrapper {
+	transform: rotateY(67deg) translateX(-370px);
+}
+.fixed-header #header{
+	top: 0;
+}
+	.header-top-content,
+	.header-navigation{
+		display: none;
+	}
+		.header-middle-content{
+			height: 61px;
+		}
+			.language-switcher{
+				top: 15px;
+				right: 190px;
+				height: 16px;
+				padding: 6px 8px 6px 0;
+				border-right: 1px solid #f6871f
+			}
+			
+			.booking-mask-switcher{
+				width: 103px;
+				height: 61px;
+			}
+			.booking-mask-switcher:before{
+				bottom: -12px;
+			}
+			.booking-mask-switcher:after {
+				border-left: 53px solid rgba(0, 0, 0, 0);
+				border-right: 53px solid rgba(0, 0, 0, 0);
+				border-top: 17px solid #f6871e;
+				bottom: -17px;
+			}
+
+
+			/*modify booking popup*/
+			.popup-wrapper-modify{
+				width: 255px;
+				top: auto;
+				bottom: 50px;
+				padding: 20px;
+			}
+
+			.show-modify .popup-wrapper-modify {
+			    
+			    left: 50%;
+			    transform: translateX(-50%);
+			}
+
+				.popup-wrapper-modify:after{
+					top: auto;
+					bottom: -25px;
+					border-top: 25px solid #fff;
+					border-bottom: transparent;
+					left: 50%;
+			    	transform: translateX(-50%);
+				}
+
+				.popup-wrapper-modify .modify-buttons button{
+					padding: 6px 25px;
+				}
+
+				.bm-switcher-text{
+					margin-top: 18px;
+				}
+			
+			.logo{
+				margin: 0 10px;
+			}
+
+			.more-menu-switcher{
+				/*width: 28px;*/
+				/*margin: 9px 105px 0 0;*/
+				width: auto;
+				margin: 17px 109px 0 0;
+			}
+				.switcher-ele, .switcher-ele:before, .switcher-ele:after{
+					width: 28px;
+					height: 2px;
+				}
+				.switcher-ele:before{
+					top: -7px;
+				}
+				.switcher-ele:after{
+					top: auto;
+					bottom: -7px;
+				}
+
+				.more-menu-switcher .switcher-text.hide-mobile{
+					display: none;
+				}
+
+				.more-menu-switcher .switcher-text.show-mobile{
+					display: inline-block;
+					margin-top: -2px;
+					padding: 5px 27px 4px 15px;
+				}
+				.more-menu-switcher .switcher-text:after{
+					right: 11px;
+					top: 8px;
+				}
+
+		.open-bookingmask .header-bottom-content{
+			height: auto;
+		}
+			.header-bottom-content .inner-wrapper{
+				width: 100%;
+			}
+				#availability-checker{
+					height: calc(100vh - 61px);
+					text-align: center;
+					overflow-x: hidden;
+					overflow-y: scroll;
+				}
+				#best-rate{
+					float: none;
+					display: inline-block;
+				}
+				.booking-mask{
+					float: none;
+					position: relative;
+					width: 260px;
+					margin: 0 auto;
+				}
+					.booking-mask .date{
+						width: 100%;
+						margin: 0 0 12px;
+					}
+					.booking-mask .choose.children{
+						margin-right: 0;
+					}
+						.booking-mask .date label{
+							width: 100%;
+							text-align: center;
+						}
+						.booking-mask input, .booking-mask select{
+							font-size: .95em;
+						}
+						.booking-mask  .date input{
+							width: calc(100% - 29px);
+							height: 32px;
+							padding: 3px 12px 0 17px;
+							text-transform: uppercase;
+						}
+						.booking-mask select{
+							width: 76px;
+						}
+						.booking-mask label {
+							text-align: center;
+							width: 100%;
+						}
+						.booking-mask .choose:after{
+							top: 40px;
+						}
+						
+						.booking-mask .booking-link{
+							float: none;
+							display: inline-block;
+							margin-bottom: 25px;
+						}
+						.booking-mask .resident label {
+						  float: none;
+						  margin-left: 8px;
+						}
+						.modify{
+							display: inline-block;
+							float: none;
+							margin: 30px 0 0;
+							padding-bottom: 5px;
+						}
+						
+						.booking-mask .resident {
+							right: auto;
+							left: 55px;
+							top: auto;
+							bottom: 32px;
+							padding-bottom: 5px;
+						}
+							.booking-mask .resident label {
+								margin-left: 8px;
+							}
+							.resident > input {
+								width: 14px;
+								height: 14px;
+								border-radius: 3px;
+								margin: 2px 0 0;
+								padding: 0;
+							}
+							
+
+			.booking-mask .date-picker{
+				top: 38px;
+				padding: 0;
+				left: -18px;
+				height: 285px;
+				border: 1px solid #50423f;
+				overflow: hidden;
+			}	
+			.show-picker .booking-mask .date-picker{
+				width: 290px !important;
+			}	
+			.booking-mask .ui-datepicker:after{
+				display: none;
+			}
+				.booking-mask .ui-datepicker,
+				.ui-datepicker-multi-2 .ui-datepicker-group-first{
+					width: calc(100% - 30px) !important;
+					padding: 0 15px 5px;
+				}	
+				.ui-datepicker-multi-2 .ui-datepicker-group-first{
+					border: none;
+				}
+				.ui-datepicker-multi-2 .ui-datepicker-group-last{
+					display: none;
+				}
+				#date-picker .ui-datepicker-next{
+					right: 0;
+				}
+				.date-picker .ui-datepicker-prev:before{
+					top: 0;
+				}
+				
+				.booking-mask .bm-close {
+					background: url(/templates/hotel/images/infobox-close.png) no-repeat 0 0;
+					cursor: pointer;
+					height: 30px;
+					pointer-events: auto;
+					position: absolute;
+					right: 0;
+					top: 8px;
+					width: 30px;
+					z-index: 1;
+					-webkit-transform: scale(0.6, 0.6);
+					-moz-transform: scale(0.6, 0.6);
+					-o-transform: scale(0.6, 0.6);
+					-ms-transform: scale(0.6, 0.6);
+					transform: scale(0.6, 0.6);
+				}
+				
+				.booking-mask .date input:focus{
+					font-size: 14px !important;
+				}
+			
+
+/* MAIN-CONTENT [M]
+-------------------------------- */
+
+	#main-content {
+		margin-top: 0;
+	}
+	.no-mainvisual #main-content {
+		margin-top: 0;
+	}
+		#main-content .inner-wrapper {
+			max-width: 280px;
+		}
+		#page_rfp #main-content .inner-wrapper {
+			clear:both;
+		}
+		h2.second-title {
+			margin-top: 9px;
+			margin-bottom:13px;
+		}
+		
+	.breadcrumb {
+		font-size: 0.75em;
+		letter-spacing: 0.04em;
+		margin-bottom: 22px;
+		margin-top: 28px;
+		width: 290px;
+	}
+		.breadcrumb .breadcrumb-seperator {
+			margin: 0 0 0 1px;
+			background-position: -400px -24px;
+		}
+		.read-more-toggle{
+			padding-top: 12px;
+		}
+			.read-more-ico{
+				width: 26px;
+				height: 26px;
+			}
+			.read-more-toggle .read-more-ico:before{
+				top: 12px;
+			}
+			
+	.content ul li:not(.slick-active):after{
+		top: -17px;
+	}
+	
+	.amenities-section .amenities-content ul,
+	.serenakhorog .amenities-section .amenities-content-inner,
+	.serenakhorog .amenities-section .amenities-content ul:nth-child(1),
+	.serenakhorog .amenities-section .amenities-content ul{
+		width:100%;
+		margin:0;
+	}
+/* MAIN VISUAL [M]
+-------------------------------- */
+#main-visual{
+	margin-top: 61px;
+	height: calc(100vh - 61px);
+	/* height: 100vh; */
+}
+	.slide .slide-title{
+		display: none;
+	}
+
+	.slide-show-nav{
+		left: 22px;
+		bottom: 26px;
+		width: 85%;
+		height: 47px
+	}
+		.header-slideshow .slick-prev, .header-slideshow .slick-next{
+			width: 20px;
+			background-size: 496px auto;
+			/* background-position: -173px 4px; */
+		}
+		.header-slideshow .slick-next{
+			background-size:490px auto;
+			background-position:-193px -2px;
+			right:9px;
+		}
+		.header-slideshow .slick-prev{
+			background-size:490px auto;
+			background-position:-171px -2px;
+			left:9px;
+		}
+
+/* FOOTER [M]
+-------------------------------- */			
+.footer{
+	width: 290px;
+	padding-top: 10px;
+}
+	.ftr-cnt-detail{
+		width: 100%;
+		min-height: 198px;
+		text-align: center;
+		margin: 8px 0 0;
+	}
+		.cnt-region-block{
+			width: 100%;
+			min-height: 160px;
+			margin: 6px 0 0;
+		}
+			#footer .hotel-address{
+				font-size: 1.05em;
+			}
+		
+	.ftr-menu{
+		display: none;
+	}
+	
+	.subscribe-partner-logo{
+		width: 100%;
+		border-top: 1px solid #dad7d7;
+		padding-top: 30px;
+		text-align: center;
+	}
+		.partner-logos, .newsletter-smo{
+			width: 100%;
+		}
+			#footer h3.ftr-block-title{
+				font-size: 1.15em;
+			}
+			#footer .ftr-smo-bar h3.ftr-block-title{
+				margin-top: 20px;
+				font-size: 1.2em;
+			}
+			.subscribe-block{
+				margin: 20px auto 38px;
+				width: calc(100% - 27px);
+			}
+			.ftr-smo-bar{
+				height: auto;
+				padding-bottom: 12px;
+				border-top: 1px solid #dad7d7;
+				border-bottom: 1px solid #dad7d7;
+			}
+				.ftr-smo-btn-wrapper{
+					position: relative;
+					width: 168px;
+					margin: 0 auto;
+				}
+					.ftr-smo-bar .smo-icon{
+						margin: 0 0 16px;
+					}
+					.ftr-smo-bar .smo-icon.facebook,
+					.ftr-smo-bar .smo-icon.bg.googleplus{
+						margin: 0 25px 16px;
+					}
+					
+			.partner-logo-wrap{
+				width: 100%;
+			}
+				.partner-logos .partner-logo.plogo0{
+					width: 130px;
+					height: 105px;
+					margin: 25px auto 0;
+					background-size: 695px auto;
+					background-position: 10px -180px;
+				}
+				.partner-logos .partner-logo.plogo1{
+					margin-bottom: 25px;
+				}
+				.partner-hotel-text{
+					margin-bottom: 12px;
+					font-size: .8em;
+				}
+.ftr-btm{
+	width: 100%;
+	height: 45px;
+}
+	.ftr-btm-menu{
+		display: none;
+	}
+	.copyright{
+		top: 15px;
+	}
+	.hotel-tel-email{
+		float: left;
+		width: 100%;
+		margin-bottom: 0;
+	}
+	.hotel-tel-email .tel,
+	.hotel-tel-email .email{
+		position: relative;
+		width: calc(50% - 9px);
+		height: 46px;
+		margin: 0 9px 0 0;
+		text-indent: -9999px;
+	}
+	.hotel-tel-email .tel{
+		float: right;
+		margin: 0 0 0 9px;
+	}
+	.hotel-tel-email .uan,
+	.hotel-tel-email .fax{
+		display: none;
+	}
+	.hotel-tel-email .email{
+		float: right;
+	}
+	.hotel-tel-email .tel:before,
+	.hotel-tel-email .email:before{
+		content: '';
+		display: inline-block;
+		overflow: hidden;
+		pointer-events: none;
+		float: left;
+		width: 46px;
+		height: 46px;
+		background-position: -397px -271px;
+		text-align: left;
+	}	
+	.hotel-tel-email .email:before{
+		float: right;
+		background-position: -338px -272px;
+		text-align: right;
+	}
+
+		.hotel-tel-email .tel a,
+		.hotel-tel-email .email a{
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			width: 46px;
+			height: 46px;
+			text-indent: -9999px;
+		}
+		.hotel-tel-email .email a{
+			left: auto;
+			right: 0;
+		}
+		
+
+.fixed-navigation{
+	background-size: 105px auto;
+}
+.open-navigation .fixed-navigation{
+	overflow: auto;
+}	
+	.fixed-nav-wrapper{
+		width: 188px;
+		margin-top: 77px;
+	}	
+		.fixed-navigation li{
+			position: relative;
+			display: block;
+			margin-bottom: 21px;
+			
+			font-size: .9em;
+		}
+		.fixed-navigation li.only-in-sitemap{
+			display: none;
+		}
+
+			.fixed-navigation li br{
+				display: none;
+			}
+		.fixed-navigation li.fm-item.location:after{
+			display: inline-block;
+			content: '';
+			width: 205px;
+			height: 1px;
+			background-color: #dfdcdc;
+			position: absolute;
+			left: -35px;
+			bottom: -21px;
+		}
+		.fixed-navigation li.fm-item.serena-home{
+			margin-bottom: 34px;
+		}
+		/*.fixed-navigation li.special-offers.hm-item {
+			display:none;
+		}
+		.serenanairobi .fixed-navigation li.special-offers.hm-item {
+			display:block;
+		}*/
+		.fixed-navigation li.sustainability{
+			margin-top: 42px;
+		}
+		.fixed-navigation li.sitemap{
+			margin-top: 42px;
+		}
+		.fixed-navigation li.sitemap a,
+		.fixed-navigation li.terms-of-use a,
+		.fixed-navigation li.privacy-and-policy a{
+			color: #838383;
+		}
+		
+	.close-fixed-menu{
+		width: 15px;
+		height: 15px;
+		top: 5px;
+		right: 5px;
+	}
+		.close-fixed-menu-icon{
+			width: 15px;
+			height: 15px;
+			background-position: -225px -41px;;
+		}
+		
+	.weather-widget-wrapper{
+		position: absolute;
+		top: 26px;
+		right: 65px;
+		height: auto;
+		margin: 0;
+		border: none;
+	}
+
+.mobile-fixed-header{
+	display: block;
+}
+
+
+
+	/* AMENITIES */
+	.amenities-wrapper {
+			max-width: 290px;
+		}
+		.amenities-title {
+			margin: 33px 0 0;
+		}
+		.amenities-icons {
+			margin: 21px 0 10px;
+		}
+		.amenitiesItem {
+			background-size: 570px auto;
+			height: 24px;
+			margin: 0 9px;
+			width: 24px;
+			}
+			.amenitiesItem.projector {
+				background-position: -360px -94px;
+			}
+			.amenitiesItem.attachement{
+				width:24px;
+				background-position: -379px -94px;
+			}
+			.amenitiesItem.wifi {
+				background-position: -206px -94px;
+			}
+			.amenitiesItem.furniture {
+				background-position:  -404px -94px;
+			}
+			.amenitiesItem.tv {
+				background-position: -308px -94px;
+			}
+			.amenitiesItem.coffee {
+				background-position: -333px -94px;
+			}
+			.amenitiesItem.drier {
+				background-position: -230px -94px;
+			}
+			.amenitiesItem.ac {
+				background-position: -256px -94px;
+			}
+			.amenitiesItem.hanger {
+				background-position: -284px -94px;
+			}
+		
+		.amenities-content .togglePlus{
+			width:25px;
+			height:25px;
+			display:block;
+			left: 0;
+			margin: 0 auto;
+			right: 0;
+			top: 4px;
+			position: absolute;
+			cursor:pointer;
+		}
+		.amenities-content.open .togglePlus {
+			bottom: 15px;
+			top: auto;
+		}
+		
+		.amenities-content .togglePlus:after,
+		.amenities-content.close .togglePlus:before {
+			content: "";
+			position: absolute;
+			background:#fff;
+		}
+		.amenities-content .togglePlus:after {
+			width: 100%;
+			height: 2px;
+			top:12px;
+		}
+		.amenities-content.close .togglePlus:before {
+			height: 100%;
+			width: 2px;
+			left: 0;
+			margin: 0 auto;
+			right: 0;
+		}
+		.amenities-content {
+			-webkit-column-count: auto; /* Chrome, Safari, Opera */
+			-moz-column-count: auto; /* Firefox */
+			column-count: auto;
+			
+			-webkit-column-gap: 0; /* Chrome, Safari, Opera */
+			-moz-column-gap: 0; /* Firefox */
+			column-gap: 0;
+			
+			margin-bottom:0;
+			position:relative;
+			padding-top:52px;
+			padding-bottom:52px;
+		}
+		.amenities-content.close{
+			padding-bottom:0;
+		}		
+		.amenities-content.open{
+			padding-top:0;
+		}
+		.amenities-content.close .amenities-content-inner{
+			visibility:hidden;
+			max-height:0;
+			opacity:0;
+		}
+		.amenities-content.open .amenities-content-inner{
+			visibility:visible;
+			max-height:1000px;
+			opacity:1;
+		}
+
+	.back-link {
+	     margin-right: 0;
+	}
+	.back-link a:after {
+	    left: 6px;
+	    top: 4px;
+	}
+
+	/*awrds wrapper*/
+	.ftr-awards-wrp{
+		height: 0px;
+		position: absolute;
+		width: 100%;
+		opacity: 0;
+		bottom: 0;
+		visibility: hidden;
+	}
+
+	.active-ftrawrds .ftr-awards-wrp{
+		height: 250px;
+		opacity: 1;
+		visibility: visible;
+		z-index: 5;
+		-webkit-transition:height 0.65s ease-in-out;
+		-moz-transition:height 0.65s ease-in-out;
+		-o-transition:height 0.65s ease-in-out;
+		-ms-transition:height 0.65s ease-in-out;
+		transition:height 0.65s ease-in-out;
+	}
+
+	.ftr-awards-wrp .awards-close-btn{
+		display: none;
+	}
+
+	
+
+	.active-ftrawrds .ftr-awards-wrp .awards-close-btn{
+		display: block;
+	}
+	
+	.ftr-awards{
+		position: relative;
+		width: 100%;
+		top:0;
+		right: 0;
+		height: 50px;
+	}
+
+	.ftr-awards-btn{
+		position: absolute;
+		right: 0;
+		top: 50%;
+		padding-right: 0;
+		transform: rotate(0deg);
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.ftr-awards-btn:after{
+		right: 5px;
+		top: -2px;
+		opacity: 1;
+		-webkit-transform: rotate(270deg);
+		-ms-transform: rotate(270deg);
+		transform: rotate(270deg);
+	}
+
+	.active-ftrawrds  .ftr-awards-btn:after{
+			opacity: 0;
+		}
+
+	.awards-lst-wrp{
+		width: 100%;
+		max-height: 200px;
+		height: 100%;
+	}
+
+	.active-ftrawrds .ftr-awards-wrp .awards-lst-wrp{
+		width: 100%;
+	}
+	.awards-lst{
+		margin:0 auto;
+		width: 100%;
+	}
+
+	.awd{
+		margin:0px 10px 10px;
+		width: 80px;
+		height: auto;
+	}
+
+	.awd img{
+		width: 80px;
+		height: auto;
+	}
+
+	.awards-block{
+		top: 0;
+		-webkit-transform: inherit;
+		-ms-transform: inherit;
+		transform: inherit;
+	}
+
+	/*PDF download File*/
+	.downloadItem .pdfDownload.before::before{
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.downloadItems .downloadItem{
+		width: 100%;
+		margin: 0 0 20px;
+		text-align: center;
+	}
+	.downloadItem .pdfDownload{
+		padding-left: 0;
+		padding-top: 30px;
+	}
+	
+	
+	
+	.downloadItem .pdfDownload {
+		font-size: 0.9em;
+		letter-spacing: 0.04em;
+	}
+	.toggle-content-wrapper .downloadItem .pdfDownload{
+		font-size: 0.75em;
+		letter-spacing:0.06em;
+		padding: 28px 0 0;
+		display: block;
+	}
+	.downloadItem .pdfDownload.before:before {
+		top: -9px;
+	}
+	.toggle-content-wrapper .downloadItem .pdfDownload.before:before {
+		top: -5px;
+	}
+	
+	.content thead tr td,
+	.content tr td{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.downloads li a {
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	.footer .hotel-tel a{
+		pointer-events: none;
+	}
+	.footer .hotel-tel *:first-child{
+		pointer-events: auto;
+	}
+	.subscribe-partner-logo.no-partner-logo {
+		width: 100%;
+	}
+} /* END MEDIA QUERY */
+
+@media (max-width: 350px){
+	.more-menu-switcher .switcher-text.show-mobile{
+		padding: 5px 10px 4px 10px;
+	}
+
+	.more-menu-switcher .switcher-text.show-mobile:after{
+		display: none;
+	}
+
+	.more-menu-switcher{
+		padding: 8px;
+		margin: 9px 100px 0 0;
+	}
+
+	.language-switcher{
+		right: 165px;
+	}
+}
+/***************  templates/hotel/css/template.home.css  ***************/
+.category-wrapper:after,
+.offer-rotator-wrapper:after,
+.serena-exp:after,
+.instafeed:after,
+.offer-widget-wrapper:after{
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* MAIN-CONTENT [LD]
+-------------------------------- */
+#main-content{
+	background: #50423e;
+	padding: 21px 0 45px; 
+}
+
+		h1{
+			margin-bottom: 12px;
+			color: #fff;
+			}
+			.intro{
+				display: block;
+				font-size: 0.5em;
+				letter-spacing:0.07em;
+			}
+		.secondary-title{
+			margin-bottom: 19px;
+			font-size: 1.6em;
+		}
+		.intro-content{
+			color: #fff;
+		}
+			.intro-content a{
+				color: #d0b4ac;
+			}
+		
+		.read-more-toggle .read-more-ico:before, 
+		.read-more-toggle .read-more-ico:after {
+			background: #fff;
+		}
+		
+		.loggedIn .open-content .toggle-content.anim-height.content{
+			max-height:1000px!important;
+		}
+
+/* HIGHLIGHTS [LD]
+-------------------------------- */
+.mod-hightlights{
+	margin-top: 44px;
+}
+	.category-item-wrapper, .itemPreview{
+		float: left;
+		width: 100%;
+	}
+		.itemPreview{
+			margin-bottom: 44px;
+			}
+			.itemPreview.facilities {
+				margin-bottom: 25px;
+			}
+			.image-col{
+				float: left;
+				width: 684px;
+				height: 378px;
+				overflow: hidden;
+			}
+			.right-align .image-col{
+				float: right;
+			}
+				.image-col .image-slide{
+					width: 684px;
+					height: 378px;
+					background-size: cover;
+					background-position: center center;
+				}
+				.facilities .hover-bg .image-slide:before,
+				.facilities .hover-bg .image-slide:after{
+					display: none;
+				}
+				
+				.image-col .slick-prev, .image-col .slick-next{
+					width: 22px;
+					height: 42px;
+					left: 26px;
+					background-position: -246px -5px;
+					background-size: 700px auto;
+				}
+				.image-col .slick-next{
+					left: auto;
+					right: 26px;
+					background-position: -277px -5px;
+				}
+				.facilities .readless,
+				.facilities.open-cont .readmore {
+					display:none;
+				}
+				.facilities.open-cont .readless {
+					display:block;
+				}
+				
+				
+			.content-col{
+				float: right;
+				width: 420px;
+				text-align: center;
+			}
+				.content-col-wrapper{
+					float: right;
+					width: 100%;
+					max-height: 310px;
+					overflow: hidden;
+				}
+				.facilities .content-col-wrapper{
+					max-height: 305px;
+				}
+				.serenamountainlodge .facilities .content-col-wrapper,
+				.serenakirawira .facilities .content-col-wrapper{
+					max-height: 308px;
+				}
+				.serenakilaguni .facilities .content-col-wrapper{
+					max-height: 298px;
+				}
+					.facilities .content-col{
+						text-align: left;
+					}
+					.right-align .content-col{
+						float: left;
+					}
+						.highlight-title{
+							margin: 40px 0 22px;
+							letter-spacing:0.06em;
+							}
+							.facilities .highlight-title {
+								margin-bottom: 17px;
+								margin-top: 18px;
+							}
+							.highlight-title a{
+								color: #3c3230;
+							}
+						.highlight-sub-title {
+							letter-spacing: 0.02em;
+							line-height: 1.1;
+							margin: 0 auto 30px;
+						}
+							.highlight-sub-title a{
+								color: #f6871f;
+							}
+						.highlight-content {
+							margin-left: auto;
+							margin-right: auto;
+							width: 88%;
+							}
+							.highlight-content.content ul,
+							.highlight-content.content ol{
+								margin-left:0;
+							}
+							.facilities .highlight-content {
+								width: 100%;
+							}
+							.highlight-content a{
+								color: #404040;
+							}
+						.highlight-more{
+							float: right;
+							letter-spacing: 0.09em;
+							cursor: pointer;
+						}
+						.highlight-more.hide{
+							display:none;
+						}
+						
+				.content-col-btn-wrapper{
+					float: left;
+					width: 100%;
+					margin-top: 23px;
+				}
+					.content-col-btn-wrapper p.rate{
+						float: left;
+						margin: -4px 0 0;
+						font-family: "oswaldregular", Helvetica, sans-serif;
+						font-weight: normal;
+						color: #3c3230;
+					}
+						.content-col-btn-wrapper p.rate .label{
+							margin-right: 5px;
+						}
+						.content-col-btn-wrapper p.rate a{
+							color: #3c3230;
+							font-size: 1.3em;
+						}
+							.content-col-btn-wrapper p.rate .cents{
+								display: none;
+							}
+				
+	.category-item-wrapper .slick-dots{
+		position: absolute;
+		top: 50%;
+		right: -40px;
+		height: auto;
+		transform: translate(0, -50%);
+		margin-top: -30px;
+	}
+	
+	/* Hide youtube temporary from home socila media */
+	.serenakabul .sm-wrapper .youtube,
+	.serenaislamabad .sm-wrapper .youtube,
+	.serenaquetta .sm-wrapper .youtube,
+	.serenafaisalabad .sm-wrapper .youtube,
+	.serenashigarf .sm-wrapper .youtube,
+	.serenahunza .sm-wrapper .youtube,
+	.serenakhaplupalace .sm-wrapper .youtube,
+	.serenaswat .sm-wrapper .youtube,
+	.serenagilgit .sm-wrapper .youtube,
+	.serenadushanbe .sm-wrapper .youtube,
+	.serenakhorog .sm-wrapper .youtube{
+		display:none;
+	}
+	
+/* OFFER ROTATOR [LD]
+-------------------------------- */		
+.offer-rotator{
+	background: #fbf3e1;
+}	
+	.offer-rotator .inner-wrapper{
+		width: 1116px;
+		text-align: center;
+	}
+		.offer-rotator .offer-heading{
+			margin: 0;
+			padding:34px 75px 2px;
+			letter-spacing: 0.07em;
+		}
+		.offer-rotator .offer-sub-heading{	
+			margin: 0 0 36px;
+			letter-spacing: 0.02em;
+		}
+		.offer-rotator .offer-item{
+			width: 306px;
+			margin: 0 33px;
+		}
+			.offer-image{
+				position: relative;
+				width: 306px;
+				height: 300px;
+			}
+				.offer-image a{
+					display: block;
+				}
+					.offer-image .slide{
+						background-size: cover;
+						width: 100%;
+						height: 300px;
+					}
+			
+			.offer-content{
+				width: 100%;
+				text-align: center;
+			}
+				.offer-cont-wrapper{
+					min-height: 104px;
+					max-height: 104px;
+					overflow: hidden;
+					margin-bottom: 15px;
+				}
+				.offer-cont-wrapper.line-three-heading{
+					min-height: 105px;
+					max-height: 105px;
+				}
+					.offer-content h3 {
+						font-size: 1.3em;
+						letter-spacing: 0.09em;
+						margin-top: 23px;
+						text-transform: uppercase;
+					}
+						.offer-content h3 a,
+						.offer-intro-content a{
+							color: #3c3230;
+						}
+						
+				.offer-content .offer-link{
+					display: inline-block;
+					margin: 15px 0 25px;
+				}
+				
+				.offer-btn-wrapper{
+					float: left;
+					width: 100%;
+					height: 50px;
+					background: #f6871f;
+				}
+				.offer-btn-wrapper:hover{
+					background: #e17a38;
+				}
+				.offer-intro-content {
+					height: 45px;
+					overflow: hidden;
+					}
+					.offer-content .offer-price, .offer-content .book-now{
+						margin: 14px 0 9px 22px;
+						
+						font-size: 1.2em;
+						color: #fff;
+						text-transform: uppercase;
+						letter-spacing: 0;
+					}
+					.offer-content .offer-price{
+						letter-spacing: 1px;
+					}
+						.offer-content .offer-price .currency{
+							margin-left: 5px;
+						}
+					.offer-content .book-now{
+						margin: 10px 22px 9px 0;
+						font-size: 1.3em;
+						font-weight: normal;
+						letter-spacing: 1px;
+					}
+					.offer-content .book-now.no-price{
+						float:none;
+						margin-right:auto;
+						margin-left:auto;
+					}
+						.offer-content .offer-price a, .offer-content .book-now a{
+							color: #fff;
+						}
+						
+			.view-all-offers{
+				display: inline-block;
+				margin: 35px 0 40px;
+			}
+			
+	.offer-rotator-wrapper .slick-prev,
+	.offer-rotator-wrapper .slick-next{
+		transform: none;
+		top: -102px;
+		left: 36px;
+		background-image: url(/templates/hotel/images/left_arrow.svg);
+		background-position: center center;
+		height: 40px;
+		width: 25px;
+	}
+	.offer-rotator-wrapper .slick-next{
+		left: auto;
+		right: 36px;
+		background-image: url(/templates/hotel/images/right_arrow.svg);
+		background-position: center center;
+		height: 40px;
+		width: 25px;
+	}
+		
+/* SERENA EXPERIENCE [LD]
+-------------------------------- */		
+.serena-exp{
+	position: relative;
+	background: #50423e;
+}
+	.serena-exp-image-block{
+		float: left;
+		width: 68%;
+		height: 680px;
+		overflow: hidden;
+		text-align: center;
+	}
+	.serena-exp-image-block.bg-image-block{
+		height: 0;
+		padding-top: 38%;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+		.serena-exp-image-block .serena-exp-image{
+			display: inline;
+			width: 1200px;
+			height: 680px;
+		}
+		
+	.serena-exp-content-block{
+		float: right;
+		width: 32%;
+		text-align: center;
+		color: #fff;
+		position: relative;
+	}
+		.serena-exp-inner-wrapper{
+			position: absolute;
+			top: 50%;
+			right: 0;
+			max-height: 85%;
+			padding: 0 40px;
+			transform: translate(0, -50%);
+			overflow: hidden;
+		}
+			.serena-exp-heading, .serena-exp-link{
+				color: #fff;
+			}
+			.serena-exp-sub-heading{
+				margin: 22px 0 30px;
+				
+				text-transform: none;
+				letter-spacing: 0.03em;
+			}
+			.serena-exp-intro{
+				max-height: 128px;
+				overflow: hidden;
+				line-height:1.4;
+			}
+			.serena-exp-link{
+				display: inline-block;
+				margin-top: 45px;
+				letter-spacing: 0.09em;
+				color: #fff;
+			}
+			.serena-exp-link:hover{
+				color: #fff;
+			}
+			.serena-exp-link:after{
+				background: #fff;
+			}
+
+/* INSTAGRAM [LD]
+-------------------------------- */
+.insta-wrapper {
+	text-align: center;
+}
+	.insta-wrapper .inner-wrapper{
+		width: 1208px
+	}
+		.insta-wrapper .insta-heading{
+			margin: 0;
+			padding: 40px 0 0;
+			letter-spacing: 0.01em;
+		}
+		.insta-wrapper .insta-sub-heading{	
+			margin: 0 0 29px;
+			letter-spacing: 0.01em;
+		}
+		.insta-wrapper  .wrap{
+			float: left;
+		}
+			.insta-wrapper  .insta {
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				display: block;
+				height: 190px;
+				position: relative;
+				width: 302px;
+			}
+			.insta-wrapper  .insta {
+				height: 300px;
+			}
+			
+	.insta-wrapper .slick-prev{
+		left: -46px;
+		background-position: -205px -99px;
+	}
+	.insta-wrapper .slick-next{
+		left: auto;
+		right: -46px;
+		background-position: -233px -99px;
+	}
+	
+/* SMO [LD]
+-------------------------------- */
+.sm-wrapper{
+	position: relative;
+	text-align: center;
+}
+	.sm-btn-wrapper{
+		float: left;
+		width: 100%;
+		margin: 20px 0 22px;
+	}
+		.sm-btn-wrapper .smo-icon {
+			background-position: 9px -132px;
+			display: inline-block;
+			height: 45px;
+			width: 55px;
+			cursor: pointer;
+		}
+		.no-touch-device .sm-btn-wrapper .smo-icon.youtube:hover {
+			background-position: 9px -172px;
+		}
+		.sm-btn-wrapper .smo-icon.facebook {
+			background-position: -37px -132px;
+		}
+		.no-touch-device .sm-btn-wrapper .smo-icon.facebook:hover {
+			background-position: -37px -172px;
+		}
+		.sm-btn-wrapper .smo-icon.bg.twitter {
+			background-position: -81px -132px;
+		}
+		.no-touch-device .sm-btn-wrapper .smo-icon.twitter:hover {
+			background-position: -81px -172px;
+		}
+		.sm-btn-wrapper .smo-icon.bg.instagram {
+			background-position: -129px -132px;
+		}
+		.no-touch-device .sm-btn-wrapper .smo-icon.instagram:hover {
+			background-position: -129px -172px;
+		}
+		.sm-btn-wrapper .smo-icon.bg.googleplus {
+			background-position: -178px -132px;
+		}
+		.no-touch-device .sm-btn-wrapper .smo-icon.googleplus:hover {
+			background-position: -178px -172px;
+		}
+		.sm-btn-wrapper .smo-icon.bg.tripadvisor {
+			background-position: -230px -132px;
+		}
+		.no-touch-device .sm-btn-wrapper .smo-icon.tripadvisor:hover {
+			background-position: -230px -172px;
+		}
+			.sm-btn-wrapper .smo-icon a{
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+		
+
+
+.ta-wrapper{
+	float: left;
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin: 0 0 78px;
+	text-align: center;
+}
+	.ta-inner-wrapper{
+		display: inline-block;
+	}
+	.serenaquetta .mobile-TA{
+		display: none;
+	}
+.slide .slide-title {
+	bottom: 42px;
+	left: 158px;
+}
+
+.slide-show-nav{
+	bottom: 38px;
+}
+.no-arrows .slide-show-nav{
+	left: 0;
+}
+	.header-slideshow .slick-prev,
+	.header-slideshow .slick-next{
+		width: 27px;
+		height: 47px;
+		background-size: 824px auto;
+		background-position: -289px -6px;
+	}
+	.header-slideshow .slick-next{
+		background-position: -326px -6px;
+	}
+	
+/* OFFER WIDGET 
+------------------------------------*/
+
+.offer-widget {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	display: block;
+	margin: 0 auto;
+	z-index: 1;
+	transform: translate(0px, -50%);
+}
+	.offer-widgetItem {
+		background:#fff url(/templates/hotel/images/body-bg.png) no-repeat right bottom / 71px auto;
+		min-height:345px;
+		width:100%;
+	}
+	.offer-widget-wrapper{
+		width:280px;
+		min-height:345px;
+		position:relative;
+	}
+	.offer-wigetimage {
+		height: 159px;
+		position: relative;
+		width: 244px;
+		margin:18px 18px 16px;
+		border-bottom:6px solid #f6871f;
+		overflow:hidden;
+	}
+	.offer-wigetimage a {
+		display: block;
+		width: 244px;
+		margin:0 auto;
+	}
+	.offer-wigetimage .slide {
+		background-size: cover;
+		height: auto;
+		width: 100%;
+	}
+	.offerwiget-more {
+		cursor: pointer;
+		float: left;
+		letter-spacing: 0.09em;
+	}
+	.offer-widgetItem .offer-content{
+		margin:0 20px 25px 26px;
+		width:auto;
+	}
+	.offer-widgetcont-wrapper{
+		font-family:"oswaldregular",Helvetica,sans-serif;
+		text-align:left;
+		text-transform:uppercase;
+		color:#3c3230;
+	}
+	.offer-widgetcont-wrapper .heading{
+		overflow:hidden;
+	}
+	.offer-widgetcont-wrapper .heading a{
+		color:#f6871f;
+	}
+	.offer-widgetcont-wrapper .heading p {
+		margin: 0;
+		line-height:1.4;
+	}
+	.heading.heading1 {
+		font-size: 1.15em;
+		letter-spacing:0.05em;
+		max-height:47px;
+		
+	}
+	.heading.heading2 {
+		font-size: 1.25em;
+		letter-spacing: 0.09em;
+		max-height:52px;
+	}
+	.heading.heading3 {
+		font-size: 1.65em;
+		letter-spacing: 0.05em;
+		max-height:58px;
+	}
+	.offer-widgetcont-wrapper .heading3 p {
+		line-height: 1.15;
+	}
+	.offer-widget-wrapper .offer-content a.offerwiget-more {
+		margin-top: 16px;
+	}
+	.offerwidget-tri {
+		border-left: 0 solid transparent;
+		border-right: 40px solid #fff;
+		border-top: 44px solid transparent;
+		border-bottom: 44px solid transparent;
+		top: 50%;
+		margin-top:-44px;
+		height: 0;
+		left: -40px;
+		pointer-events: auto;
+		position: absolute;
+		width: 0;
+		cursor:pointer;
+	}
+	.offerwidget-tri:after{
+		content:'';
+		width:18px;
+		height:18px;
+		background-image:url(/templates/hotel/images/bg-sprite.svg);
+		background-position:-223px -40px;
+		background-repeat:no-repeat;
+		top:0;
+		bottom:0;
+		left:23px;
+		margin:auto;
+		position:absolute;
+	}
+	.close-widget .offerwidget-tri{
+		border-right-color:#3c3230;
+	}
+	.offer-widget.close-widget .offerwidget-tri:after{
+		background-position:-155px -88px;
+		left:18px;
+	}
+	.offer-widget.close-widget {
+		max-width: 0;
+	}
+	.offer-widget.open-widget {
+		max-width: 280px;
+	}
+
+	.serenadaressalaam .facilities .content-col-btn-wrapper,
+	.serenapolana .facilities .content-col-btn-wrapper,
+	.serenaquetta .facilities .content-col-btn-wrapper,
+	.serenakhaplupalace .facilities .content-col-btn-wrapper,
+	.serenaswat .facilities .content-col-btn-wrapper,
+	.serenaarusha .facilities .content-col-btn-wrapper,
+	.serenakhorog .facilities .content-col-btn-wrapper,
+	.serenamountainlodge .facilities .content-col-btn-wrapper,
+	.serenamivumo .facilities .content-col-btn-wrapper,
+	.serenambuzi .facilities .content-col-btn-wrapper,
+	.serenafaisalabad .facilities .content-col-btn-wrapper{
+		display: none;
+	}
+	.serenadaressalaam.loggedIn .facilities .content-col-btn-wrapper,
+	.serenapolana.loggedIn .facilities .content-col-btn-wrapper,
+	.serenaquetta.loggedIn .facilities .content-col-btn-wrapper,
+	.serenakhaplupalace.loggedIn .facilities .content-col-btn-wrapper,
+	.serenaswat.loggedIn .facilities .content-col-btn-wrapper,
+	.serenaarusha.loggedIn .facilities .content-col-btn-wrapper,
+	.serenakhorog.loggedIn .facilities .content-col-btn-wrapper,
+	.serenamountainlodge.loggedIn .facilities .content-col-btn-wrapper,
+	.serenamivumo.loggedIn .facilities .content-col-btn-wrapper,
+	.serenambuzi.loggedIn .facilities .content-col-btn-wrapper,
+	.serenafaisalabad.loggedIn .facilities .content-col-btn-wrapper{
+		display: block;
+	}
+
+/*======== Hero Video =========== */
+
+	.video-section{
+		width: 100%;
+	}
+	.video-wrapper{
+		position: relative;
+		padding-top: 56.25%; /* 16:10 aspect ratio */
+		height: 0;
+	}
+	.tvs-video-iframe{
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height:100%;
+		
+	}
+
+
+#coverflow-video{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+ .tvs-video-wrapper{
+	/*position: relative;*/
+	width:100%;
+	height: 0;
+	padding-top: 56.25%; /* 40% , 56.25% - 16:9 */
+	/*bottom:31.875%;
+	bottom: 13.875%;*/
+	overflow: hidden;
+	display:block;
+	transform:translate(0, 2%);
+}
+.tvs-video-wrapper .tvs-videoplayer{
+	position: absolute;
+	top:0;
+	width:100%;
+	height:100%;
+}
+.tvs-video-wrapper .youtube-videoplayer{
+	position: absolute;
+	top:0;
+	width:100%;
+	height:100%;
+}
+.has-uvideo .tvs-video-wrapper{
+	transform:translate(0, 0);
+}
+
+#main-visual.has-video{
+	height: auto !important;
+	max-height: initial;
+}
+#main-visual.has-video.has-uvideo{
+	margin-top:125px;
+}
+
+body#page_home.serenapolana #main-visual {
+	margin-top: 125px;
+	height:auto !important;
+}
+
+/*======== End of Hero Video =========== */
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+
+
+.tvs-video-wrapper{
+	transform:none;
+}
+/* MAIN-CONTENT [L]
+-------------------------------- */
+#main-content{
+	padding: 28px 0 41px; 
+	margin-top:0;
+}
+
+	h1{
+		margin-bottom: 12px;
+		font-size: 2.1em;
+		letter-spacing: 3px;
+	}
+		.intro{
+			margin-bottom: 6px;
+			font-size: .45em;
+			letter-spacing: 2px;
+		}
+	.secondary-title {
+		font-size: 1.45em;
+		letter-spacing: 0.03em;
+		line-height: 1.2;
+		margin: 15px 0;
+	}
+
+/* HIGHLIGHTS [L]
+-------------------------------- */
+	.itemPreview{
+		margin-bottom: 40px;
+	}
+	.itemPreview.facilities {
+		margin-bottom: 18px;
+		}
+		.image-col,
+		.image-col .image-slide{
+			width: 565px;
+			height: 312px;
+		}
+			.image-col .slick-prev, .image-col .slick-next{
+				left: 20px;
+				background-position: -205px 0;
+				background-size: 585px auto;
+			}
+			.image-col .slick-next{
+				left: auto;
+				right: 18px;
+				background-position: -230px 0;
+			}
+		
+		.content-col{
+			width: 355px;
+			padding: 0 30px;
+		}
+			.highlight-title{
+				margin: 24px auto 17px;
+				letter-spacing: 3px;
+			}
+			.facilities .highlight-title {
+				letter-spacing: 0.09em;
+				margin-bottom: 19px;
+				margin-top: 30px;
+			}
+			.highlight-sub-title{
+				margin: 0 auto 22px;
+				font-size: 1.4em;
+				line-height: 1.25;
+			}
+			.content-col-btn-wrapper{
+				margin-top: 8px;
+			}
+			.highlight-content{
+				width:100%;
+			}
+			.facilities .highlight-content {
+				width: 100%;
+			}
+			.serenamountainlodge .facilities .content-col-wrapper,
+			.facilities .content-col-wrapper {
+				max-height: 263px;
+			}
+			.serenakirawira .facilities .content-col-wrapper{
+				max-height: 261px;
+			}
+			.highlight-more.hide{
+				display:block;
+			}
+			.serenakampala .facilities .content-col-wrapper {
+				max-height: 262px;
+			}
+			
+	.category-item-wrapper .slick-dots{
+		right: 0;
+		top: auto;
+		bottom: 16px;
+		height: auto;
+		margin-top: 0;
+		transform: none;
+	}
+		.category-item-wrapper .slick-dots li{
+			float: left;
+			margin: 0 13px;
+		}
+		
+/* ELE NAME [L]
+-------------------------------- */		
+.offer-rotator .inner-wrapper{
+	width: 936px;
+}	
+	.offer-rotator .offer-heading {
+		font-size: 2.2em;
+		letter-spacing: 0.05em;
+		margin-bottom: 5px;
+	}
+	.offer-rotator .offer-sub-heading {
+		margin: 0 0 32px;
+	}
+	
+	.offer-rotator .offer-item{
+		width: 256px;
+		margin: 0 28px;
+	}
+		.offer-image{
+			width: 256px;
+			height: 250px;
+		}
+			.offer-image .slide{
+				height: 250px;
+			}
+			
+			.offer-content h3 {
+				font-size: 1.15em;
+				letter-spacing: 0.08em;
+				margin-top: 19px;
+				max-height: 43px;
+				overflow: hidden;
+				line-height: 1.3;
+			}
+			
+			.offer-cont-wrapper{
+				max-height: 95px;
+				min-height: 95px;
+			}
+			.offer-cont-wrapper.line-three-heading {
+				max-height: 95px;
+				min-height: 95px;
+			}
+			.offer-rotator-wrapper .slick-prev, 
+			.offer-rotator-wrapper .slick-next{
+				top:-92px;
+			}
+			.offer-btn-wrapper {
+				height: 43px;
+			}
+			.offer-content .offer-price, .offer-content .book-now {
+				font-size: 1em;
+				margin: 13px 0 0 19px;
+			}
+			.offer-content .book-now {
+				font-size: 1.1em;
+				letter-spacing: 0.08em;
+				margin: 10px 18px 10px 0;
+			}
+			.offer-content .offer-price .currency {
+				margin-left: 4px;
+			}
+			.view-all-offers {
+				letter-spacing: 0.07em;
+				margin: 40px 0 36px;
+				padding-bottom:4px;
+			}
+			
+			
+/* ELE NAME [L]
+-------------------------------- */		
+.serena-exp-intro {
+	max-height: 117px;
+}
+.serena-exp-link{
+	margin-top: 25px;
+}
+.serena-exp-sub-heading {
+	margin: 15px 0 30px;
+}
+
+
+/* ELE NAME [L]
+-------------------------------- */
+.insta-wrapper .inner-wrapper{
+	width: 880px;
+}	
+	.insta-wrapper .insta-heading{
+		letter-spacing: 2px;
+		padding:36px 0 0;
+	}
+	.insta-wrapper .insta-sub-heading {
+		font-size: 1.2em;
+		margin-top: 3px;
+		margin-bottom:24px;
+	}
+	.insta-wrapper  .insta {
+		height: 218px;
+		width: 222px;
+	}
+	.insta-wrapper  .insta {
+		height: 218px;
+	}
+
+/* ELE NAME [L]
+-------------------------------- */
+	.sm-btn-wrapper {
+		margin-bottom:19px;
+	}
+	
+	
+/* MAIN VISUAL [L]
+-------------------------------- */
+.slide .slide-title {
+	bottom: 30px;
+	left: 115px;
+}
+
+.slide-show-nav{
+	bottom: 26px;
+}
+	.header-slideshow .slick-prev,
+	.header-slideshow .slick-next{
+		width: 20px;
+		height: 32px;
+		background-size: 500px auto;
+		background-position: -174px -2px;
+	}
+	.header-slideshow .slick-next{
+		background-position: -194px -3px;
+	}
+	
+	
+	/* OFFER WIDGET 
+	------------------------------------*/
+	.offer-widget{
+		top: 260px;
+	}
+	.offer-widget-wrapper{
+		width: 251px;
+		min-height: 310px;
+	}
+	.offer-wigetimage {
+		height: 139px;
+		width: 220px;
+		margin-bottom: 15px;
+	}
+	.offer-widgetItem{
+		min-height: 310px;
+	}
+
+	.offer-wigetimage a {
+		width: 220px;
+	}
+	.offer-widget .offer-wigetimage a img {
+		height: auto;
+		width: 100%;
+	}
+	.heading.heading1 {
+		font-size: 1.1em;
+		letter-spacing: 0.04em;
+	}
+	.offer-widgetItem .offer-content {
+		margin-right:20px;
+		margin-left:24px;
+	}
+	.heading.heading2 {
+		font-size: 1.25em;
+		letter-spacing: 0.04em;
+	}
+	.heading.heading3 {
+		font-size: 1.6em;
+		letter-spacing: 0.03em;
+		max-height: 56px;
+	}
+
+	.offer-widget-wrapper .offer-content a.offerwiget-more {
+		margin-top: 19px;
+	}
+	.offerwidget-tri:after{
+		left:19px;
+	}
+	.offerwidget-tri {
+		border-width: 39px 35px 39px 0;
+		left: -35px;
+		margin-top: -38px;
+	}
+	.offer-widget.close-widget .offerwidget-tri:after {
+		left: 14px;
+	}
+	.serenamivumo .facilities .content-col-btn-wrapper{
+		display: none;
+	}
+	.serenadaressalaam .facilities .content-col-btn-wrapper,
+	.serenapolana .facilities .content-col-btn-wrapper,
+	.serenaswat .facilities .content-col-btn-wrapper,
+	.serenaarusha .facilities .content-col-btn-wrapper,
+	.serenakhorog .facilities .content-col-btn-wrapper,
+	.serenamountainlodge .facilities .content-col-btn-wrapper{
+		display: block;
+	}
+	
+	#main-visual.has-video.has-uvideo {
+		margin-top: 118px;
+	}
+
+} /* END MEDIA QUERY */
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+.tvs-video-wrapper{
+	transform:none;
+}
+
+h1{
+	margin-top:12px;
+}
+.secondary-title{
+	font-size: 1.15em;
+	letter-spacing:0.03em;
+	line-height:1.4;
+}
+
+/* MAIN-CONTENT [LD]
+-------------------------------- */
+#main-content{
+	padding: 19px 0 35px; 
+	margin-top: 0;
+}
+	.intro{
+		margin-bottom: 4px;
+		font-size: .55em;
+	}
+	.secondary-title{
+		margin: 15px 0;
+	}
+	
+	.read-more-toggle {
+		padding-top: 16px;
+	}
+
+/* HIGHLIGHTS [LD]
+-------------------------------- */
+	.mod-hightlights {
+		margin-top: 54px;
+	}
+	.itemPreview{
+		margin-bottom: 55px;
+	}
+		.image-col,
+		.image-col .image-slide{
+			width: 415px;
+			height: 245px;
+		}
+			.image-col .slick-prev, .image-col .slick-next{
+				left: 20px;
+				background-position: -205px 0;
+				background-size: 585px auto;
+			}
+			.image-col .slick-next{
+				left: auto;
+				right: 18px;
+				background-position: -230px 0;
+			}
+		.content-col{
+			width: 265px;
+			padding: 0 20px;
+		}
+			.content-col-wrapper{
+				max-height: 188px;
+			}
+			.facilities .content-col-wrapper,
+			.serenakirawira .facilities .content-col-wrapper{
+				max-height: 192px;
+			}
+			.serenangorongoro .facilities .content-col-wrapper,
+			.serenamountainlodge .facilities .content-col-wrapper,
+			.serenambuzi .facilities .content-col-wrapper{
+				max-height: 195px;
+			}
+				.highlight-title{
+					margin:15px 0 12px;
+					letter-spacing: 2px;
+				}
+				.highlight-sub-title {
+					font-size: 1.1em;
+					letter-spacing: 0.02em;
+					line-height: 1.4;
+					margin: 0 auto 19px;
+				}
+				.highlight-more.hide{
+					display:block;
+				}
+				.content-col-btn-wrapper{
+					margin-top: 30px;
+				}
+				
+			.content-col-btn-wrapper{
+				margin-top: 24px;
+			}
+			.highlight-content {
+				width: 100%;
+			}
+			
+	.category-item-wrapper .slick-dots{
+		right: 0;
+		top: auto;
+		bottom: 30px;
+		height: auto;
+		margin-top: 0;
+		transform: none;
+	}
+		.category-item-wrapper .slick-dots li{
+			float: left;
+			margin: 0 13px;
+		}
+
+
+/* ELE NAME [D]
+-------------------------------- */		
+.offer-rotator .inner-wrapper{
+	width: 720px;
+}	
+	.offer-rotator .offer-heading{
+		padding: 44px 75px 0;
+		margin-bottom: 6px;
+		letter-spacing:0.1em;
+	}
+	.offer-rotator .offer-sub-heading {
+		margin: 0 0 27px;
+		letter-spacing:0;
+	}
+	
+	.offer-rotator .offer-item{
+		width: 202px;
+		margin: 0 19px;
+	}
+		.offer-image{
+			width: 202px;
+			height: 196px;
+		}
+			.offer-image .slide{
+				height: 196px;
+			}
+			
+			.offer-content h3 {
+				font-size: 1.1em;
+				letter-spacing: 0.11em;
+				margin-top: 22px;
+				max-height: 42px;
+				overflow: hidden;
+			}
+			
+			.offer-cont-wrapper{
+				max-height: 95px;
+				min-height: 95px;
+			}
+			.offer-cont-wrapper.line-three-heading {
+				max-height: 95px;
+				min-height: 95px;
+			}
+				.offer-intro-content{
+					margin: 0;
+				}
+			.facilities .content-col {
+				padding: 0 7px;
+				width: 283px;
+			}
+			.facilities .highlight-title {
+				margin-top: 14px;
+			}
+			
+	.offer-rotator-wrapper .slick-prev, .offer-rotator-wrapper .slick-next{
+		top: -85px;
+		left: 20px;
+	}
+	.offer-rotator-wrapper .slick-next{
+		left: auto;
+		right:20px;
+	}
+	
+	.offer-cont-wrapper {
+		margin-bottom: 13px;
+	}
+	.offer-btn-wrapper {
+		height: 38px;
+	}
+	.offer-content .offer-price, .offer-content .book-now {
+		font-size: 0.8em;
+		margin: 12px 0 12px 8px;
+	}
+	.offer-content .book-now {
+		font-size: 1em;
+		margin: 8px 12px 9px 0;
+	}
+	.offer-content .offer-price .currency {
+		margin-left: 4px;
+	}
+	.view-all-offers {
+		margin: 38px 0 42px;
+		letter-spacing:0.1em;
+		padding-bottom:5px;
+	}
+	
+	
+			
+/* ELE NAME [D]
+-------------------------------- */	
+.serena-exp-heading{
+	max-height: 36px;
+	overflow: hidden;
+	letter-spacing:0.06em;
+	margin-bottom:0;
+}
+.serena-exp-sub-heading{
+	margin: 6px 0 18px;
+	font-size:1.1em;
+}
+.serena-exp-intro{
+	max-height: 79px;
+}
+.serena-exp-link{
+	margin-top: 25px;
+}
+.serena-exp-inner-wrapper{
+	padding:0 32px;
+}
+.serena-exp-image-block{
+	width:64%;
+}
+.serena-exp-content-block{
+	width:36%;
+}
+
+
+/* ELE NAME [D]
+-------------------------------- */
+.insta-wrapper .inner-wrapper{
+	width: 666px;
+}	
+	.insta-wrapper .insta-heading {
+		letter-spacing: 0.06em;
+		padding: 29px 0 5px;
+	}
+	.insta-wrapper .insta-sub-heading{
+		font-size: 1.1em;
+		letter-spacing: 0;
+		margin-bottom:23px;
+	}
+	.insta-wrapper  .insta {
+		height: 218px;
+		width: 222px;
+	}
+	.insta-wrapper  .insta {
+		height: 218px;
+	}
+	.sm-btn-wrapper {
+		margin: 25px 0 18px;
+	}
+	.sm-btn-wrapper .smo-icon {
+		background-position: 6px -118px;
+		background-size: 748px auto;
+		width:50px;
+		margin:0 3px;
+		}
+		.sm-btn-wrapper .smo-icon.facebook {
+			background-position: -34px -120px;
+		}
+		.sm-btn-wrapper .smo-icon.bg.twitter {
+			background-position: -75px -118px;
+		}
+		.sm-btn-wrapper .smo-icon.bg.instagram {
+			background-position: -119px -119px;
+		}
+		.sm-btn-wrapper .smo-icon.bg.googleplus {
+			background-position: -163px -119px;
+		}
+		.sm-btn-wrapper .smo-icon.bg.tripadvisor {
+			background-position: -210px -119px;
+		}
+		
+	.ta-wrapper{
+		margin-bottom:72px;
+	}
+	
+	
+/* MAIN VISUAL [L]
+-------------------------------- */
+.slide .slide-title {
+	bottom: 26px;
+	left: 115px;
+}
+
+.slide-show-nav{
+	bottom: 20px;
+}
+	.header-slideshow .slick-prev,
+	.header-slideshow .slick-next{
+		width: 20px;
+		height: 32px;
+		background-size: 500px auto;
+		background-position: -174px -2px;
+	}
+	.header-slideshow .slick-next{
+		background-position: -194px -3px;
+	}
+	
+	
+		/* OFFER WIDGET 
+	------------------------------------*/
+	.offer-widget{
+		top: 265px;
+	}
+	.offer-widget-wrapper{
+		width: 251px;
+		min-height: 310px;
+	}
+	.offer-wigetimage {
+		height: 142px;
+		width: 220px;
+		margin:16px 16px 15px;
+	}
+	.offer-widgetItem{
+		min-height:310px;
+	}
+	.offer-wigetimage a {
+		width: 220px;
+	}
+	.offer-widgetItem .offer-content {
+		margin-right:20px;
+		margin-left:23px;
+	}
+	.heading.heading1 {
+		font-size: 1.05em;
+		letter-spacing: 0.06em;
+	}
+	.heading.heading2 {
+		font-size: 1.2em;
+	}
+	.heading.heading3 {
+		font-size: 1.55em;
+		letter-spacing: 0.06em;
+		max-height:50px;
+	}
+	.offer-widgetcont-wrapper .heading p {
+		line-height: 1.5;
+	}
+	.heading.heading3 p {
+		line-height: 1.1;
+	}
+	.offer-widget-wrapper .offer-content a.offerwiget-more {
+		margin-top: 20px;
+	}
+	.offerwidget-tri:after{
+		left:19px;
+	}
+	.offerwidget-tri {
+		border-width: 39px 35px 39px 0;
+		left: -35px;
+		margin-top: -38px;
+	}
+	.offer-widget.close-widget .offerwidget-tri:after {
+		left: 14px;
+	}
+	
+	.serenadaressalaam .facilities .content-col-btn-wrapper,
+	.serenapolana .facilities .content-col-btn-wrapper,
+	.serenaswat .facilities .content-col-btn-wrapper,
+	.serenaarusha .facilities .content-col-btn-wrapper,
+	.serenakhorog .facilities .content-col-btn-wrapper,
+	.serenamountainlodge .facilities .content-col-btn-wrapper,
+	.serenamivumo .facilities .content-col-btn-wrapper,
+	.serenambuzi .facilities .content-col-btn-wrapper,
+	.serenafaisalabad .facilities .content-col-btn-wrapper{
+		display: block;
+	}
+	#main-visual.has-video.has-uvideo {
+		margin-top: 119px;
+	}
+	
+} /* END MEDIA QUERY */
+
+
+@media (max-width: 767px) {
+
+.tvs-video-wrapper{
+	transform:none;
+}
+
+/* MAIN-CONTENT [M]
+-------------------------------- */
+h1{
+
+}
+	.intro{
+		font-size: .55em;
+	}
+	
+.secondary-title{
+	margin-bottom: 13px;
+	font-size: 1.15em;
+	line-height: 1.3;
+}		
+
+	#main-content {
+		margin-top: 0;
+		padding: 21px 0 28px;
+	}
+
+/* HIGHLIGHTS [M]
+-------------------------------- */
+.mod-hightlights{
+	margin: 0;
+}
+	.mod-hightlights .inner-wrapper{
+		max-width: 100%;
+	}
+		.itemPreview{
+			margin-bottom: 30px;
+		}
+		.itemPreview.dining{
+			padding-bottom: 35px;
+		}
+			.image-col,
+			.image-col .image-slide{
+				width: 100vw;
+				height: 192px;
+			}
+			.image-col .slick-prev, .image-col .slick-next{
+				left: 12px;
+				background-position: -167px 4px;
+				background-size: 485px auto;
+			}
+			.image-col .slick-next{
+				left: auto;
+				right: 10px;
+				background-position: -190px 4px;
+			}
+			
+			.content-col{
+				width: calc(100% - 32px);
+				margin: 0 16px;
+			}
+				.facilities .content-col-wrapper{
+					max-height: 146px;
+				}
+				.serenaserengeti .facilities .content-col-wrapper,
+				.serenasweetwaters .facilities .content-col-wrapper,
+				.serenamivumo .facilities .content-col-wrapper{
+					max-height: 136px;
+				}	
+				.serenakilaguni .facilities .content-col-wrapper,
+				.serenambuzi .facilities .content-col-wrapper,
+				.serenakirawira .facilities .content-col-wrapper{
+					max-height: 138px;
+				}
+				.serenalakemanyara .facilities .content-col-wrapper{
+					max-height: 150px;
+				}
+				.serenamountainlodge .facilities .content-col-wrapper,
+				.serenaolpejeta .facilities .content-col-wrapper,
+				.serenaelmenteita .facilities .content-col-wrapper,
+				.serenaselous .facilities .content-col-wrapper{
+					max-height: 155px;
+				}
+				.serenangorongoro .facilities .content-col-wrapper{
+					max-height: 158px;
+				}
+				
+				.highlight-title{
+					margin: 24px 0 11px;
+				}
+				.highlight-sub-title{
+					width: 80%;
+					margin: 0 auto 12px;
+					line-height: 1.4;
+				}
+				.highlight-content{
+					display: none;
+				}
+				.facilities .highlight-content{
+					display: block;
+				}
+				.content-col-btn-wrapper{
+					margin: 0;
+				}
+					.content-col-btn-wrapper p.rate{
+						margin: 0;
+					}
+					.highlight-more{
+						margin-top: 3px;
+					}
+					.highlight-more.hide{
+						display:block;
+					}
+					.dining .highlight-more{
+						float: none;
+						display: inline-block;
+					}
+					
+		
+	.category-item-wrapper .slick-dots{
+		right: 0;
+		top: auto;
+		bottom: 30px;
+		width: 100%;
+		height: auto;
+		margin-top: 0;
+		transform: none;
+		text-align: center;
+	}
+		.category-item-wrapper .slick-dots li{
+			display: inline-block;
+			margin: 0 13px;
+		}
+		
+/* OFFER ROTATOR [M]
+-------------------------------- */		
+.offer-rotator .inner-wrapper{
+	width: 254px;
+}	
+	.offer-rotator .offer-heading{
+		padding: 29px 0 13px;
+		margin-bottom: 0;
+		letter-spacing: 0.1em;
+		line-height: 1.3;
+	}
+	.offer-rotator .offer-sub-heading {
+		margin: 0 0 55px;
+	}
+	
+	.offer-rotator .offer-item{
+		width: 254px;
+		margin: 0;
+	}
+		.offer-image{
+			width: 254px;
+			height: 246px;
+		}
+			.offer-image .slide{
+				height: 246px;
+			}	
+		
+		.offer-cont-wrapper{
+			max-height: none;
+			min-height: 65px;
+		}
+			.offer-content h3{	
+				margin-top: 20px;
+				font-size: 1.15em;
+				letter-spacing: 0.09em;
+			}
+			.offer-intro-content{
+				display: none;
+			}
+			
+			.offer-btn-wrapper{
+				height: 42px;
+			}
+				.offer-content .offer-price, .offer-content .book-now{
+					margin: 12px 0 9px 14px;
+					font-size: 1em;
+				}
+				.offer-content .book-now{
+					margin: 9px 13px 9px 0;
+					font-size: 1.05em;
+				}
+				
+			.view-all-offers{
+				margin: 27px 0 30px;
+			}
+			
+	.offer-rotator-wrapper .slick-prev, .offer-rotator-wrapper .slick-next {
+		background-position: left top;
+		background-size: 14px auto;
+		left: 0;
+		top: -40px;
+	}
+	.offer-rotator-wrapper .slick-next{
+		left: auto;
+		right: 0;
+		background-position: right top;
+		background-size: 14px auto;
+	}
+
+/* EXPERIENCE [M]
+-------------------------------- */		
+.serena-exp-image-block.bg-image-block{
+	display: none;
+}
+.serena-exp-content-block{
+	width: 100%;
+	height: auto !important;
+}
+	.serena-exp-inner-wrapper{
+		position: relative;
+		max-height: none;
+		top: auto;
+		left: auto;
+		right: auto;
+		transform: none;
+	}
+		.serena-exp-heading{
+			margin: 33px 0 0;
+		}
+		.serena-exp-sub-heading{
+			margin: 10px 0 0;
+		}
+		.serena-exp-intro{
+			display: none;
+		}
+		.serena-exp-link{
+			margin: 24px 0 38px;
+		}
+	
+/* INSTAGRAM [M]
+-------------------------------- */
+.insta-wrapper .inner-wrapper{
+	width: 265px;
+}	
+	.insta-wrapper .insta-heading{
+		padding: 31px 0 0;
+		letter-spacing: 2px;
+		line-height: 1.3;
+	}
+	.insta-wrapper .insta-sub-heading {
+		margin: 3px 0 18px;
+		font-size: 1.2em;
+	}
+	.insta-wrapper  .insta {
+		height: 265px;
+		width: 265px;
+	}
+	.insta-wrapper  .insta {
+		height: 265px;
+	}
+
+/* SMO [M]
+-------------------------------- */
+.sm-wrapper .inner-wrapper{
+	width: 295px;
+}
+	.sm-btn-wrapper{
+		width: calc(100% - 110px);
+		margin: 20px 55px 4px;
+	} 
+		.sm-btn-wrapper .smo-icon {
+			background-position: 3px -117px;
+			background-size: 685px auto;
+			height: 23px;
+			width: 36px;
+			margin-bottom: 15px;
+			cursor: pointer;
+		}
+		.no-touch-device .sm-btn-wrapper .smo-icon.youtube:hover {
+			background-position: 3px -150px;
+		}
+		.sm-btn-wrapper .smo-icon.facebook {
+			margin: 0 27px 15px;
+			background-position: -37px -117px;
+		}
+		.no-touch-device .sm-btn-wrapper .smo-icon.facebook:hover {
+			background-position: -37px -150px;
+		}
+		.sm-btn-wrapper .smo-icon.bg.twitter {
+			background-position: -72px -117px;
+		}
+		.no-touch-device .sm-btn-wrapper .smo-icon.twitter:hover {
+			background-position: -72px -150px;
+		}
+		.sm-btn-wrapper .smo-icon.bg.instagram {
+			background-position: -113px -117px;
+		}
+		.no-touch-device .sm-btn-wrapper .smo-icon.instagram:hover {
+			background-position: -113px -150px;
+		}
+		.sm-btn-wrapper .smo-icon.bg.googleplus {
+			margin: 0 27px 15px;
+			background-position: -154px -117px;
+		}
+		.no-touch-device .sm-btn-wrapper .smo-icon.googleplus:hover {
+			background-position: -154px -150px;
+		}
+		.sm-btn-wrapper .smo-icon.bg.tripadvisor {
+			background-position: -196px -118px;
+		}
+		.no-touch-device .sm-btn-wrapper .smo-icon.tripadvisor:hover {
+			background-position: -196px -151px;
+		}
+	
+	.ta-wrapper{
+		width:295px;
+		margin: 0 0 65px;
+		overflow:hidden;
+	}
+	.ta-wrapper #CDSSCROLLINGRAVE.wide,
+	.ta-wrapper #CDSSCROLLINGRAVE.narrow{
+		width: 279px;
+	}
+	.serenaquetta .ta-inner-wrapper .TA_cdsratingsonlywide{
+		display: none;
+	}
+	.serenaquetta .mobile-TA{
+		display: block;
+	}
+
+.slide-show-nav{
+	width: 65px;
+	bottom: 12px;
+	left: 15px;
+}
+	.header-slideshow .slick-prev,
+	.header-slideshow .slick-next{
+		left: 0;
+		width: 20px;
+		height: 32px;
+		background-size: 500px auto;
+		background-position: -174px -2px;
+	}
+	.header-slideshow .slick-next{
+		left: auto;
+		right: 0;
+		background-position: -194px -3px;
+	}
+	
+			/* OFFER WIDGET 
+	------------------------------------*/
+	.offer-widget {
+		top: 140px;
+	}
+	.offer-widget-wrapper{
+		width:215px;
+		min-height:153px;
+	}
+	.offer-widgetItem{
+		min-height:153px;
+	}
+	.offer-widgetItem {
+		background-size: 60px auto;
+	}
+	.offer-wigetimage {
+		display:none;
+	}
+	.offer-widgetItem .offer-content {
+		margin-top: 22px;
+		margin-right:20px;
+		margin-left:24px;
+	}
+	.heading.heading1 {
+		font-size: 1.05em;
+	}
+	.heading.heading2 {
+		letter-spacing: 0.04em;
+	}
+	.heading.heading3 {
+		letter-spacing: 0.03em;
+	}
+	.offerwidget-tri:after{
+		left:12px;
+	}
+	.offerwidget-tri {
+		border-width: 32px 28px 32px 0;
+		left: -28px;
+		margin-top: -34px;
+	}
+	.offer-widget.close-widget .offerwidget-tri:after {
+		background-position: -154px -88px;
+		left: 8px;
+	}
+	.offer-widget-wrapper .offer-content a.offerwiget-more {
+		margin-top: 19px;
+	}
+	
+	.serenadaressalaam .facilities .content-col-btn-wrapper,
+	.serenapolana .facilities .content-col-btn-wrapper,
+	.serenaquetta .facilities .content-col-btn-wrapper,
+	.serenakhaplupalace .facilities .content-col-btn-wrapper,
+	.serenaswat .facilities .content-col-btn-wrapper,
+	.serenaarusha .facilities .content-col-btn-wrapper,
+	.serenakhorog .facilities .content-col-btn-wrapper,
+	.serenamountainlodge .facilities .content-col-btn-wrapper,
+	.serenamivumo .facilities .content-col-btn-wrapper,
+	.serenambuzi .facilities .content-col-btn-wrapper,
+	.serenafaisalabad .facilities .content-col-btn-wrapper{
+		display: block;
+	}
+	
+	#main-visual.has-video.has-uvideo {
+		margin-top: 61px;
+	}
+	
+	body#page_home.serenapolana #main-visual {
+		margin-top: 60px;
+		height: auto !important;
+	}
+	
+} /* END MEDIA QUERY */
+/***************  templates/hotel/libs/jquery/slick-carousel/slick.css  ***************/
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+	z-index:0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+/***************  templates/hotel/libs/jquery/jquery-datepicker/smoothness/jquery-ui-1.11.4.custom.css  ***************/
+/*! jQuery UI - v1.11.4 - 2015-05-11
+* http://jqueryui.com
+* Includes: core.css, datepicker.css, theme.css
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Verdana%2CArial%2Csans-serif&fwDefault=normal&fsDefault=1.1em&cornerRadius=0&bgColorHeader=%23002a55&bgTextureHeader=flat&bgImgOpacityHeader=100&borderColorHeader=%23002a55&fcHeader=%23fff&iconColorHeader=%23fff&bgColorContent=%23ffffff&bgTextureContent=flat&bgImgOpacityContent=75&borderColorContent=%23aaaaaa&fcContent=%23222222&iconColorContent=%23222222&bgColorDefault=%23ffffff&bgTextureDefault=flat&bgImgOpacityDefault=100&borderColorDefault=%23002a55&fcDefault=%23002a55&iconColorDefault=%23888888&bgColorHover=%23002a55&bgTextureHover=flat&bgImgOpacityHover=100&borderColorHover=%23002a55&fcHover=%23fff&iconColorHover=%23edaa20&bgColorActive=%23edaa20&bgTextureActive=flat&bgImgOpacityActive=100&borderColorActive=%23aaaaaa&fcActive=%23212121&iconColorActive=%23454545&bgColorHighlight=%23fbf9ee&bgTextureHighlight=glass&bgImgOpacityHighlight=55&borderColorHighlight=%23fcefa1&fcHighlight=%23363636&iconColorHighlight=%232e83ff&bgColorError=%23fef1ec&bgTextureError=glass&bgImgOpacityError=95&borderColorError=%23cd0a0a&fcError=%23cd0a0a&iconColorError=%23cd0a0a&bgColorOverlay=%23aaaaaa&bgTextureOverlay=flat&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=%23aaaaaa&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px
+* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT */
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden {
+	display: none;
+}
+.ui-helper-hidden-accessible {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+.ui-helper-reset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	line-height: 1.3;
+	text-decoration: none;
+	font-size: 100%;
+	list-style: none;
+}
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+	content: "";
+	display: table;
+	border-collapse: collapse;
+}
+.ui-helper-clearfix:after {
+	clear: both;
+}
+.ui-helper-clearfix {
+	min-height: 0; /* support: IE7 */
+}
+.ui-helper-zfix {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	opacity: 0;
+	filter:Alpha(Opacity=0); /* support: IE8 */
+}
+
+.ui-front {
+	z-index: 100;
+}
+
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+	cursor: default !important;
+}
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ui-datepicker {
+	width: 17em;
+	padding: .2em .2em 0;
+	display: none;
+}
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding: .2em 0;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	position: absolute;
+	top: 2px;
+	width: 1.8em;
+	height: 1.8em;
+}
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+	top: 1px;
+}
+.ui-datepicker .ui-datepicker-prev {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next {
+	right: 2px;
+}
+.ui-datepicker .ui-datepicker-prev-hover {
+	left: 1px;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+	right: 1px;
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -8px;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin: 0 2.3em;
+	line-height: 1.8em;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title select {
+	font-size: 1em;
+	margin: 1px 0;
+}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	width: 45%;
+}
+.ui-datepicker table {
+	width: 100%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin: 0 0 .4em;
+	border: none;
+}
+.ui-datepicker th {
+	padding: .7em .3em;
+	text-align: center;
+	font-weight: bold;
+	border: 0;
+}
+.ui-datepicker td {
+	border: 0;
+	padding: 1px !important;
+	background: none !important;
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+	display: block;
+	padding: .2em;
+	text-align: right;
+	text-decoration: none;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+	background-image: none;
+	margin: .7em 0 0 0;
+	padding: 0 .2em;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float: right;
+	margin: .5em .2em .4em;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	width: auto;
+	overflow: visible;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+	width: auto;
+}
+.ui-datepicker-multi .ui-datepicker-group {
+	float: left;
+}
+.ui-datepicker-multi .ui-datepicker-group table {
+	width: 95%;
+	margin: 0 auto .4em;
+}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+	width: 50%;
+}
+.ui-datepicker-multi-3 .ui-datepicker-group {
+	width: 33.3%;
+}
+.ui-datepicker-multi-4 .ui-datepicker-group {
+	width: 25%;
+}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-left-width: 0;
+}
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+	clear: left;
+}
+.ui-datepicker-row-break {
+	clear: both;
+	width: 100%;
+	font-size: 0;
+}
+
+/* RTL support */
+.ui-datepicker-rtl {
+	direction: rtl;
+}
+.ui-datepicker-rtl .ui-datepicker-prev {
+	right: 2px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next {
+	left: 2px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+	right: 1px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+	left: 1px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+	clear: right;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+	float: left;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+	float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+	border-right-width: 0;
+	border-left-width: 1px;
+}
+
+/* Component containers
+----------------------------------*/
+.ui-widget {
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 1.1em;
+}
+.ui-widget .ui-widget {
+	font-size: 1em;
+}
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 1em;
+}
+.ui-widget-content {
+	border: 1px solid #aaaaaa;
+	background: #ffffff;/* url(/templates/hotel/libs/jquery/jquery-datepicker/smoothness/images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;*/
+	color: #222222;
+}
+.ui-widget-content a {
+	color: #222222;
+}
+.ui-widget-header {
+	border: 1px solid #063e55;
+	background: #063e55;
+	color: #fff;
+	font-weight: bold;
+}
+.ui-widget-header a {
+	color: #fff;
+}
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	border: 1px solid #063e55;
+	background: #ffffff url(/templates/hotel/libs/jquery/jquery-datepicker/smoothness/images/ui-bg_flat_100_ffffff_40x100.png) 50% 50% repeat-x;
+	font-weight: normal;
+	color: #063e55;
+}
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+	color: #063e55;
+	text-decoration: none;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	border: 1px solid #063e55;
+	background: #063e55;
+	font-weight: normal;
+	color: #fff;
+}
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited,
+.ui-state-focus a,
+.ui-state-focus a:hover,
+.ui-state-focus a:link,
+.ui-state-focus a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	border: 1px solid #063e55;
+	background: #063e55;
+	font-weight: normal;
+	color: #fff;
+}
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+	border: 1px solid #0093d0;
+	background: #fff url(/templates/hotel/libs/jquery/jquery-datepicker/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png) 50% 50% repeat-x;
+	color: #363636;
+}
+.ui-state-highlight a,
+.ui-widget-content .ui-state-highlight a,
+.ui-widget-header .ui-state-highlight a {
+	color: #363636;
+}
+.ui-state-error,
+.ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error {
+	border: 1px solid #cd0a0a;
+	background: #fef1ec url(/templates/hotel/libs/jquery/jquery-datepicker/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x;
+	color: #cd0a0a;
+}
+.ui-state-error a,
+.ui-widget-content .ui-state-error a,
+.ui-widget-header .ui-state-error a {
+	color: #cd0a0a;
+}
+.ui-state-error-text,
+.ui-widget-content .ui-state-error-text,
+.ui-widget-header .ui-state-error-text {
+	color: #cd0a0a;
+}
+.ui-priority-primary,
+.ui-widget-content .ui-priority-primary,
+.ui-widget-header .ui-priority-primary {
+	font-weight: bold;
+}
+.ui-priority-secondary,
+.ui-widget-content .ui-priority-secondary,
+.ui-widget-header .ui-priority-secondary {
+	opacity: .7;
+	filter:Alpha(Opacity=70); /* support: IE8 */
+	font-weight: normal;
+}
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled {
+	opacity: .35;
+	filter:Alpha(Opacity=35); /* support: IE8 */
+	background-image: none;
+}
+.ui-state-disabled .ui-icon {
+	filter:Alpha(Opacity=35); /* support: IE8 - See #6059 */
+}
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	width: 16px;
+	height: 16px;
+}
+.ui-icon,
+.ui-widget-content .ui-icon {
+	background-image: url(/templates/hotel/libs/jquery/jquery-datepicker/smoothness/images/ui-icons_222222_256x240.png);
+}
+.ui-widget-header .ui-icon {
+	background-image: url(/templates/hotel/libs/jquery/jquery-datepicker/smoothness/images/ui-icons_fff_256x240.png);
+}
+.ui-state-default .ui-icon {
+	background-image: url(/templates/hotel/libs/jquery/jquery-datepicker/smoothness/images/ui-icons_888888_256x240.png);
+}
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
+	background-image: url(/templates/hotel/libs/jquery/jquery-datepicker/smoothness/images/ui-icons_edaa20_256x240.png);
+}
+.ui-state-active .ui-icon {
+	background-image: url(/templates/hotel/libs/jquery/jquery-datepicker/smoothness/images/ui-icons_454545_256x240.png);
+}
+.ui-state-highlight .ui-icon {
+	background-image: url(/templates/hotel/libs/jquery/jquery-datepicker/smoothness/images/ui-icons_2e83ff_256x240.png);
+}
+.ui-state-error .ui-icon,
+.ui-state-error-text .ui-icon {
+	background-image: url(/templates/hotel/libs/jquery/jquery-datepicker/smoothness/images/ui-icons_cd0a0a_256x240.png);
+}
+
+/* positioning */
+.ui-icon-blank { background-position: 16px 16px; }
+.ui-icon-carat-1-n { background-position: 0 0; }
+.ui-icon-carat-1-ne { background-position: -16px 0; }
+.ui-icon-carat-1-e { background-position: -32px 0; }
+.ui-icon-carat-1-se { background-position: -48px 0; }
+.ui-icon-carat-1-s { background-position: -64px 0; }
+.ui-icon-carat-1-sw { background-position: -80px 0; }
+.ui-icon-carat-1-w { background-position: -96px 0; }
+.ui-icon-carat-1-nw { background-position: -112px 0; }
+.ui-icon-carat-2-n-s { background-position: -128px 0; }
+.ui-icon-carat-2-e-w { background-position: -144px 0; }
+.ui-icon-triangle-1-n { background-position: 0 -16px; }
+.ui-icon-triangle-1-ne { background-position: -16px -16px; }
+.ui-icon-triangle-1-e { background-position: -32px -16px; }
+.ui-icon-triangle-1-se { background-position: -48px -16px; }
+.ui-icon-triangle-1-s { background-position: -64px -16px; }
+.ui-icon-triangle-1-sw { background-position: -80px -16px; }
+.ui-icon-triangle-1-w { background-position: -96px -16px; }
+.ui-icon-triangle-1-nw { background-position: -112px -16px; }
+.ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+.ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+.ui-icon-arrow-1-n { background-position: 0 -32px; }
+.ui-icon-arrow-1-ne { background-position: -16px -32px; }
+.ui-icon-arrow-1-e { background-position: -32px -32px; }
+.ui-icon-arrow-1-se { background-position: -48px -32px; }
+.ui-icon-arrow-1-s { background-position: -64px -32px; }
+.ui-icon-arrow-1-sw { background-position: -80px -32px; }
+.ui-icon-arrow-1-w { background-position: -96px -32px; }
+.ui-icon-arrow-1-nw { background-position: -112px -32px; }
+.ui-icon-arrow-2-n-s { background-position: -128px -32px; }
+.ui-icon-arrow-2-ne-sw { background-position: -144px -32px; }
+.ui-icon-arrow-2-e-w { background-position: -160px -32px; }
+.ui-icon-arrow-2-se-nw { background-position: -176px -32px; }
+.ui-icon-arrowstop-1-n { background-position: -192px -32px; }
+.ui-icon-arrowstop-1-e { background-position: -208px -32px; }
+.ui-icon-arrowstop-1-s { background-position: -224px -32px; }
+.ui-icon-arrowstop-1-w { background-position: -240px -32px; }
+.ui-icon-arrowthick-1-n { background-position: 0 -48px; }
+.ui-icon-arrowthick-1-ne { background-position: -16px -48px; }
+.ui-icon-arrowthick-1-e { background-position: -32px -48px; }
+.ui-icon-arrowthick-1-se { background-position: -48px -48px; }
+.ui-icon-arrowthick-1-s { background-position: -64px -48px; }
+.ui-icon-arrowthick-1-sw { background-position: -80px -48px; }
+.ui-icon-arrowthick-1-w { background-position: -96px -48px; }
+.ui-icon-arrowthick-1-nw { background-position: -112px -48px; }
+.ui-icon-arrowthick-2-n-s { background-position: -128px -48px; }
+.ui-icon-arrowthick-2-ne-sw { background-position: -144px -48px; }
+.ui-icon-arrowthick-2-e-w { background-position: -160px -48px; }
+.ui-icon-arrowthick-2-se-nw { background-position: -176px -48px; }
+.ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+.ui-icon-arrowthickstop-1-e { background-position: -208px -48px; }
+.ui-icon-arrowthickstop-1-s { background-position: -224px -48px; }
+.ui-icon-arrowthickstop-1-w { background-position: -240px -48px; }
+.ui-icon-arrowreturnthick-1-w { background-position: 0 -64px; }
+.ui-icon-arrowreturnthick-1-n { background-position: -16px -64px; }
+.ui-icon-arrowreturnthick-1-e { background-position: -32px -64px; }
+.ui-icon-arrowreturnthick-1-s { background-position: -48px -64px; }
+.ui-icon-arrowreturn-1-w { background-position: -64px -64px; }
+.ui-icon-arrowreturn-1-n { background-position: -80px -64px; }
+.ui-icon-arrowreturn-1-e { background-position: -96px -64px; }
+.ui-icon-arrowreturn-1-s { background-position: -112px -64px; }
+.ui-icon-arrowrefresh-1-w { background-position: -128px -64px; }
+.ui-icon-arrowrefresh-1-n { background-position: -144px -64px; }
+.ui-icon-arrowrefresh-1-e { background-position: -160px -64px; }
+.ui-icon-arrowrefresh-1-s { background-position: -176px -64px; }
+.ui-icon-arrow-4 { background-position: 0 -80px; }
+.ui-icon-arrow-4-diag { background-position: -16px -80px; }
+.ui-icon-extlink { background-position: -32px -80px; }
+.ui-icon-newwin { background-position: -48px -80px; }
+.ui-icon-refresh { background-position: -64px -80px; }
+.ui-icon-shuffle { background-position: -80px -80px; }
+.ui-icon-transfer-e-w { background-position: -96px -80px; }
+.ui-icon-transferthick-e-w { background-position: -112px -80px; }
+.ui-icon-folder-collapsed { background-position: 0 -96px; }
+.ui-icon-folder-open { background-position: -16px -96px; }
+.ui-icon-document { background-position: -32px -96px; }
+.ui-icon-document-b { background-position: -48px -96px; }
+.ui-icon-note { background-position: -64px -96px; }
+.ui-icon-mail-closed { background-position: -80px -96px; }
+.ui-icon-mail-open { background-position: -96px -96px; }
+.ui-icon-suitcase { background-position: -112px -96px; }
+.ui-icon-comment { background-position: -128px -96px; }
+.ui-icon-person { background-position: -144px -96px; }
+.ui-icon-print { background-position: -160px -96px; }
+.ui-icon-trash { background-position: -176px -96px; }
+.ui-icon-locked { background-position: -192px -96px; }
+.ui-icon-unlocked { background-position: -208px -96px; }
+.ui-icon-bookmark { background-position: -224px -96px; }
+.ui-icon-tag { background-position: -240px -96px; }
+.ui-icon-home { background-position: 0 -112px; }
+.ui-icon-flag { background-position: -16px -112px; }
+.ui-icon-calendar { background-position: -32px -112px; }
+.ui-icon-cart { background-position: -48px -112px; }
+.ui-icon-pencil { background-position: -64px -112px; }
+.ui-icon-clock { background-position: -80px -112px; }
+.ui-icon-disk { background-position: -96px -112px; }
+.ui-icon-calculator { background-position: -112px -112px; }
+.ui-icon-zoomin { background-position: -128px -112px; }
+.ui-icon-zoomout { background-position: -144px -112px; }
+.ui-icon-search { background-position: -160px -112px; }
+.ui-icon-wrench { background-position: -176px -112px; }
+.ui-icon-gear { background-position: -192px -112px; }
+.ui-icon-heart { background-position: -208px -112px; }
+.ui-icon-star { background-position: -224px -112px; }
+.ui-icon-link { background-position: -240px -112px; }
+.ui-icon-cancel { background-position: 0 -128px; }
+.ui-icon-plus { background-position: -16px -128px; }
+.ui-icon-plusthick { background-position: -32px -128px; }
+.ui-icon-minus { background-position: -48px -128px; }
+.ui-icon-minusthick { background-position: -64px -128px; }
+.ui-icon-close { background-position: -80px -128px; }
+.ui-icon-closethick { background-position: -96px -128px; }
+.ui-icon-key { background-position: -112px -128px; }
+.ui-icon-lightbulb { background-position: -128px -128px; }
+.ui-icon-scissors { background-position: -144px -128px; }
+.ui-icon-clipboard { background-position: -160px -128px; }
+.ui-icon-copy { background-position: -176px -128px; }
+.ui-icon-contact { background-position: -192px -128px; }
+.ui-icon-image { background-position: -208px -128px; }
+.ui-icon-video { background-position: -224px -128px; }
+.ui-icon-script { background-position: -240px -128px; }
+.ui-icon-alert { background-position: 0 -144px; }
+.ui-icon-info { background-position: -16px -144px; }
+.ui-icon-notice { background-position: -32px -144px; }
+.ui-icon-help { background-position: -48px -144px; }
+.ui-icon-check { background-position: -64px -144px; }
+.ui-icon-bullet { background-position: -80px -144px; }
+.ui-icon-radio-on { background-position: -96px -144px; }
+.ui-icon-radio-off { background-position: -112px -144px; }
+.ui-icon-pin-w { background-position: -128px -144px; }
+.ui-icon-pin-s { background-position: -144px -144px; }
+.ui-icon-play { background-position: 0 -160px; }
+.ui-icon-pause { background-position: -16px -160px; }
+.ui-icon-seek-next { background-position: -32px -160px; }
+.ui-icon-seek-prev { background-position: -48px -160px; }
+.ui-icon-seek-end { background-position: -64px -160px; }
+.ui-icon-seek-start { background-position: -80px -160px; }
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+.ui-icon-seek-first { background-position: -80px -160px; }
+.ui-icon-stop { background-position: -96px -160px; }
+.ui-icon-eject { background-position: -112px -160px; }
+.ui-icon-volume-off { background-position: -128px -160px; }
+.ui-icon-volume-on { background-position: -144px -160px; }
+.ui-icon-power { background-position: 0 -176px; }
+.ui-icon-signal-diag { background-position: -16px -176px; }
+.ui-icon-signal { background-position: -32px -176px; }
+.ui-icon-battery-0 { background-position: -48px -176px; }
+.ui-icon-battery-1 { background-position: -64px -176px; }
+.ui-icon-battery-2 { background-position: -80px -176px; }
+.ui-icon-battery-3 { background-position: -96px -176px; }
+.ui-icon-circle-plus { background-position: 0 -192px; }
+.ui-icon-circle-minus { background-position: -16px -192px; }
+.ui-icon-circle-close { background-position: -32px -192px; }
+.ui-icon-circle-triangle-e { background-position: -48px -192px; }
+.ui-icon-circle-triangle-s { background-position: -64px -192px; }
+.ui-icon-circle-triangle-w { background-position: -80px -192px; }
+.ui-icon-circle-triangle-n { background-position: -96px -192px; }
+.ui-icon-circle-arrow-e { background-position: -112px -192px; }
+.ui-icon-circle-arrow-s { background-position: -128px -192px; }
+.ui-icon-circle-arrow-w { background-position: -144px -192px; }
+.ui-icon-circle-arrow-n { background-position: -160px -192px; }
+.ui-icon-circle-zoomin { background-position: -176px -192px; }
+.ui-icon-circle-zoomout { background-position: -192px -192px; }
+.ui-icon-circle-check { background-position: -208px -192px; }
+.ui-icon-circlesmall-plus { background-position: 0 -208px; }
+.ui-icon-circlesmall-minus { background-position: -16px -208px; }
+.ui-icon-circlesmall-close { background-position: -32px -208px; }
+.ui-icon-squaresmall-plus { background-position: -48px -208px; }
+.ui-icon-squaresmall-minus { background-position: -64px -208px; }
+.ui-icon-squaresmall-close { background-position: -80px -208px; }
+.ui-icon-grip-dotted-vertical { background-position: 0 -224px; }
+.ui-icon-grip-dotted-horizontal { background-position: -16px -224px; }
+.ui-icon-grip-solid-vertical { background-position: -32px -224px; }
+.ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
+.ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+.ui-icon-grip-diagonal-se { background-position: -80px -224px; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+	border-top-left-radius: 0;
+}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+	border-top-right-radius: 0;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+	border-bottom-left-radius: 0;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+	border-bottom-right-radius: 0;
+}
+
+/* Overlays */
+.ui-widget-overlay {
+	background: #aaaaaa url(/templates/hotel/libs/jquery/jquery-datepicker/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+	opacity: .3;
+	filter: Alpha(Opacity=30); /* support: IE8 */
+}
+.ui-widget-shadow {
+	margin: -8px 0 0 -8px;
+	padding: 8px;
+	background: #aaaaaa url(/templates/hotel/libs/jquery/jquery-datepicker/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+	opacity: .3;
+	filter: Alpha(Opacity=30); /* support: IE8 */
+	border-radius: 8px;
+}

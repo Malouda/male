@@ -17,76 +17,82 @@ class Contacts extends React.Component {
                 <HeaderComponent/>
                 <div className="container">
                     <div className="row contacts">
-                        <div className="col-lg-3">
-                            <div className="card" style={{width: '18rem'}}>
-                                <div className="card-body">
-                                    <span>
-                                        Mrs. Susan Mlawi,<br/>
-                                        Permanent Secretary,<br/>
-                                        Ministry of Information, Culture, Arts and Sports,<br/>
-                                        P.O. Box 25,<br/>
-                                        Dodoma.<br/>
-                                        Tel.+255262322129<br/>
-                                        Email: km@habari.go.tz<br/>
-                                    </span>
+                        <section className="fdb-block pt-0" style={{backgroundImage: 'url(./imgs/shapes/8.svg)'}}>
+                            <div className="bg-gray">
+                                <div className="container">
+                                    <div className="row-100" />
+                                    <div className="row text-left">
+                                        <div className="col-8">
+                                            <h1>Contact Us</h1>
+                                        </div>
+                                    </div>
+                                    <div className="row-100" />
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-3">
-                            <div className="card" style={{width: '18rem'}}>
-                                <div className="card-body">
-                                     <span>
-                                        Dr. Faraji Kasidi Mnyepe,<br/>
-                                        Permanent Secretary,<br/>
-                                        Ministry of Foreign Affairs and East African Cooperation
-                                     </span>
+                            <div className="container bg-r">
+                                <div className="row-100" />
+                                <div className="row">
+                                    <div className="col-12 col-md-6 col-lg-5">
+                                        <h2>Call or email</h2>
+                                        <p className="h3 mt-4 mt-lg-5">
+                                            <strong>Help</strong>
+                                        </p>
+                                        <p>
+                                            +255767073565
+                                        </p>
+                                        <p>
+                                            <span>Contact Person</span>
+                                        </p>
+                                        <p>
+                                            Our technical support is available by phone or email from 11am to 11pm BST, Monday through Friday.
+                                        </p>
+
+                                        <p className="h3 mt-4 mt-lg-5">
+                                            <strong>General inquiries</strong>
+                                        </p>
+                                        <p>
+                                            <a href="#">joyce.fissoo@habari.go.tz</a>
+                                        </p>
+                                    </div>
+                                    <div className="col-12 col-md-6 ml-auto">
+                                        <h2>Drop us a line</h2>
+                                        <form>
+                                            <div className="row">
+                                                <div className="col">
+                                                    <input type="text" className="form-control" placeholder="First name" />
+                                                </div>
+                                                <div className="col">
+                                                    <input type="text" className="form-control" placeholder="Last name" />
+                                                </div>
+                                            </div>
+                                            <div className="row mt-4">
+                                                <div className="col">
+                                                    <input type="email" className="form-control" placeholder="Email" />
+                                                </div>
+                                            </div>
+                                            <div className="row mt-4">
+                                                <div className="col">
+                                                    <input type="text" className="form-control" placeholder="Phone" />
+                                                </div>
+                                                <div className="col">
+                                                    <input type="text" className="form-control" placeholder="Country" />
+                                                </div>
+                                            </div>
+                                            <div className="row mt-4">
+                                                <div className="col">
+                                                    <textarea className="form-control" name="message" rows={5} placeholder="How can we help?" defaultValue={""} />
+                                                </div>
+                                            </div>
+                                            <div className="row mt-4">
+                                                <div className="col">
+                                                    <button type="submit" className="btn btn-primary">Submit</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-3">
-                            <div className="card" style={{width: '18rem'}}>
-                                <div className="card-body">
-                                     <span>
-                                        Mr. Nicholas William,<br/>
-                                        Deputy Permanent Secretary,<br/>
-                                        Ministry of Information, Culture, Arts and Sports<br/>
-                                        P.O. Box 25<br/>
-                                        Dodoma<br/>
-                                        Tel. +255262 32 21 29<br/>
-                                        Email:nkm@habari.go.tz<br/>
-                                     </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3">
-                            <div className="card" style={{width: '18rem'}}>
-                                <div className="card-body">
-                                     <span>
-                                        Mrs. Joyce Fissoo – Chairperson, National Organising Committee,<br/>
-                                        Ag. Director of Arts Development,<br/>
-                                        Ministry of Information, Culture, Arts and Sports<br/>
-                                        P.O.BOX 25,<br/>
-                                        DODOMA.<br/>
-                                        Tel. +255767 07 35 65<br/>
-                                        Email:joyce.fissoo@habari.go.tz<br/>
-                                     </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3">
-                            <div className="card" style={{width: '18rem'}}>
-                                <div className="card-body">
-                                      <span>
-                                        The Permanent Secretary,<br/>
-                                        Ministry of Information, Culture, Arts and Sports<br/>
-                                        P. O. Box 25,<br/>
-                                        Makole, Uhindini,<br/>
-                                        DODOMA, <br/>
-                                        TANZANIA.<br/>
-                                      </span>
-                                </div>
-                            </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
             </div>
