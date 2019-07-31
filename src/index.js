@@ -33,6 +33,13 @@ import accomodation from "./components/pages/accomodation";
 import hostel from "./components/pages/hostel";
 import hotel from "./components/pages/hotel";
 import guideLines from "./components/pages/guideLines";
+import venue from "./components/pages/venue";
+import burundi from "./components/pages/burundi";
+import tanzania from "./components/pages/tanzania";
+import kenya from "./components/pages/kenya";
+import sudan from "./components/pages/sudan";
+import rwanda from "./components/pages/rwanda";
+import uganda from "./components/pages/uganda";
 window.jQuery = $;
 window.$ = $;
 global.jQuery = $;
@@ -71,6 +78,13 @@ class Index extends React.Component {
                     <Route path="/hostel" component={hostel}/>
                     <Route path="/hotel" component={hotel}/>
                     <Route path="/guidelines" component={guideLines}/>
+                    <Route path="/venue" component={venue}/>
+                    <Route path="/burundi" component={burundi}/>
+                    <Route path="/tanzania" component={tanzania}/>
+                    <Route path="/kenya" component={kenya}/>
+                    <Route path="/sudan" component={sudan}/>
+                    <Route path="/rwanda" component={rwanda}/>
+                    <Route path="/uganda" component={uganda}/>
                 </Router>
             </Provider>
         );

@@ -68,8 +68,9 @@ class Home extends React.Component {
                                </span>
                            </ul>
                        </div>
-                       <div className="col-lg-4  col-md-5  my-auto home-component-register event">
-                           <h1 className="hero-title d-sm-none d-md-block ">JAMAFEST <br /> TANZANIA 2019</h1>
+                       <div className="col-lg-4  col-md-5  my-auto home-component-register event text-center">
+                           <h2 className="hero-title d-sm-none d-md-block ">JAMAFEST <br /> TANZANIA 2019</h2>
+                           <small className="text-center mb-5">Cultural Diversity: A Key Driver to Regional Integration, Economic Growth and Promotion of Tourism</small>
                            <h1 className="hero-title d-none d-sm-block d-md-none">JAMAFEST TANZANIA 2019</h1>
                            <a className="button button-hero button-shadow" href="https://forms.gle/Mpa8Q8pknn7t2DPZ7" target="_blank">Register Now</a>&nbsp;&nbsp;&nbsp;<br/><br/>
                            <a className="button button-hero button-shadow" href="https://forms.gle/yNyxZEStLQsvpJ689" target="_blank">Exhibitors Registration</a>
@@ -83,7 +84,7 @@ class Home extends React.Component {
                     <div className="row w-100 home-component-about-row">
                         <div className="col-lg-6 col-md-12  mr-5">
                             <div className="embed-responsive embed-responsive-16by9">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/bPiafVE-8Ek"
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/moiYJAQOhsI"
                                         frameBorder="0"
                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                         allowFullScreen></iframe>
@@ -104,7 +105,7 @@ class Home extends React.Component {
                     </div>
                     <div className="row home-component-parallax">
                         <div className="home-component-parallax-title">
-                            <h2 className="mb-5 hero-title">Welcome to the Land of Kilimanjaro, Zanzibar & The Serengeti</h2>
+                            <h2 className="mb-5 hero-title">Unforgettable Tanzania</h2>
                         </div>
                         <div className="col-12 d-none d-none d-md-block d-lg-block d-xl-block">
                             <HomeParallaxComponent/>

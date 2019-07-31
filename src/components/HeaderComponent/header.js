@@ -51,9 +51,9 @@ class Header extends React.Component {
                                         </div>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">
+                                        <NavLink className="nav-link" to="/venue">
                                             Venues
-                                        </a>
+                                        </NavLink>
                                     </li>
                                     <li className="nav-item dropdown">
                                         <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -87,12 +87,12 @@ class Header extends React.Component {
                                             Partner States
                                         </a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <a className="dropdown-item" href="#">Burundi</a>
-                                            <a className="dropdown-item" href="#">Kenya</a>
-                                            <a className="dropdown-item" href="#">Rwanda</a>
-                                            <a className="dropdown-item" href="#">South Sudan</a>
-                                            <a className="dropdown-item" href="#">Tanzania</a>
-                                            <a className="dropdown-item" href="#">Uganda</a>
+                                            <NavLink className="dropdown-item" to="/burundi">Burundi</NavLink>
+                                            <NavLink className="dropdown-item" to="/kenya">Kenya</NavLink>
+                                            <NavLink className="dropdown-item" to="/rwanda">Rwanda</NavLink>
+                                            <NavLink className="dropdown-item" to="/sudan">South Sudan</NavLink>
+                                            <NavLink className="dropdown-item" to="/tanzania">Tanzania</NavLink>
+                                            <NavLink className="dropdown-item" to="/uganda">Uganda</NavLink>
                                         </div>
                                     </li>
                                     <li className="nav-item">

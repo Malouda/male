@@ -14,7 +14,7 @@ const items = [
         caption: 'Slide 1'
     },
     {
-        src:'/images/dance2.jpg',
+        src:'/images/chiluga.jpg',
         altText: 'Slide 2',
         caption: 'Slide 2'
     },

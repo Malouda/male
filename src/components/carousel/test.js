@@ -3,14 +3,14 @@ import { UncontrolledCarousel } from 'reactstrap';
 
 const items = [
     {
-        src:'/images/dance2.jpg',
+        src:'/images/chiluga.jpg',
         altText: 'The Ngoni Tribe Performin',
-        caption: 'The Ngoni Tribe Performing'
+        caption: 'Fire Eating'
     },
     {
-        src:'/images/dance2.jpg',
-        altText: 'The Wahehe Tribe Performing',
-        caption: 'The Wahehe Tribe Performing'
+        src:'/images/ruka.jpg',
+        altText: 'Traditional Dance',
+        caption: 'Traditional Dance'
     },
     {
         src:'/images/dance2.jpg',
