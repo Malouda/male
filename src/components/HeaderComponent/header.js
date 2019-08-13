@@ -61,6 +61,7 @@ class Header extends React.Component {
                                         </a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                             <NavLink className="dropdown-item" to="/guidelines">Guidelines and information</NavLink>
+                                            <NavLink className="dropdown-item" to="/info">General Info</NavLink>
                                         </div>
                                     </li>
                                     <li className="nav-item">
@@ -79,7 +80,7 @@ class Header extends React.Component {
                                         <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                             <a className="dropdown-item" href="#">Place To worship</a>
-                                            <a className="dropdown-item" href="#">Place to go</a>
+                                            <NavLink className="dropdown-item" to="/togo">Place to go</NavLink>
                                         </div>
                                     </li>
                                     <li className="nav-item dropdown">

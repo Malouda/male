@@ -40,6 +40,8 @@ import kenya from "./components/pages/kenya";
 import sudan from "./components/pages/sudan";
 import rwanda from "./components/pages/rwanda";
 import uganda from "./components/pages/uganda";
+import info from "./components/pages/info";
+import togo from "./components/pages/togo";
 window.jQuery = $;
 window.$ = $;
 global.jQuery = $;
@@ -85,6 +87,8 @@ class Index extends React.Component {
                     <Route path="/sudan" component={sudan}/>
                     <Route path="/rwanda" component={rwanda}/>
                     <Route path="/uganda" component={uganda}/>
+                    <Route path="/info" component={info}/>
+                    <Route path="/togo" component={togo}/>
                 </Router>
             </Provider>
         );
