@@ -31,6 +31,7 @@ class Footer extends React.Component {
                         <div className="col-12 col-sm-6 col-md-4 col-lg-3 mt-5 mt-sm-0 text-sm-left">
                             <h3><strong>Publications</strong></h3>
                             <nav className="nav flex-column">
+                                <a className="nav-link" href="docs/EXHIBITORS_REGISTRATION_FORM.pdf" download>Exhibitors Registration Form</a>
                                 <a className="nav-link" href="docs/2013.pdf" download>Jamafest 2013 Report</a>
                                 <a className="nav-link" href="docs/2015.pdf" download>Jamafest 2015 Report</a>
                             </nav>
