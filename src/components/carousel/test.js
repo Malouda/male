@@ -3,9 +3,9 @@ import { UncontrolledCarousel } from 'reactstrap';
 
 const items = [
     {
-        src:'/images/chiluga.jpg',
+        src:'/images/BANNER.jpg',
         altText: 'The Ngoni Tribe Performin',
-        caption: 'Fire Eating'
+        caption: 'Jamafest'
     },
     {
         src:'/images/ruka.jpg',

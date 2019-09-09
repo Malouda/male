@@ -39,6 +39,7 @@ class Home extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 text-center">
+                            <span>TIME LEFT TOWARDS THE EVENT</span>
                             <Countdown date="2019-09-21"/>
                         </div>
                     </div>
@@ -90,7 +91,7 @@ class Home extends React.Component {
                     <div className="row w-100 home-component-about-row">
                         <div className="col-lg-6 col-md-12  mr-5">
                             <div className="embed-responsive embed-responsive-16by9">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/vhe4IjtDD4s"
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/iyXzkI5VhzA"
                                         frameBorder="0"
                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                         allowFullScreen></iframe>
