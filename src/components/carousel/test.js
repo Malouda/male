@@ -3,19 +3,29 @@ import { UncontrolledCarousel } from 'reactstrap';
 
 const items = [
     {
-        src:'/images/BANNER.jpg',
-        altText: 'The Ngoni Tribe Performin',
-        caption: 'Jamafest'
+        src:'/images/1.jpg',
+        altText: 'The Tanzanian Vise President',
+        caption: 'The Tanzanian Vise President'
     },
     {
-        src:'/images/ruka.jpg',
-        altText: 'Traditional Dance',
-        caption: 'Traditional Dance'
+        src:'/images/4.jpg',
+        altText: 'Dance',
+        caption: 'Dance'
     },
     {
-        src:'/images/dance2.jpg',
+        src:'/images/5.jpg',
         altText: 'The Chagga Tribe Performing',
         caption: 'The Wahehe Tribe Performing'
+    },
+    {
+        src:'/images/2.jpg',
+        altText: 'Tribe Performing',
+        caption: 'Tribe Performing'
+    },
+    {
+        src:'/images/6.jpg',
+        altText: 'Cultural display',
+        caption: 'Cultural Display'
     }
 ];
 
