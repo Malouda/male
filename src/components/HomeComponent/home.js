@@ -73,7 +73,7 @@ class Home extends React.Component {
                            <h2 className="hero-title d-sm-none d-md-block ">JAMAFEST AND URITHI FESTIVAL<br /> TANZANIA 2019</h2>
                            <small className="text-center mb-5">Cultural Diversity: A Key Driver to Regional Integration, Economic Growth and Promotion of Tourism</small>
                            <h1 className="hero-title d-none d-sm-block d-md-none">JAMAFEST  TANZANIA 2019</h1>
-                           <a className="button button-hero button-shadow" href="http://jamafest.habari.go.tz" target="_blank">Register Now</a>&nbsp;&nbsp;&nbsp;<br/><br/>
+                           <a className="button button-hero button-shadow" href="#" target="_blank">Register Now</a>&nbsp;&nbsp;&nbsp;<br/><br/>
                        </div>
                        <div className="col-lg-6 col-sm-12 col-md-7 image HomePageCarousel">
                           <HomePageCarousel/>
