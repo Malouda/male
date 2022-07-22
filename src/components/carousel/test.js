@@ -4,8 +4,8 @@ import { UncontrolledCarousel } from 'reactstrap';
 const items = [
     {
         src:'/images/1.jpg',
-        altText: 'The Tanzanian Vise President',
-        caption: 'The Tanzanian Vise President'
+        altText: 'The Tanzanian President',
+        caption: 'The Tanzanian President'
     },
     {
         src:'/images/4.jpg',
