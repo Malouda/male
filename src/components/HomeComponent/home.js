@@ -70,7 +70,7 @@ class Home extends React.Component {
                            </ul>
                        </div>
                        <div className="col-lg-4  col-md-5  my-auto home-component-register event text-center">
-                           <h2 className="hero-title d-sm-none d-md-block ">JAMAFEST AND URITHI FESTIVAL<br /> BURUNDI 2022</h2>
+                           <h2 className="hero-title d-sm-none d-md-block ">JAMAFEST<br /> BURUNDI 2022</h2>
                            <small className="text-center mb-5">Harnessing Cultural Resources to mitigate the impacts of COVID -19 in the EAC</small>
                            <h1 className="hero-title d-none d-sm-block d-md-none">JAMAFEST  TANZANIA 2019</h1><br/><br/>
                            <a className="button button-hero button-shadow" href="https://forms.gle/8TBLjiDJVi3srrbw9" target="_blank">Register Now</a>&nbsp;&nbsp;&nbsp;<br/><br/>
